@@ -60,7 +60,7 @@ def yakit_turet(brand, model, variant):
         return "Hibrit/Elektrik"
     if any(k in v for k in BENZIN):
         return "Benzin"
-    if any(k in v for k in DIZEL) or re.search(r"\s D\b|\bD$", v):
+    if any(k in v for k in DIZEL) or re.search(r"\sD\b|\bD$", v):
         return "Dizel"
     return "Bilinmiyor"   # emin değilsek "Benzin" demiyoruz
 

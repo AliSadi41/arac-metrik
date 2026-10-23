@@ -68,9 +68,10 @@ Adımların **sırası** sonucu etkiler (örneğin bazı km=0 ilanlar hem müker
 
 ## 9. Yakıt tipi (`yakit_tipi`)
 - **Yöntem:** `variant` metninden kural tabanlı türetme (`src/temizle.py`). Sınıflar: Dizel, Benzin, Hibrit/Elektrik, Bilinmiyor.
-- **Dağılım:** Dizel 97.746 (%39,0) · Bilinmiyor 96.033 (%38,3) · Benzin 54.865 (%21,9) · Hibrit/Elektrik 2.311 (%0,9).
+- **Dağılım:** Dizel 104.622 (%41,7) · Bilinmiyor 89.157 (%35,5) · Benzin 54.865 (%21,9) · Hibrit/Elektrik 2.311 (%0,9).
+- **Düzeltme (dizel deseni):** Önceki sürümde `\s D\b` deseninde fazladan bir boşluk vardı; bu yüzden "C 200 D", "1.6 D" gibi ayrı yazılmış "D" eki yakalanmıyordu. `\sD\b` olarak düzeltildi; 6.876 ilan Bilinmiyor'dan Dizel'e geçti (Mercedes 4.956, Volvo 1.229, Opel 230, Chevrolet 222, Mini 203, Mazda 33, VW 3). Satır sayıları değişmedi; aşağıdaki 60 ilanlık doğrulamada hiçbir etiket değişmedi.
 - **Doğrulama (elle etiketli 60 ilan, `yakit_dogrulama.csv`):** Sınıflananlarda (n=44) tüm etiketler doğru. "Bilinmiyor" sınıfındaki 16 ilanın 14'ü gerçekte benzinli, 2'si dizel (Opel DTI, BMW 525d). n küçük olduğu için "hatasız" değil, "örneklemde hatasız" denmelidir.
 - ⚠ **Bilinen zayıflıklar (modelleme öncesi çözülmeli):**
-  - Bilinmiyor oranı en çok premium markalarda: BMW %98,1 · Mercedes %88,2 · Opel %66,9 · Toyota %61,1 (ilk üç marka Bilinmiyor'un %45'i). BMW'de `520i`/`320d` gibi kodlar için kural yok.
+  - Bilinmiyor oranı en yüksek markalar: BMW %98,1 · Opel %65,7 · Toyota %61,1 · Mercedes %52,5 (adet olarak ilk üç: BMW, Opel, Renault; Bilinmiyor'un %44,7'si). BMW'de `520i`/`320d` gibi kodlar için kural yok.
   - **LPG sınıfı boş.** `variant` metninde "LPG" geçmiyor. Önceki sürümde LPG diye sayılan 4.056 ilan aslında Honda Civic "VTEC Eco" varyantlarıydı; şimdi Benzin sayılıyor. Honda Civic Eco'nun yakıtının ne olduğu doğrulanmalı ve tezde tek bir yöntem seçilmeli.
   - MHEV (hafif hibrit) "Hibrit/Elektrik" sınıfında; bu bir modelleme kararıdır, belgelenmeli.
