@@ -2,7 +2,7 @@
 temizle.py — Ham ilan verisinden analiz verisini tek seferde, adım adım ve kayıt tutarak üretir.
 
 Girdi : data/raw/arac_verisi.csv
-Çıktı : data/processed/arac_temiz_v3.csv   (temiz veri + km_kirpildi, log_price, yakit_tipi)
+Çıktı : data/processed/arac_temiz_v3.csv   (temiz veri + km_kirpildi, log_price, yakit_tipi, motor_hacmi)
         reports/satir_akisi.csv            (her adımda kaç satır silindi; tezdeki akış tablosu)
 
 Kullanım (proje kökünde, sanal ortam açıkken):
@@ -43,8 +43,9 @@ INVALID_CITIES = ["Diğer", "Kardzhali"]   # Türkiye'de il olmayan kayıtlar
 # Kuralların ayrıntıları ve bilinen sınırlılıkları: reports/temizleme_kararlari.md
 # ----------------------------------------------------------------------
 BENZIN = ["TSI", "TFSI", "VTI", "CGI", "PURETECH", "ECOBOOST", "MPI", "IG-T",
-          "T-GDI", "TCE", "FSI", "GDI", "KOMPRESSOR", "VTEC", "FIRE", "SCE", "D-CVVT"]
-DIZEL = ["TDI", "DCI", "HDI", "CDTI", "CRDI", "BLUEHDI", "MULTIJET", "D-4D",
+          "T-GDI", "TCE", "FSI", "GDI", "KOMPRESSOR", "KOMP.", "VTEC", "FIRE", "SCE", "CVVT",
+          "TI-VCT", "TWINPORT"]
+DIZEL = ["TDI", "DCI", "HDI", "CDTI", "CRDI", "BLUEHDI", "MULTIJET", "MJET", "D-4D",
          "TDCI", "ECOBLUE", "SKYACTIV-D", "CDI", "DIESEL"]
 
 
@@ -75,7 +76,8 @@ def yakit_turet(brand, model, variant):
         # M ve Z modellerinin hepsi benzinli (veride en yeni M 2021 model; 2024 sonrası M5 hibrittir)
         if m in ("m", "z"):
             return "Benzin"
-    if any(k in v for k in BENZIN):
+    # \bIE\b: Fiat "1.4 ie" (injection elettronica); alt dizgi olarak aranamaz
+    if any(k in v for k in BENZIN) or re.search(r"\bIE\b", v):
         return "Benzin"
     if any(k in v for k in DIZEL) or re.search(r"\sD\b|\bD$", v):
         return "Dizel"
@@ -87,6 +89,8 @@ def yakit_turet(brand, model, variant):
 # ----------------------------------------------------------------------
 def main():
     df = pd.read_csv(RAW)
+    # "525d xDrive  Premium" gibi çift boşluklar aynı varyantı iki kategori yapmasın (mükerrer sayısını değiştirmez)
+    df["variant"] = df["variant"].astype(str).str.split().str.join(" ")
     akis = [("Ham veri", len(df))]
 
     def adim(ad, yeni):
@@ -114,6 +118,9 @@ def main():
     df["km_kirpildi"] = (df["km"] == KM_CAP).astype(int)
     df["log_price"] = np.log(df["price"])
     df["yakit_tipi"] = [yakit_turet(b, m, v) for b, m, v in zip(df["brand"], df["model"], df["variant"])]
+    # Motor hacmi (litre) variant metnindeki "1.6", "1.33" gibi ifadeden; BMW "320i", Mercedes "C 200" gibi
+    # kodlarda hacim yazmadığı için boş (NaN) kalır
+    df["motor_hacmi"] = df["variant"].str.extract(r"(?<![\d.])(\d\.\d{1,2})(?![\d.])")[0].astype(float)
 
     # --- Güvenlik kontrolleri: biri bozulursa script durur ---
     assert df.duplicated().sum() == 0, "Mükerrer satır kaldı"
@@ -122,7 +129,8 @@ def main():
     assert not df["city"].isin(INVALID_CITIES).any(), "Geçersiz şehir kaldı"
     if DROP_PRICE_CAP:
         assert (df["price"] < PRICE_CAP).all(), "Fiyat tavanında ilan kaldı"
-    assert df.isna().sum().sum() == 0, "Boş değer var"
+    assert df.drop(columns="motor_hacmi").isna().sum().sum() == 0, "Boş değer var"
+    assert df["motor_hacmi"].dropna().between(0.6, 6.5).all(), "Akla yatkın olmayan motor hacmi"
 
     # --- Kaydet ---
     OUT.parent.mkdir(parents=True, exist_ok=True)

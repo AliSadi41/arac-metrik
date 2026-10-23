@@ -15,7 +15,7 @@
   - Tek zaman kesiti (Aralık 2025); model bu dönemi temsil eder.
   - İkincil veri; hasar/boya, vites ve ilan tarihi bilgisi yok.
   - `km` değeri 300.000'de kırpılmış (bayrakla işaretlendi).
-  - Yakıt tipi `variant` metninden türetildi; ilanların yaklaşık %29'unda belirlenemedi.
+  - Yakıt tipi `variant` metninden türetildi; ilanların yaklaşık %26'sında belirlenemedi.
   - 1995 öncesi araçlar ve fiyatı 10 milyon TL ve üstü ilanlar kapsam dışı.
 
 ## 4. Yöntem
