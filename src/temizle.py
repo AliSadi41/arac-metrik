@@ -60,8 +60,21 @@ def yakit_turet(brand, model, variant):
     # \bEV\b: yalnızca tam kelime (LEVEL, EVOLUTION gibi kelimeleri yakalamaz)
     if re.search(r"HYBRID|HIBRIT|ELECTRIC|E-TRON|PHEV|MHEV|E-TECH|\bEV\b", v):
         return "Hibrit/Elektrik"
-    if str(brand).lower() == "bmw" and str(model).lower() == "i":   # BMW i serisi elektriklidir
-        return "Hibrit/Elektrik"
+    if str(brand).lower() == "bmw":
+        m = str(model).lower()
+        if m == "i":                                    # BMW i serisi elektriklidir
+            return "Hibrit/Elektrik"
+        # Model kodunun son eki yakıtı verir: 330e/225xe plug-in hibrit, 320d/530xd/525tds dizel,
+        # 520i/318Ci/520Li/316ti/318is benzin. Eksiz kodlar (550 xDrive, 220) Bilinmiyor kalır.
+        if re.search(r"\d{3}X?E\b", v):
+            return "Hibrit/Elektrik"
+        if re.search(r"\d{3}(X?D|TDS)\b", v):
+            return "Dizel"
+        if re.search(r"\d{3}(I|CI|LI|TI|IS)\b", v):
+            return "Benzin"
+        # M ve Z modellerinin hepsi benzinli (veride en yeni M 2021 model; 2024 sonrası M5 hibrittir)
+        if m in ("m", "z"):
+            return "Benzin"
     if any(k in v for k in BENZIN):
         return "Benzin"
     if any(k in v for k in DIZEL) or re.search(r"\sD\b|\bD$", v):

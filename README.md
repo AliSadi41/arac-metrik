@@ -47,7 +47,7 @@ _(Modelleme tamamlanınca doldurulacak.)_
 
 ## Sınırlılıklar
 Tek zaman kesiti (Aralık 2025); fiyatlar ilan fiyatıdır; hasar, vites ve ilan tarihi yoktur; `km` 300.000'de kırpılmıştır;
-yakıt tipi `variant` metninden türetilmiş ve ilanların yaklaşık %36'sında belirlenememiştir. Ayrıntılar: `reports/temizleme_kararlari.md`.
+yakıt tipi `variant` metninden türetilmiş ve ilanların yaklaşık %29'unda belirlenememiştir. Ayrıntılar: `reports/temizleme_kararlari.md`.
 
 ## Yapay zekâ desteği
 _(Üniversitenin yapay zekâ kullanım kuralına göre bu bölümü doldur: hangi araçlar, hangi amaçla kullanıldı.)_
