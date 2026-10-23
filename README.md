@@ -38,7 +38,7 @@ app/         Streamlit paneli (henüz yok)
 |---|---|
 | Veri edinme ve kalite kontrol | Tamam |
 | Temizleme boru hattı (`src/temizle.py`) | Tamam |
-| Keşifsel analiz (EDA) | Sürüyor (şehir analizi ve yaş–fiyat profili eksik) |
+| Keşifsel analiz (EDA) | Tamam (bulgu metinleri taslak) |
 | Modelleme | Sırada |
 | SHAP, panel, tez metni | Sırada |
 
