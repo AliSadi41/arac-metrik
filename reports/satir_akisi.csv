@@ -1,0 +1,9 @@
+adım,kalan_satır,silinen
+Ham veri,253344,
+Mükerrer satırlar çıkarıldı,253056,288
+"Geçersiz şehir kayıtları çıkarıldı (Diğer, Kardzhali)",253053,3
+"Fiyat tabanı kontrolü (< 50,000 TL)",253053,0
+Şüpheli km=0 ilanlar çıkarıldı (model yılı < 2023),253046,7
+"km tavan kontrolü (> 300,000)",253046,0
+1995 öncesi araçlar çıkarıldı,251453,1593
+"Fiyatı 10,000,000 TL ve üstü olan ilanlar çıkarıldı",250955,498
