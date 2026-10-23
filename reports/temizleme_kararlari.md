@@ -67,11 +67,13 @@ Adımların **sırası** sonucu etkiler (örneğin bazı km=0 ilanlar hem müker
 - **Gerekçe:** Log fiyat, hatayı yüzde cinsinden ölçmeyi sağlar ve uç değerlerin etkisini azaltır. Ağaç tabanlı modeller için zorunlu değildir; sonuçlar TL'ye geri çevrilerek de raporlanacaktır.
 
 ## 9. Yakıt tipi (`yakit_tipi`)
-- **Yöntem:** `variant` metninden kural tabanlı türetme (`src/temizle.py`). Sınıflar: Dizel, Benzin, Hibrit/Elektrik, Bilinmiyor.
-- **Dağılım:** Dizel 104.622 (%41,7) · Bilinmiyor 89.157 (%35,5) · Benzin 54.865 (%21,9) · Hibrit/Elektrik 2.311 (%0,9).
+- **Yöntem:** `variant` metninden kural tabanlı türetme (`src/temizle.py`). Sınıflar: Dizel, Benzin, LPG, Hibrit/Elektrik, Bilinmiyor.
+- **Dağılım:** Dizel 104.622 (%41,7) · Bilinmiyor 89.157 (%35,5) · Benzin 50.809 (%20,2) · LPG 4.056 (%1,6) · Hibrit/Elektrik 2.311 (%0,9).
 - **Düzeltme (dizel deseni):** Önceki sürümde `\s D\b` deseninde fazladan bir boşluk vardı; bu yüzden "C 200 D", "1.6 D" gibi ayrı yazılmış "D" eki yakalanmıyordu. `\sD\b` olarak düzeltildi; 6.876 ilan Bilinmiyor'dan Dizel'e geçti (Mercedes 4.956, Volvo 1.229, Opel 230, Chevrolet 222, Mini 203, Mazda 33, VW 3). Satır sayıları değişmedi; aşağıdaki 60 ilanlık doğrulamada hiçbir etiket değişmedi.
 - **Doğrulama (elle etiketli 60 ilan, `yakit_dogrulama.csv`):** Sınıflananlarda (n=44) tüm etiketler doğru. "Bilinmiyor" sınıfındaki 16 ilanın 14'ü gerçekte benzinli, 2'si dizel (Opel DTI, BMW 525d). n küçük olduğu için "hatasız" değil, "örneklemde hatasız" denmelidir.
 - ⚠ **Bilinen zayıflıklar (modelleme öncesi çözülmeli):**
   - Bilinmiyor oranı en yüksek markalar: BMW %98,1 · Opel %65,7 · Toyota %61,1 · Mercedes %52,5 (adet olarak ilk üç: BMW, Opel, Renault; Bilinmiyor'un %44,7'si). BMW'de `520i`/`320d` gibi kodlar için kural yok.
-  - **LPG sınıfı boş.** `variant` metninde "LPG" geçmiyor. Önceki sürümde LPG diye sayılan 4.056 ilan aslında Honda Civic "VTEC Eco" varyantlarıydı; şimdi Benzin sayılıyor. Honda Civic Eco'nun yakıtının ne olduğu doğrulanmalı ve tezde tek bir yöntem seçilmeli.
+- **LPG kararı (Honda Civic Eco):** `variant` metninde "LPG" hiç geçmiyor. LPG sınıfı yalnızca Honda Civic "VTEC Eco" varyantlarından oluşur (4.056 ilan; 1.6i VTEC Eco 3.665, 1.5 VTEC Eco 391; model yılları 2012–2025). Türkiye'de "Eco" adıyla satılan Civic'ler fabrika çıkışlı LPG'lidir (1.6 i-VTEC Eco ve 1.5 VTEC Turbo Eco, BRC otogaz sistemi). Kaynaklar: Motor1 Türkiye, "Honda Civic Eco neden almalı?" (https://tr.motor1.com/reviews/626586/honda-civic-eco-neden-almali/); Cumhuriyet, yenilenen Civic fiyat haberi (https://www.cumhuriyet.com.tr/otomotiv/hondanin-yenilenen-civic-modeli-satisa-sunuldu-fiyatlar-ortaya-2293853). Bu ilanlar daha önce VTEC kuralı nedeniyle Benzin sayılıyordu; Eco kuralı VTEC kuralından önce uygulanır.
+  - ⚠ Kural 60 ilanlık doğrulama örnekleminde test edilmedi (örneklemde Honda yok); gerekçesi üretici bilgisidir. Tezde kaynakları kendin kontrol edip künyeyle ver.
+  - **Sınırlılık:** Bu araçlar çift yakıtlıdır (benzin + LPG). Sonradan LPG taktırılmış araçlar `variant` metninden anlaşılamaz; bunlar Benzin ya da Bilinmiyor sınıfındadır. Dolayısıyla "LPG" sınıfı "fabrika çıkışlı LPG'li Honda Civic" anlamına gelir, piyasadaki tüm LPG'li araçları temsil etmez.
   - MHEV (hafif hibrit) "Hibrit/Elektrik" sınıfında; bu bir modelleme kararıdır, belgelenmeli.

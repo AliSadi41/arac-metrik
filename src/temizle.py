@@ -53,6 +53,10 @@ def yakit_turet(brand, model, variant):
 
     if "LPG" in v or "ECOG" in v:
         return "LPG"
+    # Honda Civic "Eco" varyantları Türkiye'de fabrika çıkışlı LPG'li satılır (1.6 i-VTEC Eco, 1.5 VTEC Turbo Eco).
+    # VTEC kuralından (Benzin) önce gelmeli.
+    if str(brand).lower() == "honda" and str(model).lower() == "civic" and re.search(r"\bECO\b", v):
+        return "LPG"
     # \bEV\b: yalnızca tam kelime (LEVEL, EVOLUTION gibi kelimeleri yakalamaz)
     if re.search(r"HYBRID|HIBRIT|ELECTRIC|E-TRON|PHEV|MHEV|E-TECH|\bEV\b", v):
         return "Hibrit/Elektrik"
