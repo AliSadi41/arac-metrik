@@ -7,6 +7,7 @@ import lightgbm as lgb
 import numpy as np
 import pandas as pd
 import streamlit as st
+from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -86,10 +87,22 @@ def tahmin_et(lgbm, meta, satir):
     return log_fiyat, pd.Series(katki[:-1], index=meta["ozellikler"]), float(katki[-1])
 
 
+def _op_favicon():
+    img = Image.new("RGBA", (64, 64), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.ellipse([2, 8, 30, 36], outline="#38bdf8", width=4)   # O ring
+    d.line([(37, 8), (37, 38)], fill="white", width=4)       # P stem
+    d.arc([37, 8, 53, 24], start=270, end=90, fill="white", width=4)  # P bump
+    pts = [(2, 50), (10, 50), (16, 45), (22, 50), (32, 44), (44, 38), (56, 32)]
+    d.line(pts, fill="#38bdf8", width=2)                     # trend line
+    d.line([(52, 29), (56, 32), (52, 35)], fill="#38bdf8", width=2)   # arrow
+    return img
+
+
 # ── sayfa yapılandırması ─────────────────────────────────────────────────────
 st.set_page_config(
     page_title="OtoPuls — Türkiye İkinci El Araç Piyasa Analizi",
-    page_icon="🚗",
+    page_icon=_op_favicon(),
     layout="centered",
     menu_items={
         "Get help":          None,
