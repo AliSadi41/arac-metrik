@@ -197,6 +197,113 @@ st.html("""<style>
     pointer-events: none; text-align: left;
   }
   .mc-card:hover .mc-tip { display: block; }
+
+  /* ── Tab bar ────────────────────────────────────────────────────────── */
+  .stTabs [data-baseweb="tab-list"] {
+    border-bottom: 1px solid rgba(255,255,255,.09) !important;
+    background: transparent !important; gap: 2px !important;
+  }
+  .stTabs [data-baseweb="tab"] {
+    color: #64748b !important; font-weight: 500 !important;
+    font-size: .87rem !important; padding: .42rem .85rem !important;
+    border-radius: 6px 6px 0 0 !important;
+    transition: color .15s, background .15s !important;
+  }
+  .stTabs [data-baseweb="tab"]:hover {
+    color: #cbd5e1 !important; background: rgba(255,255,255,.05) !important;
+  }
+  .stTabs [aria-selected="true"] {
+    color: #38bdf8 !important; background: rgba(56,189,248,.07) !important;
+  }
+  .stTabs [data-baseweb="tab-highlight"] {
+    background-color: #38bdf8 !important; height: 2px !important;
+  }
+  .stTabs [data-baseweb="tab-border"] { display: none !important; }
+
+  /* ── Input / Select ─────────────────────────────────────────────────── */
+  div[data-baseweb="select"] > div {
+    background: rgba(15,23,42,.65) !important;
+    border-color: rgba(255,255,255,.13) !important;
+    border-radius: 8px !important; transition: border-color .15s !important;
+  }
+  div[data-baseweb="select"] > div:hover,
+  div[data-baseweb="select"] > div:focus-within {
+    border-color: rgba(56,189,248,.45) !important;
+  }
+  div[data-baseweb="input"] {
+    background: rgba(15,23,42,.65) !important;
+    border-color: rgba(255,255,255,.13) !important;
+    border-radius: 8px !important; transition: border-color .15s !important;
+  }
+  div[data-baseweb="input"]:hover,
+  div[data-baseweb="input"]:focus-within {
+    border-color: rgba(56,189,248,.45) !important;
+  }
+  /* Number input ± buttons */
+  button[data-testid="stNumberInputStepDown"],
+  button[data-testid="stNumberInputStepUp"] {
+    background: rgba(255,255,255,.04) !important;
+    border-color: rgba(255,255,255,.09) !important;
+    color: #64748b !important; transition: all .15s !important;
+  }
+  button[data-testid="stNumberInputStepDown"]:hover,
+  button[data-testid="stNumberInputStepUp"]:hover {
+    background: rgba(56,189,248,.14) !important;
+    color: #38bdf8 !important; border-color: rgba(56,189,248,.35) !important;
+  }
+  /* Dropdown menu */
+  [data-baseweb="menu"] {
+    background: #1a2744 !important; border-radius: 8px !important;
+    border: 1px solid rgba(255,255,255,.12) !important;
+  }
+  [data-baseweb="option"]:hover { background: rgba(56,189,248,.12) !important; }
+
+  /* ── Form labels ────────────────────────────────────────────────────── */
+  [data-testid="stWidgetLabel"] p {
+    font-size: .78rem !important; color: #64748b !important;
+    font-weight: 500 !important; letter-spacing: .04em !important;
+    text-transform: uppercase !important;
+  }
+
+  /* ── Section headers ────────────────────────────────────────────────── */
+  [data-testid="stHeading"] > h2,
+  [data-testid="stHeading"] > h3 {
+    border-left: 3px solid #38bdf8 !important;
+    padding-left: 10px !important;
+    color: #e2e8f0 !important;
+    letter-spacing: -.3px !important;
+  }
+
+  /* ── Divider ────────────────────────────────────────────────────────── */
+  hr { border-color: rgba(255,255,255,.09) !important; }
+
+  /* ── Alert / Info / Warning ─────────────────────────────────────────── */
+  [data-testid="stAlert"] {
+    background: rgba(56,189,248,.05) !important;
+    border: 1px solid rgba(56,189,248,.18) !important;
+    border-radius: 9px !important;
+  }
+  [data-testid="stAlert"] p { color: #94a3b8 !important; }
+
+  /* ── Slider ─────────────────────────────────────────────────────────── */
+  [data-testid="stSlider"] [role="slider"] {
+    background: #38bdf8 !important; border-color: #38bdf8 !important;
+  }
+
+  /* ── DataFrame ──────────────────────────────────────────────────────── */
+  [data-testid="stDataFrame"] > div {
+    border: 1px solid rgba(255,255,255,.1) !important;
+    border-radius: 10px !important; overflow: hidden !important;
+  }
+
+  /* ── Caption ────────────────────────────────────────────────────────── */
+  [data-testid="stCaptionContainer"] p { color: #475569 !important; }
+
+  /* ── Expander ───────────────────────────────────────────────────────── */
+  [data-testid="stExpander"] {
+    border: 1px solid rgba(255,255,255,.1) !important; border-radius: 9px !important;
+  }
+  [data-testid="stExpander"] summary { color: #94a3b8 !important; font-size: .85rem !important; }
 </style>""")
 
 # ── Hero banner ───────────────────────────────────────────────────────────────
@@ -412,7 +519,7 @@ with tab2:
         # Grafik — bant (q25–q75) + medyan çizgisi
         bant = (
             alt.Chart(istatistik)
-            .mark_area(opacity=0.18, color="#3b82f6")
+            .mark_area(opacity=0.18, color="#38bdf8")
             .encode(
                 x=alt.X("year:O", title="Model Yılı", axis=alt.Axis(labelAngle=0)),
                 y=alt.Y("q25:Q", title="Fiyat (TL)", axis=alt.Axis(format="~s")),
@@ -421,7 +528,7 @@ with tab2:
         )
         cizgi = (
             alt.Chart(istatistik)
-            .mark_line(color="#3b82f6", strokeWidth=3, point=alt.OverlayMarkDef(color="#3b82f6", size=60))
+            .mark_line(color="#38bdf8", strokeWidth=3, point=alt.OverlayMarkDef(color="#38bdf8", size=60))
             .encode(
                 x=alt.X("year:O"),
                 y=alt.Y("medyan:Q"),
@@ -580,7 +687,7 @@ with tab3:
                 color=alt.condition(
                     alt.datum.isaretli,
                     alt.value("#ef4444"),   # kırmızı = seçilen fiyat aralığı
-                    alt.value("#3b82f6"),   # mavi = diğerleri
+                    alt.value("#38bdf8"),   # mavi = diğerleri
                 ),
                 tooltip=[
                     alt.Tooltip("merkez:Q", title="Fiyat (~)", format=",.0f"),
@@ -656,7 +763,7 @@ with tab4:
             marka_df["Marka"] = marka_df["brand"].apply(marka_ad)
             marka_chart = (
                 alt.Chart(marka_df)
-                .mark_bar(color="#3b82f6")
+                .mark_bar(color="#38bdf8")
                 .encode(
                     x=alt.X("ilan:Q", title="İlan Sayısı"),
                     y=alt.Y("Marka:N", sort="-x", title=""),
@@ -690,7 +797,7 @@ with tab4:
             yil_df.columns = ["yil", "ilan"]
             yil_chart = (
                 alt.Chart(yil_df)
-                .mark_bar(color="#6366f1")
+                .mark_bar(color="#38bdf8")
                 .encode(
                     x=alt.X("yil:O", title="Model Yılı", axis=alt.Axis(labelAngle=-45)),
                     y=alt.Y("ilan:Q", title="İlan"),
@@ -705,7 +812,7 @@ with tab4:
         sehir_df.columns = ["sehir", "ilan"]
         sehir_chart = (
             alt.Chart(sehir_df)
-            .mark_bar(color="#10b981")
+            .mark_bar(color="#0ea5e9")
             .encode(
                 x=alt.X("sehir:N", sort="-y", title="", axis=alt.Axis(labelAngle=-35)),
                 y=alt.Y("ilan:Q", title="İlan Sayısı"),
