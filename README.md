@@ -1,4 +1,4 @@
-# AraçMetrik — Türkiye İkinci El Araç Piyasa Analizi
+# OtoPuls — Türkiye İkinci El Araç Piyasa Analizi
 
 Türkiye'deki ikinci el otomobil ilan fiyatlarını makine öğrenmesi ile analiz eden portföy projesi.
 250.000+ ilan, LightGBM (R²=0.968, ortanca hata %5.9), interaktif Streamlit uygulaması.

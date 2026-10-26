@@ -88,13 +88,13 @@ def tahmin_et(lgbm, meta, satir):
 
 # ── sayfa yapılandırması ─────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="AraçMetrik — Türkiye İkinci El Araç Piyasa Analizi",
+    page_title="OtoPuls — Türkiye İkinci El Araç Piyasa Analizi",
     page_icon="🚗",
     layout="centered",
     menu_items={
         "Get help":          None,
         "Report a bug":      None,
-        "About":             "AraçMetrik · 250 bin+ ilan · LightGBM (R²=0.97) · Aralık 2025 verisi",
+        "About":             "OtoPuls · 250 bin+ ilan · LightGBM (R²=0.97) · Aralık 2025 verisi",
     },
 )
 
@@ -110,7 +110,7 @@ st.html("""<style>
     margin-bottom: 1.4rem;
     color: #fff;
   }
-  .araçmetrik-hero h1 { font-size: 2rem; font-weight: 800; margin: 0 0 .3rem; letter-spacing: -.5px; }
+  .araçmetrik-hero h1 { font-size: 2rem; font-weight: 800; margin: 0 0 .3rem; letter-spacing: -.5px; display:flex; align-items:center; gap:14px; }
   .araçmetrik-hero p  { font-size: .92rem; color: #94a3b8; margin: 0; line-height: 1.5; }
   .araçmetrik-hero .badges { margin-top: 1rem; display: flex; gap: .5rem; flex-wrap: wrap; }
   .araçmetrik-hero .badge {
@@ -141,7 +141,19 @@ st.html("""<style>
 # ── Hero banner ───────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="araçmetrik-hero">
-  <h1>🚗 AraçMetrik</h1>
+  <h1>
+    <svg width="54" height="38" viewBox="0 0 54 38" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0">
+      <!-- O: circle ring -->
+      <circle cx="13" cy="15" r="11" stroke="#38bdf8" stroke-width="2.8"/>
+      <!-- P: stem + bump (geometric paths, no font dependency) -->
+      <path d="M27 4 L27 26" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M27 4 A8 8 0 0 1 27 20" stroke="white" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+      <!-- Trend line with arrow -->
+      <path d="M2 33 L13 33 L19 28 L25 33 L35 26 L47 20" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M44 17 L47 20 L44 23" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    OtoPuls
+  </h1>
   <p>Türkiye ikinci el otomobil piyasasını yapay zeka ile analiz et.<br>
      Fiyat tahmini · Değer kaybı · Fırsat dedektörü · Piyasa analizi · En iyi fırsatlar · Marka karşılaştırma</p>
   <div class="badges">
@@ -750,7 +762,7 @@ with tab6:
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="araçmetrik-footer">
-  <strong>AraçMetrik</strong> · Veri: Kaggle <em>Turkey Used Cars Marketplace December 2025</em><br>
+  <strong>OtoPuls</strong> · Veri: Kaggle <em>Turkey Used Cars Marketplace December 2025</em><br>
   250.955 ilan · Aralık 2025 kesiti · Eğitim amaçlı proje — yatırım tavsiyesi değildir.<br>
   Fiyatlar ilan fiyatıdır; gerçekleşen satış fiyatını yansıtmayabilir.
 </div>
