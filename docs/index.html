@@ -1,0 +1,647 @@
+<title>OtoPuls Teknik Rehber</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* ── Layout: sticky sidebar + scrollable content ── */
+:root {
+  --bg:       #0f172a;
+  --surface:  #1a2744;
+  --surface2: #223058;
+  --border:   rgba(56,189,248,.14);
+  --fg:       #f1f5f9;
+  --muted:    #94a3b8;
+  --accent:   #38bdf8;
+  --accent2:  #0ea5e9;
+  --good:     #22c55e;
+  --warn:     #f59e0b;
+  --code-bg:  #0d1926;
+  color-scheme: dark;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+  --bg:       #f0f6ff;
+  --surface:  #ffffff;
+  --surface2: #e8f0fe;
+  --border:   rgba(56,189,248,.25);
+  --fg:       #0f172a;
+  --muted:    #64748b;
+  --code-bg:  #1a2744;
+  color-scheme: light;
+}}
+:root[data-theme="light"] {
+  --bg:#f0f6ff;--surface:#ffffff;--surface2:#e8f0fe;--border:rgba(56,189,248,.25);
+  --fg:#0f172a;--muted:#64748b;--code-bg:#1a2744;color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  display:flex;min-height:100vh;
+  padding-left:max(0px,env(safe-area-inset-left,0px));
+  padding-right:max(0px,env(safe-area-inset-right,0px));
+}
+
+/* ── Sidebar ── */
+.sidebar{
+  width:220px;flex-shrink:0;
+  background:var(--surface);border-right:1px solid var(--border);
+  position:sticky;top:0;height:100vh;overflow-y:auto;
+  display:flex;flex-direction:column;
+  padding-block:1.5rem;
+}
+.sidebar-brand{
+  display:flex;align-items:center;gap:10px;
+  padding:0 1.2rem 1.5rem;border-bottom:1px solid var(--border);
+  margin-bottom:1rem;
+}
+.brand-logo{font-size:1.3rem;font-weight:800;letter-spacing:-.5px;}
+.brand-logo span{color:var(--accent);}
+.brand-sub{font-size:.7rem;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:2px;}
+.nav-section{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;padding:.7rem 1.2rem .3rem;font-weight:600;}
+.nav-link{
+  display:flex;align-items:center;gap:8px;
+  padding:.55rem 1.2rem;cursor:pointer;
+  font-size:.85rem;color:var(--muted);font-weight:500;
+  border-left:3px solid transparent;transition:all .15s;text-decoration:none;
+}
+.nav-link:hover{color:var(--fg);background:rgba(56,189,248,.06);}
+.nav-link.active{color:var(--accent);border-left-color:var(--accent);background:rgba(56,189,248,.08);}
+.nav-icon{font-size:.95rem;width:18px;text-align:center;}
+
+/* ── Main content ── */
+.main{flex:1;overflow-y:auto;min-width:0;}
+.section{
+  display:none;
+  padding:2.5rem max(16px,env(safe-area-inset-right,0px)) 2.5rem max(16px,env(safe-area-inset-left,0px));
+  max-width:820px;
+}
+.section.active{display:block;}
+
+/* ── Typography ── */
+.page-eyebrow{font-size:.72rem;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;font-weight:600;margin-bottom:.5rem;}
+.page-title{font-size:1.9rem;font-weight:800;line-height:1.2;text-wrap:balance;margin:0 0 .6rem;}
+.page-lead{font-size:1rem;color:var(--muted);line-height:1.7;margin:0 0 2rem;max-width:60ch;}
+h2{font-size:1.15rem;font-weight:700;margin:2rem 0 .6rem;display:flex;align-items:center;gap:8px;text-wrap:balance;}
+h2::before{content:'';display:block;width:3px;height:1em;background:var(--accent);border-radius:2px;flex-shrink:0;}
+h3{font-size:.95rem;font-weight:600;color:var(--accent);margin:1.2rem 0 .4rem;text-transform:uppercase;letter-spacing:.06em;}
+p{line-height:1.75;color:var(--fg);margin:.5rem 0;}
+p.muted{color:var(--muted);}
+
+/* ── Code ── */
+pre{
+  background:var(--code-bg);border:1px solid var(--border);border-radius:8px;
+  padding:1rem 1.2rem;overflow-x:auto;margin:1rem 0;
+}
+code{font-family:'JetBrains Mono',monospace;font-size:.82rem;line-height:1.7;color:#93c5fd;}
+:not(pre)>code{
+  background:rgba(56,189,248,.1);color:var(--accent);
+  padding:.15em .4em;border-radius:4px;font-size:.82em;
+}
+.kw{color:#c084fc;}  /* keyword */
+.st{color:#86efac;}  /* string */
+.cm{color:#475569;}  /* comment */
+.fn{color:#38bdf8;}  /* function */
+.nm{color:#fde68a;}  /* number */
+
+/* ── Cards & tables ── */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:1rem 0;}
+.stat-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:1.1rem 1.3rem;
+}
+.stat-val{font-size:1.6rem;font-weight:800;color:var(--accent);font-variant-numeric:tabular-nums;}
+.stat-label{font-size:.78rem;color:var(--muted);margin-top:.2rem;}
+.info-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:1.2rem 1.4rem;margin:.7rem 0;
+}
+.info-card .title{font-weight:700;margin-bottom:.4rem;display:flex;align-items:center;gap:8px;}
+.info-card .desc{font-size:.88rem;color:var(--muted);line-height:1.65;}
+
+.table-wrap{overflow-x:auto;margin:1rem 0;}
+table{width:100%;border-collapse:collapse;font-size:.87rem;}
+th{background:var(--surface2);color:var(--muted);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;padding:.7rem .9rem;text-align:left;font-weight:600;}
+td{padding:.65rem .9rem;border-bottom:1px solid var(--border);color:var(--fg);}
+tr:last-child td{border-bottom:none;}
+td.hl{color:var(--accent);font-weight:700;}
+td.good{color:var(--good);font-weight:700;}
+
+/* ── Pipeline ── */
+.pipeline{display:flex;align-items:center;gap:0;flex-wrap:wrap;margin:1.2rem 0;}
+.pipe-step{
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  padding:.6rem 1rem;font-size:.82rem;font-weight:600;
+  display:flex;flex-direction:column;gap:3px;min-width:110px;
+}
+.pipe-step .ps-label{color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;}
+.pipe-step .ps-val{color:var(--fg);}
+.pipe-arrow{color:var(--accent);font-size:1.2rem;padding:0 .4rem;flex-shrink:0;}
+
+/* ── Tab chips (sekme tabs) ── */
+.tab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;margin:1rem 0;}
+.tab-chip{
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:1rem 1.2rem;cursor:pointer;transition:border-color .15s,background .15s;
+}
+.tab-chip:hover{border-color:rgba(56,189,248,.4);background:rgba(56,189,248,.05);}
+.tab-chip .tc-head{display:flex;align-items:center;gap:8px;margin-bottom:.4rem;}
+.tab-chip .tc-icon{font-size:1.2rem;}
+.tab-chip .tc-name{font-weight:700;font-size:.9rem;}
+.tab-chip .tc-desc{font-size:.82rem;color:var(--muted);line-height:1.55;}
+
+/* ── Tech pills ── */
+.tech-list{display:flex;flex-direction:column;gap:.6rem;margin:1rem 0;}
+.tech-row{
+  display:flex;align-items:flex-start;gap:1rem;
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:.9rem 1.1rem;
+}
+.tech-badge{
+  background:rgba(56,189,248,.12);color:var(--accent);
+  border:1px solid rgba(56,189,248,.25);border-radius:6px;
+  padding:.3rem .7rem;font-size:.78rem;font-weight:700;
+  font-family:'JetBrains Mono',monospace;white-space:nowrap;flex-shrink:0;
+  align-self:flex-start;margin-top:1px;
+}
+.tech-info .ti-name{font-weight:700;font-size:.9rem;margin-bottom:.2rem;}
+.tech-info .ti-desc{font-size:.83rem;color:var(--muted);line-height:1.6;}
+.tech-info .ti-why{font-size:.8rem;color:var(--accent);margin-top:.3rem;}
+
+/* ── Deploy diagram ── */
+.deploy-flow{display:flex;flex-direction:column;gap:.5rem;margin:1rem 0;}
+.deploy-step{
+  display:flex;align-items:center;gap:1rem;
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  padding:.8rem 1rem;
+}
+.deploy-num{
+  width:28px;height:28px;border-radius:50%;background:rgba(56,189,248,.15);
+  color:var(--accent);font-weight:800;font-size:.85rem;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.deploy-text{font-size:.87rem;line-height:1.5;}
+.deploy-text strong{color:var(--fg);}
+
+/* ── Progress bar (model comparison) ── */
+.model-bar{height:6px;border-radius:3px;background:var(--surface2);margin-top:5px;overflow:hidden;}
+.model-fill{height:100%;border-radius:3px;background:var(--accent);transition:width .5s;}
+
+/* ── Mobile ── */
+@media(max-width:680px){
+  body{flex-direction:column;}
+  .sidebar{width:100%;height:auto;position:static;flex-direction:row;align-items:center;flex-wrap:wrap;padding:.8rem;gap:.3rem;overflow-x:auto;}
+  .sidebar-brand,.nav-section{display:none;}
+  .nav-link{padding:.4rem .7rem;font-size:.78rem;border-left:none;border-bottom:2px solid transparent;}
+  .nav-link.active{border-bottom-color:var(--accent);border-left-color:transparent;}
+  .section{padding:1.5rem max(16px,env(safe-area-inset-right,0px)) 1.5rem max(16px,env(safe-area-inset-left,0px));}
+  .page-title{font-size:1.5rem;}
+  .pipeline{flex-direction:column;align-items:flex-start;}
+  .pipe-arrow{transform:rotate(90deg);}
+}
+</style>
+
+<div class="sidebar">
+  <div class="sidebar-brand">
+    <svg width="32" height="22" viewBox="0 0 54 38" fill="none">
+      <circle cx="13" cy="15" r="11" stroke="#38bdf8" stroke-width="2.8"/>
+      <path d="M27 4 L27 26 M27 4 A8 8 0 0 1 27 20" stroke="white" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+      <path d="M2 33 L13 33 L19 28 L25 33 L35 26 L47 20" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M44 17 L47 20 L44 23" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div>
+      <div class="brand-logo"><span>Oto</span>Puls</div>
+      <div class="brand-sub">Teknik Rehber</div>
+    </div>
+  </div>
+
+  <div class="nav-section">İçerik</div>
+  <a class="nav-link active" data-sec="proje" href="#proje"><span class="nav-icon">🎯</span>Proje Nedir?</a>
+  <a class="nav-link" data-sec="veri" href="#veri"><span class="nav-icon">📦</span>Veri</a>
+  <a class="nav-link" data-sec="model" href="#model"><span class="nav-icon">🧠</span>ML Modeli</a>
+  <a class="nav-link" data-sec="uygulama" href="#uygulama"><span class="nav-icon">🖥️</span>Uygulama</a>
+  <a class="nav-link" data-sec="teknoloji" href="#teknoloji"><span class="nav-icon">⚙️</span>Teknolojiler</a>
+  <a class="nav-link" data-sec="deploy" href="#deploy"><span class="nav-icon">🚀</span>Deploy</a>
+</div>
+
+<div class="main">
+
+  <!-- PROJE -->
+  <div class="section active" id="proje">
+    <div class="page-eyebrow">01 — Giriş</div>
+    <h1 class="page-title">Proje Nedir?</h1>
+    <p class="page-lead">OtoPuls, Türkiye ikinci el otomobil piyasasını makine öğrenmesiyle analiz eden bir portföy projesidir. Sadece bir model değil — kullanıcının araştırma yapabileceği tam bir analiz aracıdır.</p>
+
+    <div class="card-grid">
+      <div class="stat-card"><div class="stat-val">250.955</div><div class="stat-label">Temizlenmiş ilan</div></div>
+      <div class="stat-card"><div class="stat-val">0.968</div><div class="stat-label">LightGBM R² skoru</div></div>
+      <div class="stat-card"><div class="stat-val">%5.9</div><div class="stat-label">Ortanca tahmin hatası</div></div>
+      <div class="stat-card"><div class="stat-val">6</div><div class="stat-label">Analiz sekmesi</div></div>
+    </div>
+
+    <h2>Neden Bu Proje?</h2>
+    <p>İkinci el araç piyasası Türkiye'de hem büyük hem de karmaşık. Fiyatlar marka, model, yıl, km, şehir ve renge göre dramatik biçimde değişiyor. Bu karmaşıklık, makine öğrenmesi için iyi bir problem.</p>
+    <p>Portföy projesi olarak seçildi çünkü <strong>hem veri mühendisliğini hem modellemeyi hem de kullanıcı arayüzünü</strong> tek pakette gösteriyor. Bir işveren/recruiter uygulamayı açtığında tüm yetkinlikleri tek ekranda görebiliyor.</p>
+
+    <h2>Projenin Akışı</h2>
+    <div class="pipeline">
+      <div class="pipe-step"><span class="ps-label">Kaynak</span><span class="ps-val">Kaggle CSV</span></div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="ps-label">Temizleme</span><span class="ps-val">temizle.py</span></div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="ps-label">Özellikler</span><span class="ps-val">ozellikler.py</span></div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="ps-label">Modelleme</span><span class="ps-val">LightGBM</span></div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="ps-label">Arayüz</span><span class="ps-val">Streamlit</span></div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="ps-label">Deploy</span><span class="ps-val">Streamlit Cloud</span></div>
+    </div>
+
+    <h2>Klasör Yapısı</h2>
+    <pre><code><span class="cm"># Projenin dizin yapısı</span>
+arac-analiz/
+├── <span class="fn">app/</span>
+│   └── panel.py          <span class="cm"># Streamlit uygulaması (6 sekme)</span>
+├── <span class="fn">src/</span>
+│   ├── temizle.py        <span class="cm"># Ham veri → temiz CSV</span>
+│   └── ozellikler.py     <span class="cm"># Feature engineering yardımcıları</span>
+├── <span class="fn">models/</span>
+│   ├── lgbm_model.txt    <span class="cm"># Eğitilmiş model (LightGBM text format)</span>
+│   ├── lgbm_meta.json    <span class="cm"># Eğitim parametreleri, sütun isimleri</span>
+│   └── katalog.csv       <span class="cm"># Marka/model/varyant listesi (dropdown için)</span>
+├── <span class="fn">data/</span>
+│   ├── raw/              <span class="cm"># Ham veri — git dışı</span>
+│   └── processed/        <span class="cm"># arac_temiz_v3.csv — repoda</span>
+├── <span class="fn">notebooks/</span>           <span class="cm"># 01_ham → 05_modelleme</span>
+└── requirements.txt</code></pre>
+  </div>
+
+  <!-- VERİ -->
+  <div class="section" id="veri">
+    <div class="page-eyebrow">02 — Veri</div>
+    <h1 class="page-title">Veri: Nereden, Nasıl?</h1>
+    <p class="page-lead">Ham veri Kaggle'dan alındı. 253.344 ilanın 250.955'i temizleme sonrası kaldı. Temizleme <code>src/temizle.py</code> ile yapıldı.</p>
+
+    <h2>Kaynak</h2>
+    <div class="info-card">
+      <div class="title">📂 Kaggle — Turkey Used Cars Marketplace December 2025</div>
+      <div class="desc">CC0 (public domain) lisanslı dataset. Aralık 2025 kesiti. Türkiye geneli tüm markaları ve şehirleri kapsıyor. Ham CSV yaklaşık 70 MB.</div>
+    </div>
+    <p>Ham veri repoda <strong>yer almıyor</strong> (git dışı). Bunu kasıtlı yaptık — büyük dosyaların repoda bulunması performansı düşürür. Bunun yerine işlenmiş veriyi (<code>data/processed/arac_temiz_v3.csv</code>) repoya ekledik çünkü Streamlit Cloud'un bunu çalıştırması için gerekli.</p>
+
+    <h2>Temizleme Adımları</h2>
+    <pre><code><span class="cm"># src/temizle.py — temel mantık</span>
+
+<span class="cm"># 1. Eksik kritik sütunları at (marka, model, fiyat)</span>
+df = df.dropna(subset=[<span class="st">'marka'</span>, <span class="st">'model'</span>, <span class="st">'fiyat'</span>, <span class="st">'yil'</span>, <span class="st">'km'</span>])
+
+<span class="cm"># 2. Aykırı fiyatları temizle</span>
+df = df[(df[<span class="st">'fiyat'</span>] > <span class="nm">50_000</span>) & (df[<span class="st">'fiyat'</span>] < <span class="nm">20_000_000</span>)]
+
+<span class="cm"># 3. Kilometre kırpma (300k üzeri outlier)</span>
+df[<span class="st">'km'</span>] = df[<span class="st">'km'</span>].clip(upper=<span class="nm">300_000</span>)
+
+<span class="cm"># 4. Yakıt türü — variant metninden regex ile çıkar</span>
+yakit_map = {
+    <span class="st">r'dizel|diesel'</span>: <span class="st">'Dizel'</span>,
+    <span class="st">r'benzin|gasoline'</span>: <span class="st">'Benzin'</span>,
+    <span class="st">r'hibrit|hybrid'</span>: <span class="st">'Hibrit'</span>,
+    <span class="st">r'elektrik|electric'</span>: <span class="st">'Elektrik'</span>,
+}
+<span class="cm"># ~%26 ilanda belirlenemedi → NaN bırakıldı</span></code></pre>
+
+    <div class="card-grid">
+      <div class="stat-card"><div class="stat-val">253.344</div><div class="stat-label">Ham ilan sayısı</div></div>
+      <div class="stat-card"><div class="stat-val">2.389</div><div class="stat-label">Temizlemede düşen</div></div>
+      <div class="stat-card"><div class="stat-val">~%26</div><div class="stat-label">Yakıt türü bilinmiyor</div></div>
+      <div class="stat-card"><div class="stat-val">300k</div><div class="stat-label">Kilometre üst kırpma</div></div>
+    </div>
+
+    <h2>Özellikler (Features)</h2>
+    <p>Modele hangi bilgilerin girdiği:</p>
+    <div class="table-wrap"><table>
+      <tr><th>Özellik</th><th>Tür</th><th>Açıklama</th></tr>
+      <tr><td><code>marka</code></td><td>Kategorik</td><td>Ford, Toyota, Volkswagen…</td></tr>
+      <tr><td><code>model</code></td><td>Kategorik</td><td>Focus, Corolla, Golf…</td></tr>
+      <tr><td><code>variant</code></td><td>Kategorik</td><td>1.6 TDCi Titanium gibi detaylı versiyon</td></tr>
+      <tr><td><code>yil</code></td><td>Sayısal</td><td>Üretim yılı (1990–2025)</td></tr>
+      <tr><td><code>km</code></td><td>Sayısal</td><td>Kilometre (0–300.000)</td></tr>
+      <tr><td><code>sehir</code></td><td>Kategorik</td><td>İstanbul, Ankara, İzmir…</td></tr>
+      <tr><td><code>renk</code></td><td>Kategorik</td><td>Beyaz, Siyah, Gri…</td></tr>
+      <tr><td><code>yakit</code></td><td>Kategorik</td><td>Dizel, Benzin, Hibrit, Elektrik</td></tr>
+    </table></div>
+
+    <h2>Neden <code>log1p</code> Dönüşümü?</h2>
+    <p>Fiyatlar çarpık dağılımlı: çoğu ilan 200k–1.5M TL arası ama bazıları 15–20M TL'ye kadar çıkıyor. Bu uç değerler modeli bozar.</p>
+    <p><strong>Çözüm:</strong> Fiyata <code>log1p</code> uygulanıyor, tahmin sonrası <code>expm1</code> ile geri dönüştürülüyor. Bu sayede model sapmaları yüzdelerle ölçüyor, mutlak TL farkıyla değil.</p>
+    <pre><code><span class="cm"># Eğitimde</span>
+y_train = np.log1p(df_train[<span class="st">'fiyat'</span>])
+
+<span class="cm"># Tahminde</span>
+tahmin_log = model.predict(X)
+tahmin_tl  = np.expm1(tahmin_log)  <span class="cm"># geri dönüştür</span></code></pre>
+  </div>
+
+  <!-- MODEL -->
+  <div class="section" id="model">
+    <div class="page-eyebrow">03 — Makine Öğrenmesi</div>
+    <h1 class="page-title">Model: LightGBM Neden?</h1>
+    <p class="page-lead">4 farklı model denendi. LightGBM en yüksek R² ve en düşük hata ile kazandı. Ama sadece "daha iyi" olduğu için değil — hızı ve kategoriklerle çalışma biçimi de önemli.</p>
+
+    <h2>Model Karşılaştırması</h2>
+    <div class="table-wrap"><table>
+      <tr><th>Model</th><th>R²</th><th>Ortanca Hata</th><th>İlerleme</th></tr>
+      <tr>
+        <td>Taban (yalnızca yıl)</td>
+        <td>0.549</td>
+        <td>%24.5</td>
+        <td><div class="model-bar"><div class="model-fill" style="width:54%"></div></div></td>
+      </tr>
+      <tr>
+        <td>Ridge (linear)</td>
+        <td>0.944</td>
+        <td>%8.4</td>
+        <td><div class="model-bar"><div class="model-fill" style="width:94%"></div></div></td>
+      </tr>
+      <tr>
+        <td>Random Forest</td>
+        <td>0.965</td>
+        <td>%6.3</td>
+        <td><div class="model-bar"><div class="model-fill" style="width:96.5%"></div></div></td>
+      </tr>
+      <tr>
+        <td class="hl">LightGBM ✓</td>
+        <td class="good">0.968</td>
+        <td class="good">%5.9</td>
+        <td><div class="model-bar"><div class="model-fill" style="width:96.8%"></div></div></td>
+      </tr>
+    </table></div>
+    <p class="muted">Test kümesi: 50.191 ilan (rastgele %20 ayrım, random_state=42)</p>
+
+    <h2>LightGBM Neden Seçildi?</h2>
+    <div class="info-card">
+      <div class="title">⚡ Histogram tabanlı gradient boosting</div>
+      <div class="desc">Veriyi önce histogramlara böler, sonra bu histogramlar üzerinde çalışır. 250k satırlık veriyle dakikalar içinde eğitildi. Random Forest aynı sonucu vermek için çok daha uzun sürer.</div>
+    </div>
+    <div class="info-card">
+      <div class="title">🏷️ Kategorik sütunları native destekler</div>
+      <div class="desc">Marka, model, şehir gibi kategorik sütunlar için özel one-hot encoding gerekmez. LightGBM bunları kendi içinde işler. Bu hem kod temizliği sağlar hem de modeli daha iyi sonuç verir.</div>
+    </div>
+    <div class="info-card">
+      <div class="title">📉 Overfitting'e dirençli</div>
+      <div class="desc">Boosting iterasyonları early stopping ile kontrol edildi. Model, eğitim setini ezberlemek yerine genelleştirmeyi öğrendi. Train R²=0.981, test R²=0.968 — aradaki fark küçük.</div>
+    </div>
+
+    <h2>R² Nedir?</h2>
+    <p><strong>R² = 1</strong> → Model mükemmel tahmin yapıyor. <strong>R² = 0</strong> → Model sadece ortalamayı tahmin ediyor (taban model).</p>
+    <p>R²=0.968 demek: fiyat varyansının %96.8'ini model açıklıyor. Geriye kalan %3.2'si modelin göremediği şeyler — hasar geçmişi, ilan fotoğrafı kalitesi, satıcı aciliyeti gibi.</p>
+
+    <h2>Ortanca Hata %5.9 Ne Demek?</h2>
+    <p>Median absolute percentage error. 1.000.000 TL'lik bir araç için ±59.000 TL demek. Ortalama değil <em>ortanca</em> — büyük uç değerler bunu şişirmiyor.</p>
+
+    <h2>Model Kaydetme</h2>
+    <pre><code><span class="cm"># Eğitim sonrası model kaydedildi</span>
+model.save_model(<span class="st">'models/lgbm_model.txt'</span>)
+
+<span class="cm"># Meta bilgiler (sütun sırası, eğitim sayısı vb.)</span>
+<span class="kw">import</span> json
+<span class="kw">with</span> open(<span class="st">'models/lgbm_meta.json'</span>, <span class="st">'w'</span>) <span class="kw">as</span> f:
+    json.dump({<span class="st">'columns'</span>: list(X_train.columns),
+               <span class="st">'r2_test'</span>: <span class="nm">0.968</span>,
+               <span class="st">'mae_pct'</span>: <span class="nm">5.9</span>}, f)
+
+<span class="cm"># Yükleme (panel.py içinde)</span>
+model = lgb.Booster(model_file=<span class="st">'models/lgbm_model.txt'</span>)</code></pre>
+  </div>
+
+  <!-- UYGULAMA -->
+  <div class="section" id="uygulama">
+    <div class="page-eyebrow">04 — Streamlit Uygulaması</div>
+    <h1 class="page-title">6 Sekme, Her Biri Ne Yapar?</h1>
+    <p class="page-lead"><code>app/panel.py</code> tek bir dosyada yazıldı. Streamlit'in sekme sistemiyle 6 analiz modülü oluşturuldu. Her sekme bağımsız bir analiz aracı.</p>
+
+    <div class="tab-grid">
+      <div class="tab-chip">
+        <div class="tc-head"><span class="tc-icon">🔍</span><span class="tc-name">Fiyat Tahmini</span></div>
+        <div class="tc-desc">Kullanıcı marka/model/varyant + yıl/km/şehir/renk girer. LightGBM modeli çalışır. %80 güven aralığı ve hangi özelliğin fiyatı ne kadar etkilediği grafikte gösterilir.</div>
+      </div>
+      <div class="tab-chip">
+        <div class="tc-head"><span class="tc-icon">📉</span><span class="tc-name">Değer Kaybı</span></div>
+        <div class="tc-desc">Seçilen araç için yıl bazında medyan fiyat eğrisi çizilir. Altair ile interaktif grafik: bant (q25–q75), toplam kayıp yüzdesi, yıllık ortalama düşüş.</div>
+      </div>
+      <div class="tab-chip">
+        <div class="tc-head"><span class="tc-icon">💡</span><span class="tc-name">Fırsat Dedektörü</span></div>
+        <div class="tc-desc">Kullanıcı ilan fiyatını girer. Benzer araçların fiyat dağılımıyla karşılaştırılır. Yüzdelik dilim hesaplanır: "Harika Fırsat" → "Pahalı" skalasında skor verilir.</div>
+      </div>
+      <div class="tab-chip">
+        <div class="tc-head"><span class="tc-icon">📊</span><span class="tc-name">Piyasa Genel Bakış</span></div>
+        <div class="tc-desc">250k ilanın marka, yakıt, yıl, şehir dağılımı. 4 interaktif Altair grafiği. Kullanıcı trendi tek bakışta anlayabilir.</div>
+      </div>
+      <div class="tab-chip">
+        <div class="tc-head"><span class="tc-icon">🏆</span><span class="tc-name">En İyi Fırsatlar</span></div>
+        <div class="tc-desc">Piyasa ortancasından ≥%15 ucuz ilanlar filtrelenir. Marka ve minimum indirim filtresi. Hover tooltip'lerle detaylı metrikler.</div>
+      </div>
+      <div class="tab-chip">
+        <div class="tc-head"><span class="tc-icon">✨</span><span class="tc-name">Karşılaştırma</span></div>
+        <div class="tc-desc">Birden fazla marka seçilir, yıl bazında fiyat eğrileri yan yana çizilir. "Ford mu Toyota mı daha hızlı değer kaybediyor?" sorusu cevaplanabilir.</div>
+      </div>
+    </div>
+
+    <h2>Hover Tooltip'li Metrik Kartlar</h2>
+    <p>Streamlit'in standart <code>st.metric()</code> bileşeni hover desteklemiyor. Bu yüzden custom HTML kartlar yazdık:</p>
+    <pre><code><span class="kw">def</span> <span class="fn">metric_row</span>(cards):
+    parts = []
+    <span class="kw">for</span> c <span class="kw">in</span> cards:
+        tip_html = (
+            f<span class="st">'&lt;div class="mc-tip"&gt;{c["tooltip"]}&lt;/div&gt;'</span>
+            <span class="kw">if</span> c.get(<span class="st">"tooltip"</span>) <span class="kw">else</span> <span class="st">""</span>
+        )
+        parts.append(
+            f<span class="st">'&lt;div class="mc-card"&gt;'</span>
+            f<span class="st">'&lt;div class="mc-label"&gt;{c["label"]}&lt;/div&gt;'</span>
+            f<span class="st">'&lt;div class="mc-val"&gt;{c["value"]}&lt;/div&gt;'</span>
+            f<span class="st">'{tip_html}&lt;/div&gt;'</span>
+        )
+    st.markdown(
+        f<span class="st">'&lt;div class="mc-row"&gt;{"".join(parts)}&lt;/div&gt;'</span>,
+        unsafe_allow_html=<span class="kw">True</span>
+    )
+
+<span class="cm"># CSS: hover'da tooltip görünür</span>
+<span class="cm"># .mc-card:hover .mc-tip { display: block }</span></code></pre>
+
+    <h2>Altair Grafikler Neden?</h2>
+    <p>Streamlit'in varsayılan grafik kütüphanesi Plotly veya Matplotlib'e yönelir. Biz Altair seçtik çünkü:</p>
+    <div class="info-card">
+      <div class="title">📐 Vega-Lite tabanlı — declarative</div>
+      <div class="desc">"Bu aralığı bant olarak göster" diye tanımlıyorsun, nasıl çizeceğini sen söylemiyorsun. Kod kısa kalıyor, çıktı tutarlı oluyor.</div>
+    </div>
+    <div class="info-card">
+      <div class="title">🖱️ Yerleşik interaktivite</div>
+      <div class="desc">Zoom, pan, hover tooltip — ekstra JavaScript yazmadan geliyor. <code>.interactive()</code> bir satır eklemek yeterli.</div>
+    </div>
+
+    <h2>CSS Enjeksiyonu Neden <code>st.html()</code>?</h2>
+    <pre><code><span class="cm"># st.markdown ile yazılırsa Streamlit'in parser'ı CSS'i bozuyor</span>
+<span class="cm"># st.html() direkt HTML iframe'e yazıyor — parser'ı atlıyor</span>
+st.html(<span class="st">"""
+&lt;style&gt;
+  .stTabs [data-baseweb="tab-highlight"] {
+    background-color: #38bdf8 !important;
+  }
+&lt;/style&gt;
+"""</span>)</code></pre>
+  </div>
+
+  <!-- TEKNOLOJİLER -->
+  <div class="section" id="teknoloji">
+    <div class="page-eyebrow">05 — Stack</div>
+    <h1 class="page-title">Teknolojiler</h1>
+    <p class="page-lead">Her kütüphane belirli bir görevi için seçildi. "Popüler olduğu için" değil, "bu işi en iyi o yapıyor" mantığıyla.</p>
+
+    <div class="tech-list">
+      <div class="tech-row">
+        <div class="tech-badge">Python 3.12</div>
+        <div class="tech-info">
+          <div class="ti-name">Ana dil</div>
+          <div class="ti-desc">Veri bilimi ekosisteminin standartı. 3.12 seçildi çünkü LightGBM 4.7 ve pandas 3.0 ile tam uyumlu, performansı da önceki versiyonlara göre belirgin biçimde artmış.</div>
+        </div>
+      </div>
+      <div class="tech-row">
+        <div class="tech-badge">pandas 3.0</div>
+        <div class="tech-info">
+          <div class="ti-name">Veri manipülasyonu</div>
+          <div class="ti-desc">CSV okuma, filtreleme, gruplama, birleştirme. 250k satırlık veriyi bellekte tutup hızla işlemek için. <code>groupby</code>, <code>merge</code>, <code>cut</code> yoğun kullanıldı.</div>
+          <div class="ti-why">Neden pandas 3? Copy-on-write varsayılan — bellek kullanımı azaldı.</div>
+        </div>
+      </div>
+      <div class="tech-row">
+        <div class="tech-badge">LightGBM 4.7</div>
+        <div class="tech-info">
+          <div class="ti-name">Makine öğrenmesi modeli</div>
+          <div class="ti-desc">Microsoft'un geliştirdiği gradient boosting kütüphanesi. Histogram tabanlı yapısı sayesinde büyük veriyle çok hızlı. Kategorik sütunları native destekler — marka/model/şehir için mükemmel.</div>
+          <div class="ti-why">R²=0.968, ortanca hata %5.9 → 4 model içinde açık ara birinci.</div>
+        </div>
+      </div>
+      <div class="tech-row">
+        <div class="tech-badge">scikit-learn</div>
+        <div class="tech-info">
+          <div class="ti-name">ML yardımcıları</div>
+          <div class="ti-desc">Train/test split, Ridge regresyon (karşılaştırma için), metrik hesabı (<code>r2_score</code>, <code>mean_absolute_percentage_error</code>). LightGBM'in rakiplerini test etmek için kullanıldı.</div>
+        </div>
+      </div>
+      <div class="tech-row">
+        <div class="tech-badge">Streamlit 1.66</div>
+        <div class="tech-info">
+          <div class="ti-name">Web arayüzü çatısı</div>
+          <div class="ti-desc">Python kodu doğrudan web uygulamasına dönüşüyor — HTML/JS yazmadan. <code>st.tabs()</code>, <code>st.selectbox()</code>, <code>st.columns()</code> ile 6 sekmeli arayüz oluşturuldu.</div>
+          <div class="ti-why">Veri bilimciler için ideal: frontend bilgisi gerekmez, deploy kolay.</div>
+        </div>
+      </div>
+      <div class="tech-row">
+        <div class="tech-badge">Altair</div>
+        <div class="tech-info">
+          <div class="ti-name">İnteraktif grafikler</div>
+          <div class="ti-desc">Vega-Lite üzerine kurulu declarative grafik kütüphanesi. Değer kaybı eğrisi, güven bandı, fırsat histogram — hepsi Altair ile. Streamlit içinde <code>st.altair_chart()</code> ile gösteriliyor.</div>
+        </div>
+      </div>
+      <div class="tech-row">
+        <div class="tech-badge">Pillow</div>
+        <div class="tech-info">
+          <div class="ti-name">Favicon üretimi</div>
+          <div class="ti-desc">Tarayıcı sekmesindeki OP ikonu Pillow ile çalışma zamanında üretiliyor. Harici dosya yok — <code>ImageDraw</code> ile daire ve çizgiler kod içinde çiziliyor.</div>
+          <div class="ti-why">Streamlit <code>page_icon=</code> parametresi PIL Image kabul ediyor.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DEPLOY -->
+  <div class="section" id="deploy">
+    <div class="page-eyebrow">06 — Yayına Alma</div>
+    <h1 class="page-title">Deploy: Nasıl Canlıya Alındı?</h1>
+    <p class="page-lead">Streamlit Cloud, GitHub reposuna bağlı ücretsiz bir hosting hizmeti. Push yaptığında otomatik yeniden deploy ediyor.</p>
+
+    <h2>Deploy Akışı</h2>
+    <div class="deploy-flow">
+      <div class="deploy-step">
+        <div class="deploy-num">1</div>
+        <div class="deploy-text"><strong>GitHub reposu oluşturuldu</strong> — <code>arac-metrik</code> adıyla public. Model dosyaları ve işlenmiş veri repoda, ham veri <code>.gitignore</code>'da.</div>
+      </div>
+      <div class="deploy-step">
+        <div class="deploy-num">2</div>
+        <div class="deploy-text"><strong>requirements.txt hazırlandı</strong> — Streamlit Cloud bu dosyayı okuyarak pip install yapıyor. Her kütüphane sürümü sabitleniyor (<code>lightgbm==4.7.0</code> gibi).</div>
+      </div>
+      <div class="deploy-step">
+        <div class="deploy-num">3</div>
+        <div class="deploy-text"><strong>.streamlit/config.toml</strong> — Tema renkleri, port ayarları buraya yazılıyor. <code>primaryColor = "#38bdf8"</code> ile sky blue vurgu rengi tanımlandı.</div>
+      </div>
+      <div class="deploy-step">
+        <div class="deploy-num">4</div>
+        <div class="deploy-text"><strong>share.streamlit.io</strong>'da "New app" → GitHub repo bağlandı → <code>app/panel.py</code> entry point olarak seçildi → Deploy.</div>
+      </div>
+      <div class="deploy-step">
+        <div class="deploy-num">5</div>
+        <div class="deploy-text"><strong>Canlı link alındı</strong> — <code>arac-metrik-pnvt2xmpxif4wsjwewvsvt.streamlit.app</code>. GitHub About bölümüne ve README'ye eklendi.</div>
+      </div>
+    </div>
+
+    <h2>Neden Streamlit Cloud?</h2>
+    <div class="info-card">
+      <div class="title">✅ Ücretsiz — public repolar için</div>
+      <div class="desc">Kredi kartı gerekmiyor. 1 GB RAM, otomatik uyku modu (30 dk aktivite yok ise uyuyor, ilk açılışta birkaç saniye bekliyor).</div>
+    </div>
+    <div class="info-card">
+      <div class="title">🔄 GitHub'a bağlı CI/CD</div>
+      <div class="desc"><code>git push</code> yaptığında Streamlit Cloud otomatik yeni versiyonu deploy ediyor. Manuel işlem yok. Değişiklik → push → birkaç dakika → canlı.</div>
+    </div>
+
+    <h2><code>requirements.txt</code> Neden Önemli?</h2>
+    <pre><code><span class="cm"># requirements.txt — Streamlit Cloud bu dosyayla ortam kuruyor</span>
+streamlit==<span class="nm">1.66.0</span>
+pandas==<span class="nm">3.0.0</span>
+lightgbm==<span class="nm">4.7.0</span>
+altair==<span class="nm">5.5.0</span>
+scikit-learn==<span class="nm">1.6.1</span>
+Pillow==<span class="nm">11.2.1</span>
+numpy==<span class="nm">2.0.2</span>
+
+<span class="cm"># Sürümleri sabitlemek kritik:</span>
+<span class="cm"># "lightgbm" yazarsan bugün çalışır ama 3 ay sonra</span>
+<span class="cm"># yeni bir sürüm çıkıp uyumsuzluk yaratabilir.</span></code></pre>
+
+    <h2>Özet: Tüm Paket Tek Bakışta</h2>
+    <div class="table-wrap"><table>
+      <tr><th>Katman</th><th>Araç</th><th>Görev</th></tr>
+      <tr><td>Veri</td><td>pandas + temizle.py</td><td>Ham CSV → temiz DataFrame</td></tr>
+      <tr><td>Model</td><td>LightGBM</td><td>Fiyat tahmini (R²=0.968)</td></tr>
+      <tr><td>Grafik</td><td>Altair</td><td>İnteraktif görselleştirme</td></tr>
+      <tr><td>Arayüz</td><td>Streamlit</td><td>6 sekmeli web uygulaması</td></tr>
+      <tr><td>İkon</td><td>Pillow</td><td>OP favicon çalışma zamanında üretilir</td></tr>
+      <tr><td>Kaynak kod</td><td>GitHub</td><td>Versiyon kontrolü + deploy tetikleyicisi</td></tr>
+      <tr><td>Hosting</td><td>Streamlit Cloud</td><td>Ücretsiz canlı link</td></tr>
+    </table></div>
+  </div>
+
+</div>
+
+<script>
+const links = document.querySelectorAll('.nav-link');
+const sections = document.querySelectorAll('.section');
+
+function activate(id) {
+  links.forEach(l => l.classList.toggle('active', l.dataset.sec === id));
+  sections.forEach(s => s.classList.toggle('active', s.id === id));
+  try { localStorage.setItem('op-sec', id); } catch(e){}
+}
+
+links.forEach(l => l.addEventListener('click', e => {
+  e.preventDefault();
+  activate(l.dataset.sec);
+  window.scrollTo(0,0);
+}));
+
+// restore last visited section
+const hash = location.hash.replace('#','');
+const saved = hash || (()=>{try{return localStorage.getItem('op-sec')}catch(e){return null}})();
+if (saved && document.getElementById(saved)) activate(saved);
+</script>
