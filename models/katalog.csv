@@ -1,0 +1,2703 @@
+brand,model,variant,ilan,yil_min,yil_max,yakit_tipi,motor_hacmi
+audi,a1,1.4 TFSI Ambition,12,2011,2012,Benzin,1.4
+audi,a1,1.4 TFSI Attraction,15,2011,2012,Benzin,1.4
+audi,a1,1.6 TDI Ambition,39,2011,2014,Dizel,1.6
+audi,a1,1.6 TDI Attraction,31,2012,2014,Dizel,1.6
+audi,a1,1.6 TDI Sport,14,2012,2016,Dizel,1.6
+audi,a3,A3 Cabrio 1.4 TFSI,21,2014,2017,Benzin,1.4
+audi,a3,A3 Hatchback 1.4 TFSI,41,2008,2013,Benzin,1.4
+audi,a3,A3 Hatchback 1.6,108,1998,2011,Bilinmiyor,1.6
+audi,a3,A3 Hatchback 1.6 FSI,14,2005,2008,Benzin,1.6
+audi,a3,A3 Hatchback 1.6 TDI,11,2011,2015,Dizel,1.6
+audi,a3,A3 Hatchback 1.8 T,7,1997,2001,Bilinmiyor,1.8
+audi,a3,A3 Sedan 1.0 TFSI,54,2016,2018,Benzin,1.0
+audi,a3,A3 Sedan 1.4 TFSI,48,2013,2015,Benzin,1.4
+audi,a3,A3 Sedan 1.6 TDI,1167,2013,2019,Dizel,1.6
+audi,a3,A3 Sedan 30 TDI,66,2019,2019,Dizel,
+audi,a3,A3 Sedan 30 TFSI,43,2019,2021,Benzin,
+audi,a3,A3 Sedan 35 TFSI,791,2019,2025,Benzin,
+audi,a3,A3 Sportback 1.0 TFSI,110,2016,2019,Benzin,1.0
+audi,a3,A3 Sportback 1.2 TFSI,53,2011,2016,Benzin,1.2
+audi,a3,A3 Sportback 1.4 TFSI,175,2008,2015,Benzin,1.4
+audi,a3,A3 Sportback 1.6,188,1999,2016,Bilinmiyor,1.6
+audi,a3,A3 Sportback 1.6 FSI,24,2005,2008,Benzin,1.6
+audi,a3,A3 Sportback 1.6 TDI,824,2010,2019,Dizel,1.6
+audi,a3,A3 Sportback 30 TDI,61,2019,2019,Dizel,
+audi,a3,A3 Sportback 30 TFSI,56,2019,2022,Benzin,
+audi,a3,A3 Sportback 35 TFSI,361,2019,2025,Benzin,
+audi,a4,A4 Allroad quattro 2.0 TDI,16,2012,2018,Dizel,2.0
+audi,a4,A4 Allroad quattro 2.0 TFSI,15,2006,2012,Benzin,2.0
+audi,a4,A4 Allroad quattro 40 TDI,9,2020,2023,Dizel,
+audi,a4,A4 Avant 1.4 TFSI,14,2016,2016,Benzin,1.4
+audi,a4,A4 Avant 1.9 TDI,5,2001,2007,Dizel,1.9
+audi,a4,A4 Avant 2.0 TDI,7,2006,2014,Dizel,2.0
+audi,a4,A4 Sedan 1.4 TFSI Design,209,2015,2018,Benzin,1.4
+audi,a4,A4 Sedan 1.4 TFSI Dynamic,154,2015,2018,Benzin,1.4
+audi,a4,A4 Sedan 1.4 TFSI Sport,103,2015,2018,Benzin,1.4
+audi,a4,A4 Sedan 1.6,66,1995,2008,Bilinmiyor,1.6
+audi,a4,A4 Sedan 1.8,4,1995,2000,Bilinmiyor,1.8
+audi,a4,A4 Sedan 1.8 T,11,1997,2008,Bilinmiyor,1.8
+audi,a4,A4 Sedan 1.8 T Quattro,3,1998,2004,Bilinmiyor,1.8
+audi,a4,A4 Sedan 1.8 TFSI,123,2008,2014,Benzin,1.8
+audi,a4,A4 Sedan 1.9 TDI,11,1995,2008,Dizel,1.9
+audi,a4,A4 Sedan 2.0,5,2002,2006,Bilinmiyor,2.0
+audi,a4,A4 Sedan 2.0 TDI,544,2005,2016,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TDI Design,59,2015,2019,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TDI Dynamic,61,2015,2018,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TDI Quattro,77,2012,2021,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TDI Quattro Design,30,2015,2018,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TDI Quattro Dynamic,28,2016,2021,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TDI Quattro Sport,16,2015,2018,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TDI Sport,11,2015,2016,Dizel,2.0
+audi,a4,A4 Sedan 2.0 TFSI Quattro,41,2005,2018,Benzin,2.0
+audi,a4,A4 Sedan 40 TDI,401,2019,2024,Dizel,
+audi,a4,A4 Sedan 45 TFSI,77,2019,2024,Benzin,
+audi,a5,A5 Cabrio 2.0 TFSI Quattro,8,2010,2013,Benzin,2.0
+audi,a5,A5 Cabrio 45 TFSI,20,2020,2024,Benzin,
+audi,a5,A5 Coupe 1.4 TFSI Design,10,2016,2018,Benzin,1.4
+audi,a5,A5 Coupe 1.4 TFSI Sport,15,2016,2018,Benzin,1.4
+audi,a5,A5 Coupe 1.8 TFSI,42,2008,2012,Benzin,1.8
+audi,a5,A5 Coupe 2.0 TDI,10,2011,2012,Dizel,2.0
+audi,a5,A5 Coupe 2.0 TDI Quattro,16,2009,2017,Dizel,2.0
+audi,a5,A5 Coupe 2.0 TFSI,8,2009,2011,Benzin,2.0
+audi,a5,A5 Coupe 2.0 TFSI Quattro,21,2010,2012,Benzin,2.0
+audi,a5,A5 Coupe 45 TFSI,10,2021,2023,Benzin,
+audi,a5,A5 Sedan 2.0 TDI Quattro,12,2024,2025,Dizel,2.0
+audi,a5,A5 Sedan 2.0 TFSI,15,2024,2025,Benzin,2.0
+audi,a5,A5 Sedan 2.0 TFSI Quattro,11,2025,2025,Benzin,2.0
+audi,a5,A5 Sportback 1.4 TFSI Design,63,2017,2018,Benzin,1.4
+audi,a5,A5 Sportback 1.4 TFSI Sport,100,2017,2018,Benzin,1.4
+audi,a5,A5 Sportback 2.0 TDI,115,2010,2015,Dizel,2.0
+audi,a5,A5 Sportback 2.0 TDI Quattro,93,2012,2017,Dizel,2.0
+audi,a5,A5 Sportback 2.0 TDI Quattro Design,13,2017,2019,Dizel,2.0
+audi,a5,A5 Sportback 2.0 TDI Quattro Sport,29,2010,2019,Dizel,2.0
+audi,a5,A5 Sportback 2.0 TFSI,5,2010,2012,Benzin,2.0
+audi,a5,A5 Sportback 2.0 TFSI Quattro,34,2010,2016,Benzin,2.0
+audi,a5,A5 Sportback 40 TDI,169,2019,2024,Dizel,
+audi,a5,A5 Sportback 45 TFSI,67,2020,2024,Benzin,
+audi,a6,A6 Allroad Quattro 3.0 TDI,6,2007,2016,Dizel,3.0
+audi,a6,A6 Avant 2.0 TDI,7,2007,2016,Dizel,2.0
+audi,a6,A6 Avant 2.0 TDI Quattro,8,2016,2016,Dizel,2.0
+audi,a6,A6 Sedan 1.8 T,8,1998,2004,Bilinmiyor,1.8
+audi,a6,A6 Sedan 1.9 TDI,2,2003,2004,Dizel,1.9
+audi,a6,A6 Sedan 2.0 TDI,421,2004,2017,Dizel,2.0
+audi,a6,A6 Sedan 2.0 TDI Quattro,256,2015,2025,Dizel,2.0
+audi,a6,A6 Sedan 2.0 TFSI,12,2007,2011,Benzin,2.0
+audi,a6,A6 Sedan 2.0 TFSI Quattro,59,2017,2018,Benzin,2.0
+audi,a6,A6 Sedan 2.4,4,2002,2005,Bilinmiyor,2.4
+audi,a6,A6 Sedan 2.5 TDI,3,1998,2003,Dizel,2.5
+audi,a6,A6 Sedan 2.8,3,1998,2001,Bilinmiyor,2.8
+audi,a6,A6 Sedan 3.0 TDI Quattro,56,2004,2017,Dizel,3.0
+audi,a6,A6 Sedan 3.2 FSI Quattro,4,2005,2008,Benzin,3.2
+audi,a6,A6 Sedan 40 TDI,479,2019,2025,Dizel,
+audi,a6,A6 Sedan 45 TFSI,155,2019,2025,Benzin,
+audi,a6,A6 Sedan 50 TDI,20,2018,2024,Dizel,
+audi,a7,2.0 TFSI,23,2015,2017,Benzin,2.0
+audi,a7,3.0 TDI,50,2011,2017,Dizel,3.0
+audi,a7,40 TDI,44,2019,2025,Dizel,
+audi,a7,45 TFSI,22,2023,2025,Benzin,
+audi,a8,3.0 TDI Quattro,5,2006,2011,Dizel,3.0
+audi,a8,3.0 TDI Quattro Long,29,2008,2017,Dizel,3.0
+audi,a8,50 TDI Quattro Long,15,2018,2022,Dizel,
+audi,a8,55 TFSI Quattro Long,2,2022,2022,Benzin,
+bmw,1,116d Comfort,13,2012,2014,Dizel,
+bmw,1,116d ED EfficientDynamics,115,2012,2015,Dizel,
+bmw,1,116d ED Sport Line,24,2012,2015,Dizel,
+bmw,1,116d First Edition M Sport,16,2019,2020,Dizel,
+bmw,1,116d First Edition Sport Line,27,2019,2021,Dizel,
+bmw,1,116d Joy,16,2015,2017,Dizel,
+bmw,1,116d Joy Plus,98,2015,2018,Dizel,
+bmw,1,116d M Plus,24,2015,2017,Dizel,
+bmw,1,116d M Sport,43,2015,2023,Dizel,
+bmw,1,116d Premium Line,29,2017,2019,Dizel,
+bmw,1,116d Sport Line,31,2012,2023,Dizel,
+bmw,1,116i Comfort,196,2009,2015,Benzin,
+bmw,1,116i Joy Edition,100,2010,2015,Benzin,
+bmw,1,116i M Sport,83,2008,2015,Benzin,
+bmw,1,116i Premium,125,2007,2014,Benzin,
+bmw,1,116i Sport Line,76,2011,2015,Benzin,
+bmw,1,116i Standart,115,2005,2015,Benzin,
+bmw,1,116i Urban Line,34,2012,2014,Benzin,
+bmw,1,118i First Edition M Sport,19,2019,2021,Benzin,
+bmw,1,118i First Edition Sport Line,29,2019,2021,Benzin,
+bmw,1,118i Joy,26,2015,2017,Benzin,
+bmw,1,118i Joy Plus,115,2015,2017,Benzin,
+bmw,1,118i M Plus,35,2012,2017,Benzin,
+bmw,1,118i M Sport,60,2015,2024,Benzin,
+bmw,1,118i One Edition,22,2015,2019,Benzin,
+bmw,1,118i Premium Line,22,2017,2019,Benzin,
+bmw,1,118i Pure,16,2017,2018,Benzin,
+bmw,1,118i Sport Line,41,2012,2024,Benzin,
+bmw,1,118i Standart,28,2007,2015,Benzin,
+bmw,1,120d,4,2005,2017,Dizel,
+bmw,1,120i M Sport,30,2024,2025,Benzin,
+bmw,1,120i Standart,6,2005,2009,Benzin,
+bmw,2,216d Active Tourer Active Tourer,24,2015,2017,Dizel,
+bmw,2,216d Active Tourer Luxury Line,4,2015,2021,Dizel,
+bmw,2,216d Active Tourer Sport Line,10,2015,2017,Dizel,
+bmw,2,216d Gran Coupe First Edition M Sport,89,2020,2021,Dizel,
+bmw,2,216d Gran Coupe First Edition Sport Line,71,2020,2022,Dizel,
+bmw,2,216d Gran Coupe M Sport,19,2021,2023,Dizel,
+bmw,2,216d Gran Coupe Sport Line,24,2020,2023,Dizel,
+bmw,2,218i Active Tourer Active Tourer,14,2014,2015,Benzin,
+bmw,2,218i Active Tourer Luxury Line,21,2014,2022,Benzin,
+bmw,2,218i Active Tourer Sport Line,12,2014,2015,Benzin,
+bmw,2,218i Gran Coupe First Edition M Sport,47,2020,2021,Benzin,
+bmw,2,218i Gran Coupe First Edition Sport Line,34,2020,2021,Benzin,
+bmw,2,218i Gran Coupe M Sport,49,2021,2024,Benzin,
+bmw,2,218i Gran Coupe Sport Line,62,2021,2024,Benzin,
+bmw,2,218i Luxury Line,7,2016,2018,Benzin,
+bmw,2,218i M Sport,52,2015,2018,Benzin,
+bmw,2,220 Gran Coupe Sportline,5,2025,2025,Bilinmiyor,
+bmw,2,230e xDrive Active Tourer Luxury Line,25,2025,2025,Hibrit/Elektrik,
+bmw,3,316Ci,6,2004,2006,Benzin,
+bmw,3,316i Advantage,12,2009,2012,Benzin,
+bmw,3,316i Comfort,233,2011,2015,Benzin,
+bmw,3,316i Compact,17,1996,2000,Benzin,
+bmw,3,316i Luxury Line,31,2012,2014,Benzin,
+bmw,3,316i M Sport,272,2010,2016,Benzin,
+bmw,3,316i Modern Line,49,2012,2014,Benzin,
+bmw,3,316i Premium,52,2006,2011,Benzin,
+bmw,3,316i Sport Line,40,2012,2014,Benzin,
+bmw,3,316i Standart,220,1995,2015,Benzin,
+bmw,3,316i Techno Plus,17,2012,2014,Benzin,
+bmw,3,316i Technology,24,2012,2015,Benzin,
+bmw,3,316ti Compact,30,2001,2005,Benzin,
+bmw,3,318Ci,23,2000,2005,Benzin,
+bmw,3,318d Premium,9,2009,2009,Dizel,
+bmw,3,318d Prestige,12,2017,2017,Dizel,
+bmw,3,318d Sport Plus,10,2017,2017,Dizel,
+bmw,3,318i 40th Year Edition,15,2017,2017,Benzin,
+bmw,3,318i Edition Luxury Line,20,2017,2018,Benzin,
+bmw,3,318i Edition M Sport,59,2016,2018,Benzin,
+bmw,3,318i Edition Sport Line,76,2017,2018,Benzin,
+bmw,3,318i Joy,18,2015,2017,Benzin,
+bmw,3,318i M Joy,51,2015,2017,Benzin,
+bmw,3,318i M Joy Plus,41,2015,2016,Benzin,
+bmw,3,318i M Plus,13,2016,2017,Benzin,
+bmw,3,318i Premium Line,70,2017,2018,Benzin,
+bmw,3,318i Prestige,62,2015,2018,Benzin,
+bmw,3,318i Sport Plus,11,2017,2017,Benzin,
+bmw,3,318i Standart,77,1995,2016,Benzin,
+bmw,3,318is,11,1996,1998,Benzin,
+bmw,3,320Ci,18,1998,2004,Benzin,
+bmw,3,320d Comfort,74,2009,2012,Dizel,
+bmw,3,320d Edition Comfort,42,2011,2012,Dizel,
+bmw,3,320d Edition M Sport,24,2017,2018,Dizel,
+bmw,3,320d Luxury,30,2010,2014,Dizel,
+bmw,3,320d M Sport,341,2007,2016,Dizel,
+bmw,3,320d Modern Line,58,2012,2014,Dizel,
+bmw,3,320d Premium,99,2005,2017,Dizel,
+bmw,3,320d Premium Line,36,2011,2018,Dizel,
+bmw,3,320d Sport,8,2011,2012,Dizel,
+bmw,3,320d Sport Line,38,2012,2017,Dizel,
+bmw,3,320d Standart,135,1998,2015,Dizel,
+bmw,3,320d Techno Plus,67,2012,2016,Dizel,
+bmw,3,320d Technology,13,2012,2015,Dizel,
+bmw,3,320d Touring,17,1999,2015,Dizel,
+bmw,3,320d xDrive Edition M Sport,7,2017,2018,Dizel,
+bmw,3,320d xDrive Luxury Line,9,2013,2017,Dizel,
+bmw,3,320d xDrive M Sport,30,2010,2022,Dizel,
+bmw,3,320d xDrive Premium Line,11,2018,2018,Dizel,
+bmw,3,320d xDrive Sport Line,9,2013,2017,Dizel,
+bmw,3,320d xDrive Standart,7,2009,2016,Dizel,
+bmw,3,320d xDrive Techno Plus,24,2013,2016,Dizel,
+bmw,3,320i,174,1995,2013,Benzin,
+bmw,3,320i 50th Year M Edition,68,2022,2023,Benzin,
+bmw,3,320i Cabrio,42,1995,2010,Benzin,
+bmw,3,320i ED 40th Year Edition,380,2014,2016,Benzin,
+bmw,3,320i ED Luxury Line,110,2013,2016,Benzin,
+bmw,3,320i ED Luxury Line Plus,79,2013,2016,Benzin,
+bmw,3,320i ED Luxury M Plus,11,2014,2015,Benzin,
+bmw,3,320i ED M Plus,285,2013,2016,Benzin,
+bmw,3,320i ED M Sport,20,2013,2016,Benzin,
+bmw,3,320i ED Modern Line,86,2012,2015,Benzin,
+bmw,3,320i ED Modern Line Plus,28,2014,2015,Benzin,
+bmw,3,320i ED Sport Line,525,2013,2016,Benzin,
+bmw,3,320i ED Sport Plus,25,2014,2016,Benzin,
+bmw,3,320i ED Standart,112,2013,2016,Benzin,
+bmw,3,320i ED Techno Plus,109,2013,2016,Benzin,
+bmw,3,320i Edition M Sport,67,2016,2024,Benzin,
+bmw,3,320i Executive M Sport,17,2019,2021,Benzin,
+bmw,3,320i First Edition Luxury Line,46,2019,2021,Benzin,
+bmw,3,320i First Edition M Sport,281,2019,2022,Benzin,
+bmw,3,320i First Edition Sport Line,206,2019,2022,Benzin,
+bmw,3,320i Luxury Line,22,2012,2022,Benzin,
+bmw,3,320i M Sport,208,2011,2024,Benzin,
+bmw,3,320i Premium,59,2005,2012,Benzin,
+bmw,3,320i Sport Line,196,2014,2025,Benzin,
+bmw,3,325Ci,7,2001,2004,Benzin,
+bmw,3,325i Standart,7,1998,2005,Benzin,
+bmw,3,328i,7,1996,1999,Benzin,
+bmw,3,330Ci,16,2001,2004,Benzin,
+bmw,3,330d M Sport,3,2010,2010,Dizel,
+bmw,3,330i Standart,6,2001,2008,Benzin,
+bmw,3,335i Standart,16,2007,2013,Benzin,
+bmw,4,418i Gran Coupe Gran Coupe,24,2015,2018,Benzin,
+bmw,4,418i Gran Coupe Luxury Line,18,2015,2018,Benzin,
+bmw,4,418i Gran Coupe M Sport,140,2015,2018,Benzin,
+bmw,4,418i Gran Coupe Prestige,65,2015,2018,Benzin,
+bmw,4,418i Gran Coupe Sport Line,56,2015,2018,Benzin,
+bmw,4,418i Gran Coupe Ultimate M Sport,13,2017,2018,Benzin,
+bmw,4,418i M Sport,15,2015,2018,Benzin,
+bmw,4,420d Gran Coupe Gran Coupe,13,2014,2015,Dizel,
+bmw,4,420d Gran Coupe M Sport,24,2014,2016,Dizel,
+bmw,4,420d Luxury Line,9,2013,2016,Dizel,
+bmw,4,420d M Sport,121,2013,2016,Dizel,
+bmw,4,420d xDrive Gran Coupe M Sport,33,2014,2021,Dizel,
+bmw,4,420d xDrive M Sport,19,2014,2015,Dizel,
+bmw,4,420i Edition M Sport,108,2020,2025,Benzin,
+bmw,4,420i Gran Coupe 50th Year M Edition,23,2022,2023,Benzin,
+bmw,4,420i Gran Coupe Edition M Sport,47,2022,2025,Benzin,
+bmw,4,420i Gran Coupe M Sport,148,2021,2025,Benzin,
+bmw,4,420i M Sport,42,2022,2024,Benzin,
+bmw,4,428i xDrive Gran Coupe M Sport,5,2014,2015,Benzin,
+bmw,4,428i xDrive M Sport,10,2013,2015,Benzin,
+bmw,4,430i xDrive M Sport,47,2016,2025,Benzin,
+bmw,5,520Li,9,2013,2013,Benzin,
+bmw,5,520d Comfort,89,2009,2016,Dizel,
+bmw,5,520d Exclusive,57,2010,2012,Dizel,
+bmw,5,520d Executive M Sport,13,2011,2017,Dizel,
+bmw,5,520d Executive Plus,12,2014,2016,Dizel,
+bmw,5,520d Gran Turismo Luxury Line,18,2012,2016,Dizel,
+bmw,5,520d M Sport,209,2006,2017,Dizel,
+bmw,5,520d Premium,208,2007,2016,Dizel,
+bmw,5,520d Standart,37,2003,2015,Dizel,
+bmw,5,520d xDrive Executive M Sport,22,2017,2020,Dizel,
+bmw,5,520d xDrive Luxury Line,37,2017,2021,Dizel,
+bmw,5,520d xDrive M Sport,70,2017,2025,Dizel,
+bmw,5,520d xDrive Prestige,12,2017,2018,Dizel,
+bmw,5,520d xDrive Special Edition Luxury Line,16,2020,2021,Dizel,
+bmw,5,520d xDrive Special Edition M Sport,6,2020,2021,Dizel,
+bmw,5,520i 50th Year M Edition,118,2021,2023,Benzin,
+bmw,5,520i Comfort,242,2013,2018,Benzin,
+bmw,5,520i Comfort Plus,85,2017,2018,Benzin,
+bmw,5,520i Edition M Sport,84,2022,2025,Benzin,
+bmw,5,520i Executive,174,1995,2017,Benzin,
+bmw,5,520i Executive Luxury Line,53,2013,2017,Benzin,
+bmw,5,520i Executive M Sport,206,2013,2018,Benzin,
+bmw,5,520i Executive Plus,122,2014,2016,Benzin,
+bmw,5,520i Luxury Line,359,2013,2023,Benzin,
+bmw,5,520i M Sport,761,2013,2025,Benzin,
+bmw,5,520i Premium,384,2013,2017,Benzin,
+bmw,5,520i Prestige,85,2017,2017,Benzin,
+bmw,5,520i Special Edition Luxury,35,2019,2021,Benzin,
+bmw,5,520i Special Edition Luxury Line,81,2015,2023,Benzin,
+bmw,5,520i Special Edition M Sport,137,2019,2021,Benzin,
+bmw,5,520i Sport Line,18,2017,2018,Benzin,
+bmw,5,520i Standart,82,1995,2015,Benzin,
+bmw,5,523i Standart,1,1998,1998,Benzin,
+bmw,5,525d Standart,5,2005,2013,Dizel,
+bmw,5,525d xDrive Comfort,42,2012,2015,Dizel,
+bmw,5,525d xDrive Exclusive,11,2012,2012,Dizel,
+bmw,5,525d xDrive Executive,22,2014,2016,Dizel,
+bmw,5,525d xDrive Executive Luxury,14,2014,2016,Dizel,
+bmw,5,525d xDrive Executive M Sport,49,2013,2016,Dizel,
+bmw,5,525d xDrive Executive Plus,17,2014,2016,Dizel,
+bmw,5,525d xDrive Luxury,10,2012,2015,Dizel,
+bmw,5,525d xDrive M Sport,109,2012,2016,Dizel,
+bmw,5,525d xDrive Premium,187,2012,2016,Dizel,
+bmw,5,525d xDrive xDrive,64,2012,2016,Dizel,
+bmw,5,525i Standart,9,2001,2008,Benzin,
+bmw,5,525tds Standart,1,1996,1996,Dizel,
+bmw,5,528i Standart,13,1996,2000,Benzin,
+bmw,5,530d M Sport,6,2011,2012,Dizel,
+bmw,5,530d Standart,14,1999,2010,Dizel,
+bmw,5,530i Executive M,15,2017,2017,Benzin,
+bmw,5,530i M Sport,7,2002,2017,Benzin,
+bmw,5,530i Standart,14,2001,2007,Benzin,
+bmw,5,530i xDrive Executive Luxury,10,2017,2017,Benzin,
+bmw,5,530i xDrive Executive M,22,2017,2017,Benzin,
+bmw,5,530i xDrive Executive M Sport,12,2017,2018,Benzin,
+bmw,5,530i xDrive Executive Prestige,9,2017,2017,Benzin,
+bmw,5,530i xDrive Luxury Line,21,2017,2017,Benzin,
+bmw,5,530i xDrive M Sport,40,2017,2023,Benzin,
+bmw,5,530xd Gran Turismo Premium,6,2011,2012,Dizel,
+bmw,5,535d xDrive M Sport,7,2011,2016,Dizel,
+bmw,5,540i Standart,3,1997,1999,Benzin,
+bmw,5,550 xDrive,11,2012,2015,Bilinmiyor,
+bmw,6,640d Gran Coupe,2,2012,2012,Dizel,
+bmw,6,640d xDrive Gran Coupe M Sport,24,2013,2016,Dizel,
+bmw,6,640d xDrive M Sport,9,2012,2017,Dizel,
+bmw,6,645Ci,12,2004,2005,Benzin,
+bmw,7,730d Long Exclusive,7,2011,2011,Dizel,
+bmw,7,730d Long Individual Edition,3,2008,2011,Dizel,
+bmw,7,730d Long Standart,4,2007,2012,Dizel,
+bmw,7,730d Standart,16,2003,2011,Dizel,
+bmw,7,730d xDrive M Sport,9,2014,2016,Dizel,
+bmw,7,730d xDrive Standart,4,2012,2014,Dizel,
+bmw,7,730i Long Executive Lounge,21,2015,2017,Benzin,
+bmw,7,730i Long Standart,6,2003,2006,Benzin,
+bmw,7,730i M Excellence,9,2016,2020,Benzin,
+bmw,7,730i M Sport,15,2015,2018,Benzin,
+bmw,7,730i Standart,1,2004,2004,Benzin,
+bmw,7,735i Long,4,2002,2003,Benzin,
+bmw,7,740d xDrive Long M Excellence,13,2017,2022,Dizel,
+bmw,7,740d xDrive Long Pure Excellence,9,2017,2021,Dizel,
+bmw,7,740d xDrive M Excellence,1,2018,2018,Dizel,
+bmw,7,740d xDrive M Sport,10,2011,2013,Dizel,
+bmw,7,740i,9,1997,2009,Benzin,
+bmw,7,740i Long,16,1997,2011,Benzin,
+bmw,7,745i Long,10,2003,2005,Benzin,
+bmw,7,750d xDrive Long Standart,11,2014,2015,Dizel,
+bmw,7,750i Long,7,1998,2010,Benzin,
+bmw,i,i4 M50,12,2022,2023,Hibrit/Elektrik,
+bmw,i,i4 eDrive 40,65,2022,2025,Hibrit/Elektrik,
+bmw,i,i5 M60 xDrive,19,2023,2024,Hibrit/Elektrik,
+bmw,i,i5 eDrive 40,98,2023,2025,Hibrit/Elektrik,
+bmw,i,i5 xDrive40,9,2024,2025,Hibrit/Elektrik,
+bmw,i,i7 xDrive60 M Excellence,40,2022,2024,Hibrit/Elektrik,
+bmw,i,i8 Premium Techno,35,2014,2015,Hibrit/Elektrik,
+bmw,m,M3,28,1995,2019,Benzin,
+bmw,m,M3 Competition,20,2012,2020,Benzin,
+bmw,m,M3 Coupe,7,2007,2009,Benzin,
+bmw,m,M4,10,2013,2016,Benzin,
+bmw,m,M4 Competition,24,2013,2021,Benzin,
+bmw,m,M5,51,1999,2018,Benzin,
+bmw,m,M5 Competition,16,2013,2019,Benzin,
+bmw,z,Z4 2.0,11,2006,2008,Benzin,2.0
+bmw,z,Z4 20i sDrive,10,2012,2015,Benzin,
+bmw,z,Z4 23i sDrive,13,2009,2011,Benzin,
+bmw,z,Z4 30i sDrive,34,2019,2025,Benzin,
+chevrolet,aveo,1.2 LS,79,2009,2013,Bilinmiyor,1.2
+chevrolet,aveo,1.2 S,84,2006,2012,Bilinmiyor,1.2
+chevrolet,aveo,1.2 SE,57,2006,2012,Bilinmiyor,1.2
+chevrolet,aveo,1.3 D LS,45,2012,2013,Dizel,1.3
+chevrolet,aveo,1.3 D LT,78,2012,2013,Dizel,1.3
+chevrolet,aveo,1.3 D LTZ,33,2012,2013,Dizel,1.3
+chevrolet,aveo,1.4 LS,46,2011,2012,Bilinmiyor,1.4
+chevrolet,aveo,1.4 LT,91,2011,2013,Bilinmiyor,1.4
+chevrolet,aveo,1.4 LTZ,33,2011,2013,Bilinmiyor,1.4
+chevrolet,aveo,1.4 S,15,2007,2011,Bilinmiyor,1.4
+chevrolet,aveo,1.4 SE,109,2006,2012,Bilinmiyor,1.4
+chevrolet,aveo,1.4 SX,60,2006,2012,Bilinmiyor,1.4
+chevrolet,cruze,1.4 T LTZ,7,2013,2013,Bilinmiyor,1.4
+chevrolet,cruze,1.4 T Sport,1,2012,2012,Bilinmiyor,1.4
+chevrolet,cruze,1.6,29,2009,2012,Bilinmiyor,1.6
+chevrolet,cruze,1.6 Design Edition,25,2011,2012,Bilinmiyor,1.6
+chevrolet,cruze,1.6 Design Edition Plus,21,2011,2012,Bilinmiyor,1.6
+chevrolet,cruze,1.6 LS,348,2009,2012,Bilinmiyor,1.6
+chevrolet,cruze,1.6 LS Plus,140,2009,2012,Bilinmiyor,1.6
+chevrolet,cruze,1.6 LT,54,2011,2013,Bilinmiyor,1.6
+chevrolet,cruze,1.6 LT Plus,79,2011,2013,Bilinmiyor,1.6
+chevrolet,cruze,1.6 Sport,43,2012,2013,Bilinmiyor,1.6
+chevrolet,cruze,1.6 Sport Plus,59,2012,2013,Bilinmiyor,1.6
+chevrolet,cruze,1.6 WTCC Edition,25,2011,2012,Bilinmiyor,1.6
+chevrolet,cruze,1.6 WTCC Edition Plus,21,2011,2013,Bilinmiyor,1.6
+chevrolet,cruze,2.0 D LT,18,2012,2012,Dizel,2.0
+chevrolet,kalos,1.2 S,30,2005,2006,Bilinmiyor,1.2
+chevrolet,kalos,1.2 SE,90,2004,2006,Bilinmiyor,1.2
+chevrolet,kalos,1.4 S,2,2004,2004,Bilinmiyor,1.4
+chevrolet,kalos,1.4 SE,46,2004,2006,Bilinmiyor,1.4
+chevrolet,kalos,1.4 SX,120,2004,2006,Bilinmiyor,1.4
+chevrolet,lacetti,1.4 SE,60,2004,2011,Bilinmiyor,1.4
+chevrolet,lacetti,1.4 SX,8,2004,2009,Bilinmiyor,1.4
+chevrolet,lacetti,1.6 CDX,2,2005,2006,Bilinmiyor,1.6
+chevrolet,lacetti,1.6 SE,8,2004,2008,Bilinmiyor,1.6
+chevrolet,lacetti,1.6 SX,100,2004,2011,Bilinmiyor,1.6
+chevrolet,lacetti,1.6 WTCC,28,2008,2011,Bilinmiyor,1.6
+chevrolet,lacetti,1.8,1,2006,2006,Bilinmiyor,1.8
+chevrolet,spark,0.8 SE,19,2005,2010,Bilinmiyor,0.8
+chevrolet,spark,1.0,13,2010,2011,Bilinmiyor,1.0
+chevrolet,spark,1.0 SE,10,2005,2007,Bilinmiyor,1.0
+chevrolet,spark,1.0 SX,10,2005,2010,Bilinmiyor,1.0
+chevrolet,spark,1.2 LS,14,2010,2013,Bilinmiyor,1.2
+citroen,c,1.2 Live,66,2018,2019,Bilinmiyor,1.2
+citroen,c,1.2 VTi Attraction,35,2012,2016,Benzin,1.2
+citroen,c,1.2 VTi Confort,79,2013,2016,Benzin,1.2
+citroen,c,1.2 VTi Exclusive,17,2013,2015,Benzin,1.2
+citroen,c,1.5 BlueHDI Feel,506,2016,2024,Dizel,1.5
+citroen,c,1.5 BlueHDI Feel Bold,117,2021,2024,Dizel,1.5
+citroen,c,1.5 BlueHDI Shine,82,2019,2022,Dizel,1.5
+citroen,c,1.6 BlueHDI Feel,19,2015,2018,Dizel,1.6
+citroen,c,1.6 BlueHDI Live,35,2018,2018,Dizel,1.6
+citroen,c,1.6 HDi Attraction,318,2012,2017,Dizel,1.6
+citroen,c,1.6 HDi Confort,169,2012,2017,Dizel,1.6
+citroen,c,1.6 HDi Exclusive,218,2012,2017,Dizel,1.6
+citroen,c,1.6 HDi Feel,77,2017,2018,Dizel,1.6
+citroen,c,1.6 HDi Live,118,2017,2018,Dizel,1.6
+citroen,c,1.6 HDi Shine,46,2017,2017,Dizel,1.6
+citroen,c,1.6 VTi Exclusive,6,2012,2012,Benzin,1.6
+citroen,c1,1.0 SX,5,2007,2009,Bilinmiyor,1.0
+citroen,c1,1.0 SX Sensodrive,25,2007,2012,Bilinmiyor,1.0
+citroen,c1,1.4 HDi SX,19,2007,2010,Dizel,1.4
+citroen,c2,1.4 HDi SX,22,2004,2006,Dizel,1.4
+citroen,c2,1.4 SX,20,2004,2008,Bilinmiyor,1.4
+citroen,c2,1.6 VTR,12,2004,2006,Bilinmiyor,1.6
+citroen,c2,1.6 VTS,4,2006,2008,Bilinmiyor,1.6
+citroen,c3,1.2 PureTech Elle,12,2023,2024,Benzin,1.2
+citroen,c3,1.2 PureTech Feel,233,2016,2023,Benzin,1.2
+citroen,c3,1.2 PureTech Feel Adventure,10,2020,2020,Benzin,1.2
+citroen,c3,1.2 PureTech Feel Bold,280,2020,2024,Benzin,1.2
+citroen,c3,1.2 PureTech Feel S Edition,17,2020,2021,Benzin,1.2
+citroen,c3,1.2 PureTech Live,24,2016,2020,Benzin,1.2
+citroen,c3,1.2 PureTech Shine,263,2019,2024,Benzin,1.2
+citroen,c3,1.2 PureTech Shine S Edition,15,2020,2021,Benzin,1.2
+citroen,c3,1.2 VTi Cool,23,2014,2015,Benzin,1.2
+citroen,c3,1.4 Attraction,18,2010,2012,Bilinmiyor,1.4
+citroen,c3,1.4 Collection,2,2011,2011,Bilinmiyor,1.4
+citroen,c3,1.4 Comfort,20,2010,2013,Bilinmiyor,1.4
+citroen,c3,1.4 HDi Attraction,67,2007,2013,Dizel,1.4
+citroen,c3,1.4 HDi Collection,9,2011,2015,Dizel,1.4
+citroen,c3,1.4 HDi Confort,57,2010,2013,Dizel,1.4
+citroen,c3,1.4 HDi Exclusive,11,2010,2012,Dizel,1.4
+citroen,c3,1.4 HDi SX,96,2003,2006,Dizel,1.4
+citroen,c3,1.4 HDi X,38,2004,2006,Dizel,1.4
+citroen,c3,1.4 HDi X Furio,87,2006,2010,Dizel,1.4
+citroen,c3,1.4 SX,58,2003,2008,Bilinmiyor,1.4
+citroen,c3,1.4 VTi Collection,17,2012,2013,Benzin,1.4
+citroen,c3,1.4 VTi Confort,46,2011,2013,Benzin,1.4
+citroen,c3,1.4 X Furio,14,2006,2010,Bilinmiyor,1.4
+citroen,c3,1.4 e-HDi Confort,43,2012,2015,Dizel,1.4
+citroen,c3,1.6 BlueHDi Feel,25,2016,2018,Dizel,1.6
+citroen,c3,1.6 BlueHDi Live,18,2016,2017,Dizel,1.6
+citroen,c3,1.6 HDi SX,21,2006,2009,Dizel,1.6
+citroen,c3,1.6 SX,16,2003,2009,Bilinmiyor,1.6
+citroen,c3,1.6 VTi Confort,11,2010,2011,Benzin,1.6
+citroen,c3,1.6 VTi Exclusive,7,2011,2011,Benzin,1.6
+citroen,c3,1.6 VTi Feel,14,2017,2018,Benzin,1.6
+citroen,c4,1.2 PureTech Feel,19,2021,2023,Benzin,1.2
+citroen,c4,1.2 PureTech Feel Bold,287,2021,2024,Benzin,1.2
+citroen,c4,1.2 PureTech Max,75,2024,2025,Benzin,1.2
+citroen,c4,1.2 PureTech Shine,212,2017,2024,Benzin,1.2
+citroen,c4,1.2 PureTech Shine Bold,130,2021,2024,Benzin,1.2
+citroen,c4,1.2 PureTech You,75,2024,2025,Benzin,1.2
+citroen,c4,1.4 Collection,1,2006,2006,Bilinmiyor,1.4
+citroen,c4,1.4 SX,80,2005,2011,Bilinmiyor,1.4
+citroen,c4,1.4 VTi Attraction,29,2011,2012,Benzin,1.4
+citroen,c4,1.5 BlueHDi Feel Bold,23,2021,2023,Dizel,1.5
+citroen,c4,1.5 BlueHDi Shine Bold,10,2021,2023,Dizel,1.5
+citroen,c4,1.6 BlueHDi Confort,45,2011,2016,Dizel,1.6
+citroen,c4,1.6 BlueHDi Feel,5,2017,2017,Dizel,1.6
+citroen,c4,1.6 BlueHDi Intensive,15,2015,2018,Dizel,1.6
+citroen,c4,1.6 Collection,1,2006,2006,Bilinmiyor,1.6
+citroen,c4,1.6 HDi Attraction,41,2011,2013,Dizel,1.6
+citroen,c4,1.6 HDi Confort,65,2011,2016,Dizel,1.6
+citroen,c4,1.6 HDi Confort Plus,37,2011,2015,Dizel,1.6
+citroen,c4,1.6 HDi Dynamique,6,2011,2012,Dizel,1.6
+citroen,c4,1.6 HDi Easy,10,2014,2016,Dizel,1.6
+citroen,c4,1.6 HDi SX,220,2005,2011,Dizel,1.6
+citroen,c4,1.6 HDi SX PK,63,2006,2012,Dizel,1.6
+citroen,c4,1.6 HDi VTRPK,13,2010,2011,Dizel,1.6
+citroen,c4,1.6 SX,56,2005,2011,Bilinmiyor,1.6
+citroen,c4,1.6 SX PK,46,2005,2009,Bilinmiyor,1.6
+citroen,c4,1.6 THP Exclusive,7,2011,2012,Bilinmiyor,1.6
+citroen,c4,1.6 VTR,11,2005,2010,Bilinmiyor,1.6
+citroen,c4,1.6 VTi Confort,29,2011,2014,Benzin,1.6
+citroen,c4,1.6 e-HDi Confort,124,2008,2015,Dizel,1.6
+citroen,c4,1.6 e-HDi Confort Plus,69,2011,2014,Dizel,1.6
+citroen,c4,1.6 e-HDi Dynamique,9,2012,2013,Dizel,1.6
+citroen,c4,1.6 e-HDi Exclusive,49,2011,2015,Dizel,1.6
+citroen,c4,1.6 e-HDi Intensive,31,2013,2015,Dizel,1.6
+citroen,c5,1.6 HDi Confort,6,2012,2012,Dizel,1.6
+citroen,c5,1.6 HDi Dynamique,10,2009,2012,Dizel,1.6
+citroen,c5,1.6 HDi Executive,6,2012,2013,Dizel,1.6
+citroen,c5,1.6 HDi SX,72,2006,2011,Dizel,1.6
+citroen,c5,1.6 HDi SX PK,68,2006,2011,Dizel,1.6
+citroen,c5,1.6 THP Exclusive,1,2011,2011,Bilinmiyor,1.6
+citroen,c5,1.6 e-HDi Confort,81,2010,2015,Dizel,1.6
+citroen,c5,1.6 e-HDi Dynamique,53,2011,2015,Dizel,1.6
+citroen,c5,1.6 e-HDi Executive,28,2011,2014,Dizel,1.6
+citroen,c5,2.0 HDi Exclusive,9,2009,2011,Dizel,2.0
+citroen,c5,2.0 HDi SX,6,2003,2006,Dizel,2.0
+citroen,saxo,1.4 SX,36,1997,2003,Bilinmiyor,1.4
+citroen,saxo,1.5D SX,20,2000,2003,Bilinmiyor,1.5
+citroen,saxo,1.6 SX,8,1997,1998,Bilinmiyor,1.6
+citroen,saxo,1.6 VTR,2,1997,1997,Bilinmiyor,1.6
+citroen,saxo,1.6 VTS,18,1997,2001,Bilinmiyor,1.6
+citroen,xsara,1.4 HDI,25,2004,2005,Dizel,1.4
+citroen,xsara,1.6 SX,32,1998,2004,Bilinmiyor,1.6
+citroen,xsara,1.6 VTR,1,2001,2001,Bilinmiyor,1.6
+citroen,xsara,1.8 SX,6,1998,1999,Bilinmiyor,1.8
+citroen,xsara,Picasso 1.6 1.6,9,2000,2002,Bilinmiyor,1.6
+citroen,xsara,Picasso 1.6 HDI,7,2006,2008,Dizel,1.6
+dacia,jogger,1.0 ECO-G Essential,8,2022,2023,Bilinmiyor,1.0
+dacia,jogger,1.0 ECO-G Expression,22,2022,2023,Bilinmiyor,1.0
+dacia,jogger,1.0 ECO-G Extreme,20,2022,2025,Bilinmiyor,1.0
+dacia,jogger,1.0 T Essential,13,2022,2023,Bilinmiyor,1.0
+dacia,jogger,1.0 T Expression,16,2022,2023,Bilinmiyor,1.0
+dacia,jogger,1.0 T Extreme,23,2022,2025,Bilinmiyor,1.0
+dacia,jogger,1.6 Hybrid Extreme,9,2024,2025,Hibrit/Elektrik,1.6
+dacia,lodgy,1.5 BlueDCI Ambiance,36,2019,2022,Dizel,1.5
+dacia,lodgy,1.5 BlueDCI Laureate,37,2019,2021,Dizel,1.5
+dacia,lodgy,1.5 BlueDCI Stepway,17,2019,2022,Dizel,1.5
+dacia,lodgy,1.5 dCi Allroad,5,2014,2014,Dizel,1.5
+dacia,lodgy,1.5 dCi Laureate,120,2012,2019,Dizel,1.5
+dacia,lodgy,1.5 dCi Stepway,37,2015,2019,Dizel,1.5
+dacia,lodgy,1.5 dCi Stepway Style,4,2018,2018,Dizel,1.5
+dacia,lodgy,1.6 ECO-G Ambiance,13,2019,2020,Bilinmiyor,1.6
+dacia,sandero,0.9 TCe Stepway,2,2013,2013,Benzin,0.9
+dacia,sandero,0.9 TCe Stepway Ambiance,17,2013,2014,Benzin,0.9
+dacia,sandero,0.9 TCe Stepway Easy-R,30,2020,2021,Benzin,0.9
+dacia,sandero,0.9 TCe Turbo Stepway Easy-R,43,2020,2020,Benzin,0.9
+dacia,sandero,1.0 Ambiance,11,2020,2020,Bilinmiyor,1.0
+dacia,sandero,1.0 Comfort,13,2021,2022,Bilinmiyor,1.0
+dacia,sandero,1.0 T Comfort,47,2021,2022,Bilinmiyor,1.0
+dacia,sandero,1.0 T ECO-G Stepway,20,2020,2023,Bilinmiyor,1.0
+dacia,sandero,1.0 T Essential,46,2022,2023,Bilinmiyor,1.0
+dacia,sandero,1.0 T Expression,16,2022,2025,Bilinmiyor,1.0
+dacia,sandero,1.0 T Prestige,36,2021,2022,Bilinmiyor,1.0
+dacia,sandero,1.2 Ambiance,34,2011,2014,Bilinmiyor,1.2
+dacia,sandero,1.4 Ambiance,47,2008,2011,Bilinmiyor,1.4
+dacia,sandero,1.4 Black Line,7,2010,2011,Bilinmiyor,1.4
+dacia,sandero,1.4 Laureate,18,2008,2010,Bilinmiyor,1.4
+dacia,sandero,1.5 BlueDCI Stepway,28,2013,2020,Dizel,1.5
+dacia,sandero,1.5 dCi Ambiance,70,2009,2014,Dizel,1.5
+dacia,sandero,1.5 dCi Black Line,14,2010,2012,Dizel,1.5
+dacia,sandero,1.5 dCi Laureate,3,2009,2010,Dizel,1.5
+dacia,sandero,1.5 dCi Stepway,350,2010,2020,Dizel,1.5
+dacia,sandero,1.6 Stepway,13,2010,2012,Bilinmiyor,1.6
+dacia,solenza,1.4 Comfort,4,2004,2005,Bilinmiyor,1.4
+dacia,solenza,1.4 Rapsodie,45,2003,2005,Bilinmiyor,1.4
+dacia,solenza,1.4 Scala,15,2004,2005,Bilinmiyor,1.4
+fiat,500,500 1.0 Hybrid Dolcevita,8,2021,2023,Hibrit/Elektrik,1.0
+fiat,500,500 1.2 Lounge,30,2009,2019,Bilinmiyor,1.2
+fiat,500,500C 1.2 Lounge,14,2010,2020,Bilinmiyor,1.2
+fiat,500,500E La Prima,67,2023,2025,Bilinmiyor,
+fiat,500,500L 1.3 Mjet Cross Plus,21,2017,2020,Dizel,1.3
+fiat,500,500L 1.3 Mjet Lounge,12,2014,2018,Dizel,1.3
+fiat,500,500L 1.3 Mjet Panoramic Edition,18,2013,2014,Dizel,1.3
+fiat,500,500L 1.3 Mjet PopStar,95,2013,2018,Dizel,1.3
+fiat,500,500L 1.3 Mjet RockStar,51,2013,2020,Dizel,1.3
+fiat,500,500L 1.4 PopStar,18,2013,2018,Bilinmiyor,1.4
+fiat,500,500L 1.6 Mjet RockStar,9,2013,2015,Dizel,1.6
+fiat,albea,1.2 Active,62,2004,2007,Bilinmiyor,1.2
+fiat,albea,1.2 Dynamic,51,2004,2007,Bilinmiyor,1.2
+fiat,albea,1.2 EL,118,2002,2007,Bilinmiyor,1.2
+fiat,albea,1.2 HL,14,2002,2006,Bilinmiyor,1.2
+fiat,albea,1.2 SL,19,2002,2006,Bilinmiyor,1.2
+fiat,albea,1.3 Multijet Active,129,2004,2008,Dizel,1.3
+fiat,albea,1.3 Multijet Dynamic,58,2004,2008,Dizel,1.3
+fiat,albea,1.3 Multijet EL,17,2004,2006,Dizel,1.3
+fiat,albea,1.3 Multijet SL,15,2004,2007,Dizel,1.3
+fiat,albea,1.4 Fire Active,32,2006,2011,Benzin,1.4
+fiat,albea,1.4 Fire Dynamic,13,2006,2011,Benzin,1.4
+fiat,albea,1.6 Dynamic,13,2006,2007,Bilinmiyor,1.6
+fiat,albea,1.6 HL,12,2002,2004,Bilinmiyor,1.6
+fiat,albea,Sole 1.3 Multijet Active,61,2007,2011,Dizel,1.3
+fiat,albea,Sole 1.3 Multijet Active Plus,19,2010,2012,Dizel,1.3
+fiat,albea,Sole 1.3 Multijet Dynamic,95,2007,2012,Dizel,1.3
+fiat,albea,Sole 1.3 Multijet Dynamic Plus,13,2008,2012,Dizel,1.3
+fiat,albea,Sole 1.3 Multijet Premio,46,2009,2011,Dizel,1.3
+fiat,albea,Sole 1.3 Multijet Premio Plus,22,2010,2012,Dizel,1.3
+fiat,albea,Sole 1.4 Fire Active,36,2004,2011,Benzin,1.4
+fiat,albea,Sole 1.4 Fire Active Plus,5,2010,2012,Benzin,1.4
+fiat,albea,Sole 1.4 Fire Dynamic,45,2007,2011,Benzin,1.4
+fiat,albea,Sole 1.4 Fire Dynamic Plus,9,2010,2012,Benzin,1.4
+fiat,albea,Sole 1.4 Fire Premio,44,2009,2012,Benzin,1.4
+fiat,albea,Sole 1.4 Fire Premio Plus,8,2010,2011,Benzin,1.4
+fiat,brava,1.6 ELX,59,1999,2003,Bilinmiyor,1.6
+fiat,brava,1.6 SX,117,1999,2003,Bilinmiyor,1.6
+fiat,bravo,1.4 Active,7,2008,2011,Bilinmiyor,1.4
+fiat,bravo,1.4 Active Plus,9,2011,2012,Bilinmiyor,1.4
+fiat,bravo,1.4 Fire Pop,2,2012,2012,Benzin,1.4
+fiat,bravo,1.4 Turbo Dynamic,8,2008,2011,Bilinmiyor,1.4
+fiat,bravo,1.4 Turbo Emotion,4,2008,2009,Bilinmiyor,1.4
+fiat,bravo,1.6,1,2001,2001,Bilinmiyor,1.6
+fiat,bravo,1.6 Mjet Active Plus,14,2010,2012,Dizel,1.6
+fiat,bravo,1.6 Mjet Dynamic,30,2008,2011,Dizel,1.6
+fiat,bravo,1.6 Mjet Dynamic Plus,44,2009,2012,Dizel,1.6
+fiat,bravo,1.6 Mjet Easy,10,2012,2013,Dizel,1.6
+fiat,bravo,1.6 Mjet Emotion,12,2008,2010,Dizel,1.6
+fiat,bravo,1.6 Mjet Sport Style,22,2009,2013,Dizel,1.6
+fiat,bravo,1.6 SX,24,1997,2001,Bilinmiyor,1.6
+fiat,egea,1.0 Firefly Lounge,9,2021,2021,Benzin,1.0
+fiat,egea,1.3 Multijet Easy,2620,2015,2024,Dizel,1.3
+fiat,egea,1.3 Multijet Easy Plus,396,2016,2024,Dizel,1.3
+fiat,egea,1.3 Multijet Easy Stil,78,2018,2022,Dizel,1.3
+fiat,egea,1.3 Multijet Lounge,7,2017,2023,Dizel,1.3
+fiat,egea,1.3 Multijet Mirror,12,2018,2020,Dizel,1.3
+fiat,egea,1.3 Multijet Street,26,2019,2022,Dizel,1.3
+fiat,egea,1.3 Multijet Urban,513,2015,2024,Dizel,1.3
+fiat,egea,1.3 Multijet Urban Plus,263,2016,2021,Dizel,1.3
+fiat,egea,1.4 Fire Easy,1220,2015,2025,Benzin,1.4
+fiat,egea,1.4 Fire Easy Plus,541,2016,2025,Benzin,1.4
+fiat,egea,1.4 Fire Easy Stil,55,2018,2021,Benzin,1.4
+fiat,egea,1.4 Fire Limited,17,2023,2025,Benzin,1.4
+fiat,egea,1.4 Fire Lounge,97,2016,2025,Benzin,1.4
+fiat,egea,1.4 Fire Lounge Plus,14,2016,2021,Benzin,1.4
+fiat,egea,1.4 Fire Mirror,53,2018,2021,Benzin,1.4
+fiat,egea,1.4 Fire Street,68,2019,2023,Benzin,1.4
+fiat,egea,1.4 Fire Urban,663,2015,2025,Benzin,1.4
+fiat,egea,1.4 Fire Urban Plus,284,2016,2023,Benzin,1.4
+fiat,egea,1.5 T4 Hibrit Easy,17,2022,2023,Hibrit/Elektrik,1.5
+fiat,egea,1.5 T4 Hibrit Lounge,7,2022,2022,Hibrit/Elektrik,1.5
+fiat,egea,1.5 T4 Hibrit Urban,21,2022,2023,Hibrit/Elektrik,1.5
+fiat,egea,1.6 E-Torq Easy,24,2019,2019,Bilinmiyor,1.6
+fiat,egea,1.6 E-Torq Lounge,26,2016,2017,Bilinmiyor,1.6
+fiat,egea,1.6 E-Torq Lounge Plus,22,2016,2019,Bilinmiyor,1.6
+fiat,egea,1.6 E-Torq Urban,55,2016,2019,Bilinmiyor,1.6
+fiat,egea,1.6 E-Torq Urban Plus,18,2016,2019,Bilinmiyor,1.6
+fiat,egea,1.6 Multijet Comfort,179,2016,2018,Dizel,1.6
+fiat,egea,1.6 Multijet Easy,1095,2018,2025,Dizel,1.6
+fiat,egea,1.6 Multijet Easy Plus,103,2016,2024,Dizel,1.6
+fiat,egea,1.6 Multijet Limited,11,2023,2025,Dizel,1.6
+fiat,egea,1.6 Multijet Lounge,177,2015,2025,Dizel,1.6
+fiat,egea,1.6 Multijet Lounge Plus,100,2016,2022,Dizel,1.6
+fiat,egea,1.6 Multijet Mirror,36,2018,2020,Dizel,1.6
+fiat,egea,1.6 Multijet S-Design,16,2019,2020,Dizel,1.6
+fiat,egea,1.6 Multijet Street,21,2019,2022,Dizel,1.6
+fiat,egea,1.6 Multijet Urban,550,2015,2025,Dizel,1.6
+fiat,egea,1.6 Multijet Urban Plus,252,2016,2024,Dizel,1.6
+fiat,linea,1.3 Multijet Active,167,2007,2013,Dizel,1.3
+fiat,linea,1.3 Multijet Active Plus,1129,2008,2015,Dizel,1.3
+fiat,linea,1.3 Multijet Actual,18,2011,2014,Dizel,1.3
+fiat,linea,1.3 Multijet Actual Plus,54,2010,2015,Dizel,1.3
+fiat,linea,1.3 Multijet Dynamic,60,2007,2011,Dizel,1.3
+fiat,linea,1.3 Multijet Dynamic Plus,25,2009,2016,Dizel,1.3
+fiat,linea,1.3 Multijet Easy,146,2012,2016,Dizel,1.3
+fiat,linea,1.3 Multijet Emotion,43,2007,2012,Dizel,1.3
+fiat,linea,1.3 Multijet Emotion Plus,60,2008,2013,Dizel,1.3
+fiat,linea,1.3 Multijet Lounge,26,2014,2015,Dizel,1.3
+fiat,linea,1.3 Multijet Mood,10,2015,2015,Dizel,1.3
+fiat,linea,1.3 Multijet Pop,858,2012,2017,Dizel,1.3
+fiat,linea,1.3 Multijet Urban,261,2012,2017,Dizel,1.3
+fiat,linea,1.3 Multijet VIA,6,2012,2012,Dizel,1.3
+fiat,linea,1.4 Fire Active,36,2007,2013,Benzin,1.4
+fiat,linea,1.4 Fire Active Plus,78,2009,2015,Benzin,1.4
+fiat,linea,1.4 Fire Actual,48,2011,2014,Benzin,1.4
+fiat,linea,1.4 Fire Actual Plus,27,2013,2015,Benzin,1.4
+fiat,linea,1.4 Fire Dynamic,19,2007,2009,Benzin,1.4
+fiat,linea,1.4 Fire Easy,26,2013,2014,Benzin,1.4
+fiat,linea,1.4 Fire Pop,129,2013,2017,Benzin,1.4
+fiat,linea,1.4 Turbo Dynamic,3,2008,2009,Bilinmiyor,1.4
+fiat,linea,1.4 Turbo Emotion,12,2008,2010,Bilinmiyor,1.4
+fiat,linea,1.6 Multijet Active Plus,26,2009,2012,Dizel,1.6
+fiat,linea,1.6 Multijet Dynamic,14,2009,2012,Dizel,1.6
+fiat,linea,1.6 Multijet Dynamic Plus,18,2009,2012,Dizel,1.6
+fiat,linea,1.6 Multijet Easy,5,2012,2014,Dizel,1.6
+fiat,linea,1.6 Multijet Emotion,5,2009,2012,Dizel,1.6
+fiat,linea,1.6 Multijet Emotion Plus,46,2009,2012,Dizel,1.6
+fiat,linea,1.6 Multijet Lounge,49,2012,2014,Dizel,1.6
+fiat,linea,1.6 Multijet Urban,27,2012,2014,Dizel,1.6
+fiat,marea,1.6 ELX,83,1997,2002,Bilinmiyor,1.6
+fiat,marea,1.6 Exclusive,36,2002,2007,Bilinmiyor,1.6
+fiat,marea,1.6 Liberty,191,1998,2007,Bilinmiyor,1.6
+fiat,marea,1.6 SX,90,1997,2002,Bilinmiyor,1.6
+fiat,marea,2.0 HLX,3,1998,2002,Bilinmiyor,2.0
+fiat,palio,1.2 Active,61,2004,2007,Bilinmiyor,1.2
+fiat,palio,1.2 Dynamic,8,2005,2006,Bilinmiyor,1.2
+fiat,palio,1.2 Dynamic Speedgear,9,2005,2007,Bilinmiyor,1.2
+fiat,palio,1.2 EL,161,2000,2006,Bilinmiyor,1.2
+fiat,palio,1.2 EL Speedgear,36,2002,2005,Bilinmiyor,1.2
+fiat,palio,1.2 EL Weekend,14,2001,2002,Bilinmiyor,1.2
+fiat,palio,1.2 Feel,1,2004,2004,Bilinmiyor,1.2
+fiat,palio,1.2 Go,19,2004,2005,Bilinmiyor,1.2
+fiat,palio,1.2 HL,12,2002,2006,Bilinmiyor,1.2
+fiat,palio,1.2 S,82,2000,2003,Bilinmiyor,1.2
+fiat,palio,1.2 S Weekend,12,2000,2001,Bilinmiyor,1.2
+fiat,palio,1.2 SL,85,2002,2005,Bilinmiyor,1.2
+fiat,palio,1.3 Multijet Active,56,2005,2010,Dizel,1.3
+fiat,palio,1.3 Multijet Active Sole,33,2007,2012,Dizel,1.3
+fiat,palio,1.3 Multijet Dynamic,31,2005,2007,Dizel,1.3
+fiat,palio,1.3 Multijet Dynamic Sole,21,2007,2011,Dizel,1.3
+fiat,palio,1.3 Multijet EL,46,2004,2007,Dizel,1.3
+fiat,palio,1.3 Multijet SL,9,2004,2006,Dizel,1.3
+fiat,palio,1.4 EL,338,1998,2002,Bilinmiyor,1.4
+fiat,palio,1.4 EL Weekend,60,1999,2002,Bilinmiyor,1.4
+fiat,palio,1.4 Fire Active,23,2006,2008,Benzin,1.4
+fiat,palio,1.4 Fire Active Sole,41,2007,2011,Benzin,1.4
+fiat,palio,1.4 Fire Dynamic,5,2006,2008,Benzin,1.4
+fiat,palio,1.4 Fire Dynamic Sole,22,2007,2011,Benzin,1.4
+fiat,palio,1.4 Fire Premio Sole,8,2010,2011,Benzin,1.4
+fiat,palio,1.4 HL,13,1999,2001,Bilinmiyor,1.4
+fiat,palio,1.4 RT,18,1998,2001,Bilinmiyor,1.4
+fiat,palio,1.6 HL,137,1998,2002,Bilinmiyor,1.6
+fiat,palio,1.6 HL Weekend,59,1999,2001,Bilinmiyor,1.6
+fiat,palio,1.6 Sporting,8,2002,2005,Bilinmiyor,1.6
+fiat,panda,1.2,2,2005,2014,Bilinmiyor,1.2
+fiat,panda,1.2 Active,21,2005,2012,Bilinmiyor,1.2
+fiat,panda,1.2 Dynamic,64,2004,2012,Bilinmiyor,1.2
+fiat,panda,1.2 Pop,12,2012,2017,Bilinmiyor,1.2
+fiat,punto,1.2,2,2000,2004,Bilinmiyor,1.2
+fiat,punto,1.2 Dynamic,12,2004,2006,Bilinmiyor,1.2
+fiat,punto,1.2 Pop,38,2012,2014,Bilinmiyor,1.2
+fiat,punto,1.2 PopStar,16,2014,2015,Bilinmiyor,1.2
+fiat,punto,1.3 Multijet Dynamic,47,2004,2008,Dizel,1.3
+fiat,punto,1.3 Multijet Easy,36,2008,2014,Dizel,1.3
+fiat,punto,1.3 Multijet Lounge,52,2012,2014,Dizel,1.3
+fiat,punto,1.3 Multijet Pop,89,2012,2014,Dizel,1.3
+fiat,punto,1.3 Multijet Popstar,27,2013,2015,Dizel,1.3
+fiat,punto,1.3 Multijet Shine,5,2004,2006,Dizel,1.3
+fiat,punto,1.3 Multijet Urban,1,2015,2015,Dizel,1.3
+fiat,punto,1.4 Dynamic,42,2003,2011,Bilinmiyor,1.4
+fiat,punto,1.4 Easy S&S,60,2012,2017,Bilinmiyor,1.4
+fiat,punto,1.4 Lounge S&S,29,2012,2015,Bilinmiyor,1.4
+fiat,punto,1.4 Mair Lounge S&S,11,2012,2013,Bilinmiyor,1.4
+fiat,punto,1.4 Pop S&S,30,2012,2013,Bilinmiyor,1.4
+fiat,punto,1.4 Popstar S&S,38,2014,2017,Bilinmiyor,1.4
+fiat,punto,1.6,1,1996,1996,Bilinmiyor,1.6
+fiat,punto,EVO 1.3 Multijet Active,23,2009,2012,Dizel,1.3
+fiat,punto,EVO 1.3 Multijet Dynamic,106,2009,2012,Dizel,1.3
+fiat,punto,EVO 1.3 Multijet My Life,14,2011,2012,Dizel,1.3
+fiat,punto,EVO 1.4 Dynamic,66,2004,2012,Bilinmiyor,1.4
+fiat,punto,EVO 1.4 Fire Active,25,2009,2012,Benzin,1.4
+fiat,punto,EVO 1.4 Fire Dynamic,8,2011,2014,Benzin,1.4
+fiat,punto,EVO 1.4 Fire My Life,20,2011,2012,Benzin,1.4
+fiat,punto,EVO 1.4 Multiair Dynamic,10,2010,2012,Bilinmiyor,1.4
+fiat,punto,Grande 1.3 Multijet 1.3 Multijet,41,2009,2012,Dizel,1.3
+fiat,punto,Grande 1.3 Multijet Active,151,2006,2012,Dizel,1.3
+fiat,punto,Grande 1.3 Multijet Dynamic,94,2006,2012,Dizel,1.3
+fiat,punto,Grande 1.3 Multijet Emotion,9,2006,2008,Dizel,1.3
+fiat,punto,Grande 1.4 Fire Active,136,2006,2011,Benzin,1.4
+fiat,punto,Grande 1.4 Fire Dynamic,63,2006,2011,Benzin,1.4
+fiat,punto,Grande 1.4 Fire S&S,14,2011,2012,Benzin,1.4
+fiat,punto,Grande 1.4 Starjet Dynamic,10,2006,2009,Bilinmiyor,1.4
+fiat,siena,1.2 EL,33,2001,2002,Bilinmiyor,1.2
+fiat,siena,1.2 S,58,2000,2002,Bilinmiyor,1.2
+fiat,siena,1.4 EL,182,1999,2001,Bilinmiyor,1.4
+fiat,siena,1.6 HL,91,1999,2001,Bilinmiyor,1.6
+fiat,uno,1.4 ie Hobby,10,1998,2000,Benzin,1.4
+fiat,uno,1.4 ie SX,110,1996,2001,Benzin,1.4
+fiat,uno,60 S,1,1995,1995,Bilinmiyor,
+fiat,uno,70 S,281,1995,2001,Bilinmiyor,
+fiat,uno,70 SX,132,1995,2000,Bilinmiyor,
+fiat,uno,70 SXie,4,1997,1998,Bilinmiyor,
+ford,c,1.0 EcoBoost Titanium,1,2013,2013,Benzin,1.0
+ford,c,1.5 TDCi Titanium,12,2016,2017,Dizel,1.5
+ford,c,1.5 TDCi Trend,11,2015,2018,Dizel,1.5
+ford,c,1.6 EcoBoost Titanium,11,2011,2011,Benzin,1.6
+ford,c,1.6 Ghia,13,2005,2006,Bilinmiyor,1.6
+ford,c,1.6 TDCi Ghia,90,2004,2014,Dizel,1.6
+ford,c,1.6 TDCi Titanium,211,2008,2017,Dizel,1.6
+ford,c,1.6 TDCi Trend,105,2004,2016,Dizel,1.6
+ford,c,1.6 Trend,72,2004,2017,Bilinmiyor,1.6
+ford,c,2.0 TDCi Titanium,1,2004,2004,Dizel,2.0
+ford,c,2.0 TDCi Trend,1,2004,2004,Dizel,2.0
+ford,fiesta,1.0 EcoBoost Style,11,2020,2020,Benzin,1.0
+ford,fiesta,1.0 EcoBoost Titanium,41,2014,2023,Benzin,1.0
+ford,fiesta,1.0 EcoBoost Trend,9,2018,2018,Benzin,1.0
+ford,fiesta,1.0 GTDi Titanium,30,2013,2016,Dizel,1.0
+ford,fiesta,1.1 Style,20,2022,2023,Bilinmiyor,1.1
+ford,fiesta,1.1 Trend,7,2017,2018,Bilinmiyor,1.1
+ford,fiesta,1.1 Trend X,16,2017,2019,Bilinmiyor,1.1
+ford,fiesta,1.25 My Fiesta,48,2010,2013,Bilinmiyor,1.25
+ford,fiesta,1.25 Trend,175,2009,2016,Bilinmiyor,1.25
+ford,fiesta,1.25 Trend X,137,2009,2017,Bilinmiyor,1.25
+ford,fiesta,1.4 Collection,15,2006,2009,Bilinmiyor,1.4
+ford,fiesta,1.4 Comfort,176,2005,2009,Bilinmiyor,1.4
+ford,fiesta,1.4 Cool,7,2005,2008,Bilinmiyor,1.4
+ford,fiesta,1.4 My Fiesta,18,2010,2012,Bilinmiyor,1.4
+ford,fiesta,1.4 TDCi Collection,56,2006,2009,Dizel,1.4
+ford,fiesta,1.4 TDCi Comfort,466,2005,2012,Dizel,1.4
+ford,fiesta,1.4 TDCi My Fiesta,26,2010,2011,Dizel,1.4
+ford,fiesta,1.4 TDCi Sport,14,2005,2008,Dizel,1.4
+ford,fiesta,1.4 TDCi Titanium,386,2008,2012,Dizel,1.4
+ford,fiesta,1.4 TDCi Trend,386,2008,2013,Dizel,1.4
+ford,fiesta,1.4 Titanium,362,2009,2016,Bilinmiyor,1.4
+ford,fiesta,1.4 Trend,34,2009,2012,Bilinmiyor,1.4
+ford,fiesta,1.5 TDCi Titanium,243,2012,2020,Dizel,1.5
+ford,fiesta,1.5 TDCi Trend,215,2012,2019,Dizel,1.5
+ford,fiesta,1.5 TDCi Trend X,111,2014,2017,Dizel,1.5
+ford,fiesta,1.6 Collection,6,2008,2009,Bilinmiyor,1.6
+ford,fiesta,1.6 Comfort,24,2005,2008,Bilinmiyor,1.6
+ford,fiesta,1.6 Ghia,2,2006,2007,Bilinmiyor,1.6
+ford,fiesta,1.6 Sport,2,2011,2011,Bilinmiyor,1.6
+ford,fiesta,1.6 TDCi Sport,5,2007,2008,Dizel,1.6
+ford,fiesta,1.6 TDCi Titanium,23,2009,2012,Dizel,1.6
+ford,fiesta,1.6 Ti-VCT Trend X,23,2015,2017,Benzin,1.6
+ford,fiesta,1.6 Titanium,137,2012,2017,Bilinmiyor,1.6
+ford,fiesta,1.6 Trend,38,2013,2017,Bilinmiyor,1.6
+ford,fiesta,1.6 Trend X,24,2013,2016,Bilinmiyor,1.6
+ford,focus,1.0 EcoBoost GTDi Active X,13,2023,2023,Benzin,1.0
+ford,focus,1.0 EcoBoost GTDi Style,16,2012,2013,Benzin,1.0
+ford,focus,1.0 EcoBoost GTDi Titanium,21,2012,2016,Benzin,1.0
+ford,focus,1.0 EcoBoost GTDi Titanium Stil,44,2012,2023,Benzin,1.0
+ford,focus,1.0 EcoBoost GTDi Titanium X,42,2023,2023,Benzin,1.0
+ford,focus,1.0 EcoBoost GTDi Trend X,25,2012,2023,Benzin,1.0
+ford,focus,1.0 EcoBoost Hybrid Active Stil,11,2023,2023,Hibrit/Elektrik,1.0
+ford,focus,1.0 EcoBoost Hybrid Active X,12,2023,2023,Hibrit/Elektrik,1.0
+ford,focus,1.0 EcoBoost Hybrid Titanium Stil,7,2023,2023,Hibrit/Elektrik,1.0
+ford,focus,1.4 Comfort,4,2004,2005,Bilinmiyor,1.4
+ford,focus,1.5 EcoBlue Active,11,2023,2023,Dizel,1.5
+ford,focus,1.5 EcoBlue Active Stil,13,2024,2024,Dizel,1.5
+ford,focus,1.5 EcoBlue Active X,66,2023,2024,Dizel,1.5
+ford,focus,1.5 EcoBlue Titanium,165,2018,2024,Dizel,1.5
+ford,focus,1.5 EcoBlue Titanium Stil,195,2023,2025,Dizel,1.5
+ford,focus,1.5 EcoBlue Titanium X,234,2023,2025,Dizel,1.5
+ford,focus,1.5 EcoBlue Trend X,301,2018,2024,Dizel,1.5
+ford,focus,1.5 TDCi Style,77,2015,2018,Dizel,1.5
+ford,focus,1.5 TDCi Titanium,471,2015,2023,Dizel,1.5
+ford,focus,1.5 TDCi Trend X,1061,2015,2021,Dizel,1.5
+ford,focus,1.5 Ti-VCT Titanium,82,2018,2023,Benzin,1.5
+ford,focus,1.5 Ti-VCT Trend X,156,2018,2023,Benzin,1.5
+ford,focus,1.6 Ambiente,173,1999,2015,Bilinmiyor,1.6
+ford,focus,1.6 Collection,140,2001,2011,Bilinmiyor,1.6
+ford,focus,1.6 Comfort,308,2000,2011,Bilinmiyor,1.6
+ford,focus,1.6 Ghia,339,1999,2011,Bilinmiyor,1.6
+ford,focus,1.6 SCTi Titanium,11,2006,2012,Bilinmiyor,1.6
+ford,focus,1.6 TDCi Collection,243,2006,2011,Dizel,1.6
+ford,focus,1.6 TDCi Comfort,21,2010,2012,Dizel,1.6
+ford,focus,1.6 TDCi Ghia,147,2004,2008,Dizel,1.6
+ford,focus,1.6 TDCi Style,266,2007,2017,Dizel,1.6
+ford,focus,1.6 TDCi Titanium,586,2008,2017,Dizel,1.6
+ford,focus,1.6 TDCi Trend,414,2005,2014,Dizel,1.6
+ford,focus,1.6 TDCi Trend X,1039,2008,2018,Dizel,1.6
+ford,focus,1.6 Ti-VCT Collection,9,2010,2011,Benzin,1.6
+ford,focus,1.6 Ti-VCT Style,165,2011,2017,Benzin,1.6
+ford,focus,1.6 Ti-VCT Style Plus,13,2011,2013,Benzin,1.6
+ford,focus,1.6 Ti-VCT Titanium,198,2008,2018,Benzin,1.6
+ford,focus,1.6 Ti-VCT Trend,53,2008,2014,Benzin,1.6
+ford,focus,1.6 Ti-VCT Trend X,432,2009,2018,Benzin,1.6
+ford,focus,1.6 Titanium,138,2008,2011,Bilinmiyor,1.6
+ford,focus,1.6 Trend,140,2003,2012,Bilinmiyor,1.6
+ford,focus,1.6 Trend X,29,2009,2020,Bilinmiyor,1.6
+ford,focus,1.8 TDCi Comfort,7,2002,2004,Dizel,1.8
+ford,focus,1.8 TDCi Ghia,2,2004,2008,Dizel,1.8
+ford,focus,2.0 Ghia,24,2000,2002,Bilinmiyor,2.0
+ford,focus,2.0 ST,3,2001,2017,Bilinmiyor,2.0
+ford,focus,2.0 Sport Trend,1,2001,2001,Bilinmiyor,2.0
+ford,fusion,1.4 TDCi Collection,6,2011,2011,Dizel,1.4
+ford,fusion,1.4 TDCi Comfort,139,2004,2011,Dizel,1.4
+ford,fusion,1.6,24,2003,2007,Bilinmiyor,1.6
+ford,fusion,1.6 Comfort,9,2005,2011,Bilinmiyor,1.6
+ford,fusion,1.6 Lux,59,2004,2008,Bilinmiyor,1.6
+ford,fusion,1.6 TDCi Lux,15,2006,2008,Dizel,1.6
+ford,mondeo,1.5 Ecoboost Style,27,2015,2020,Benzin,1.5
+ford,mondeo,1.5 Ecoboost Titanium,103,2015,2020,Benzin,1.5
+ford,mondeo,1.6 Ecoboost Selective,9,2011,2011,Benzin,1.6
+ford,mondeo,1.6 Ecoboost Titanium,10,2007,2012,Benzin,1.6
+ford,mondeo,1.6 Selective,6,2009,2011,Bilinmiyor,1.6
+ford,mondeo,1.6 TDCi Selective,9,2011,2013,Dizel,1.6
+ford,mondeo,1.6 TDCi Style,13,2015,2016,Dizel,1.6
+ford,mondeo,1.6 TDCi Titanium,57,2011,2017,Dizel,1.6
+ford,mondeo,1.6 TDCi Trend,15,2011,2013,Dizel,1.6
+ford,mondeo,1.6 Titanium,70,2007,2011,Bilinmiyor,1.6
+ford,mondeo,1.6 Trend,15,2007,2013,Bilinmiyor,1.6
+ford,mondeo,1.8 CLX,1,1995,1995,Bilinmiyor,1.8
+ford,mondeo,1.8 TDCi Ghia,1,1997,1997,Dizel,1.8
+ford,mondeo,2.0 GLX,34,1996,2000,Bilinmiyor,2.0
+ford,mondeo,2.0 Ghia,53,1996,2007,Bilinmiyor,2.0
+ford,mondeo,2.0 Ghia X,8,2004,2006,Bilinmiyor,2.0
+ford,mondeo,2.0 TDCi Ghia,18,2001,2007,Dizel,2.0
+ford,mondeo,2.0 TDCi Selective,15,2009,2015,Dizel,2.0
+ford,mondeo,2.0 TDCi Titanium,67,2006,2018,Dizel,2.0
+ford,mondeo,2.0 TDCi Trend,56,2002,2013,Dizel,2.0
+ford,mondeo,2.0 Trend,25,2001,2007,Bilinmiyor,2.0
+honda,accord,1.5 VTEC Executive,21,2022,2023,Benzin,1.5
+honda,accord,1.5 VTEC Executive Plus,37,2021,2023,Benzin,1.5
+honda,accord,1.8 LS,6,2000,2001,Bilinmiyor,1.8
+honda,accord,2.0,2,2003,2008,Bilinmiyor,2.0
+honda,accord,2.0 ES,5,1997,2000,Bilinmiyor,2.0
+honda,accord,2.0 EX,1,2000,2000,Bilinmiyor,2.0
+honda,accord,2.0 Executive,55,2004,2014,Bilinmiyor,2.0
+honda,accord,2.0 LS,4,1998,1998,Bilinmiyor,2.0
+honda,accord,2.0 Sport,6,2004,2005,Bilinmiyor,2.0
+honda,accord,2.4 Executive,6,2004,2005,Bilinmiyor,2.4
+honda,city,1.4 Comfort,45,2006,2009,Bilinmiyor,1.4
+honda,city,1.4 ES,31,2009,2011,Bilinmiyor,1.4
+honda,city,1.4 Elite,81,2006,2009,Bilinmiyor,1.4
+honda,city,1.4 LS,28,2009,2011,Bilinmiyor,1.4
+honda,city,1.4 Sport,13,2006,2007,Bilinmiyor,1.4
+honda,city,1.5 i-VTEC Elegance,7,2021,2022,Benzin,1.5
+honda,city,1.5 i-VTEC Executive,275,2021,2024,Benzin,1.5
+honda,civic,1.4 1.4i,7,1996,1998,Bilinmiyor,1.4
+honda,civic,1.4 Comfort,12,2009,2013,Bilinmiyor,1.4
+honda,civic,1.4 Hybrid,8,2008,2010,Hibrit/Elektrik,1.4
+honda,civic,1.4 LS,1,1996,1996,Bilinmiyor,1.4
+honda,civic,1.4 S,1,2001,2001,Bilinmiyor,1.4
+honda,civic,1.4 Sport,31,2009,2014,Bilinmiyor,1.4
+honda,civic,1.4 i S,130,1996,2001,Bilinmiyor,1.4
+honda,civic,1.5 EL,1,1995,1995,Bilinmiyor,1.5
+honda,civic,1.5 EX,4,1995,1995,Bilinmiyor,1.5
+honda,civic,1.5 VTEC Eco Elegance,141,2021,2025,LPG,1.5
+honda,civic,1.5 VTEC Eco Elegance Plus,8,2022,2024,LPG,1.5
+honda,civic,1.5 VTEC Eco Executive Plus,133,2021,2025,LPG,1.5
+honda,civic,1.5 VTEC Eco Premium,33,2021,2022,LPG,1.5
+honda,civic,1.5 VTEC Elegance,109,2019,2024,Benzin,1.5
+honda,civic,1.5 VTEC Executive Plus,149,2019,2025,Benzin,1.5
+honda,civic,1.5 VTEC RS,75,2016,2019,Benzin,1.5
+honda,civic,1.5 VTEC Sport,45,2017,2020,Benzin,1.5
+honda,civic,1.5 VTEC Sport Plus,56,2018,2021,Benzin,1.5
+honda,civic,1.6 1.6i,1,2007,2007,Bilinmiyor,1.6
+honda,civic,1.6 Comfort,1,2002,2002,Bilinmiyor,1.6
+honda,civic,1.6 Elegance,37,2007,2021,Bilinmiyor,1.6
+honda,civic,1.6 LS,27,2002,2006,Bilinmiyor,1.6
+honda,civic,1.6 LSi,19,1996,1998,Bilinmiyor,1.6
+honda,civic,1.6 Si,3,1996,1996,Bilinmiyor,1.6
+honda,civic,1.6 Sport,21,2002,2005,Bilinmiyor,1.6
+honda,civic,1.6 VTEC ES,217,2001,2007,Benzin,1.6
+honda,civic,1.6 VTEC LS,196,2000,2007,Benzin,1.6
+honda,civic,1.6 VTi,14,1996,1999,Benzin,1.6
+honda,civic,1.6 i ES,193,1996,2006,Bilinmiyor,1.6
+honda,civic,1.6i DTEC Elegance,123,2015,2020,Bilinmiyor,1.6
+honda,civic,1.6i DTEC Executive,56,2018,2019,Bilinmiyor,1.6
+honda,civic,1.6i DTEC Executive Plus,9,2019,2020,Bilinmiyor,1.6
+honda,civic,1.6i DTEC Sport,20,2013,2016,Bilinmiyor,1.6
+honda,civic,1.6i VTEC Black Edition,19,2015,2016,Benzin,1.6
+honda,civic,1.6i VTEC Dream,271,2006,2020,Benzin,1.6
+honda,civic,1.6i VTEC Eco Dream,22,2013,2019,LPG,1.6
+honda,civic,1.6i VTEC Eco Elegance,1994,2012,2021,LPG,1.6
+honda,civic,1.6i VTEC Eco Executive,780,2014,2021,LPG,1.6
+honda,civic,1.6i VTEC Eco Premium,181,2012,2019,LPG,1.6
+honda,civic,1.6i VTEC Elegance,744,2006,2021,Benzin,1.6
+honda,civic,1.6i VTEC Executive,82,2014,2020,Benzin,1.6
+honda,civic,1.6i VTEC Premium,346,2006,2018,Benzin,1.6
+honda,civic,1.8 Executive,6,2006,2010,Bilinmiyor,1.8
+honda,civic,1.8 Sport,60,2006,2010,Bilinmiyor,1.8
+honda,civic,2.0 Type-R,35,1997,2023,Bilinmiyor,2.0
+honda,jazz,1.3 Elegance,31,2015,2019,Bilinmiyor,1.3
+honda,jazz,1.4 ES,65,2002,2007,Bilinmiyor,1.4
+honda,jazz,1.4 Elite,73,2004,2009,Bilinmiyor,1.4
+honda,jazz,1.4 Fun,94,2009,2012,Bilinmiyor,1.4
+honda,jazz,1.4 Joy,55,2009,2012,Bilinmiyor,1.4
+honda,jazz,1.4 LS,52,2002,2009,Bilinmiyor,1.4
+honda,jazz,1.4 Sport,34,2005,2009,Bilinmiyor,1.4
+hyundai,accent,1.3 Admire,206,2003,2008,Bilinmiyor,1.3
+hyundai,accent,1.3 GLS,8,2000,2006,Bilinmiyor,1.3
+hyundai,accent,1.3 LS,22,2000,2001,Bilinmiyor,1.3
+hyundai,accent,1.3 LX,178,2000,2003,Bilinmiyor,1.3
+hyundai,accent,1.3 LX Allegro,8,2001,2002,Bilinmiyor,1.3
+hyundai,accent,1.4 CVVT Biz,13,2012,2014,Benzin,1.4
+hyundai,accent,1.4 CVVT Mode,32,2011,2013,Benzin,1.4
+hyundai,accent,1.4 CVVT Mode Plus,72,2012,2014,Benzin,1.4
+hyundai,accent,1.4 CVVT Prime,22,2011,2014,Benzin,1.4
+hyundai,accent,1.4 D-CVVT Mode,4,2013,2014,Benzin,1.4
+hyundai,accent,1.4 D-CVVT Mode Plus,21,2013,2014,Benzin,1.4
+hyundai,accent,1.4 Expo Gold,15,2009,2010,Bilinmiyor,1.4
+hyundai,accent,1.4 Mode,20,2011,2012,Bilinmiyor,1.4
+hyundai,accent,1.4 Select,21,2009,2011,Bilinmiyor,1.4
+hyundai,accent,1.4 Start,59,2009,2012,Bilinmiyor,1.4
+hyundai,accent,1.4 Team,288,2009,2012,Bilinmiyor,1.4
+hyundai,accent,1.5 1.5i GL,19,2000,2002,Bilinmiyor,1.5
+hyundai,accent,1.5 1.5i GLS,34,2000,2003,Bilinmiyor,1.5
+hyundai,accent,1.5 CRDi Active,2,2006,2006,Dizel,1.5
+hyundai,accent,1.5 CRDi Admire,265,2002,2006,Dizel,1.5
+hyundai,accent,1.5 CRDi GLS,17,2002,2006,Dizel,1.5
+hyundai,accent,1.5 CRDi Mode,96,2011,2012,Dizel,1.5
+hyundai,accent,1.5 CRDi Prime,12,2010,2012,Dizel,1.5
+hyundai,accent,1.5 CRDi Select,27,2009,2011,Dizel,1.5
+hyundai,accent,1.5 CRDi Start,41,2009,2012,Dizel,1.5
+hyundai,accent,1.5 CRDi Style,15,2009,2011,Dizel,1.5
+hyundai,accent,1.5 CRDi Team,35,2009,2012,Dizel,1.5
+hyundai,accent,1.5 CRDi-VGT Eco,16,2010,2011,Dizel,1.5
+hyundai,accent,1.5 CRDi-VGT Select,22,2009,2012,Dizel,1.5
+hyundai,accent,1.5 CRDi-VGT Start,4,2009,2010,Dizel,1.5
+hyundai,accent,1.5 CRDi-VGT Style,3,2009,2009,Dizel,1.5
+hyundai,accent,1.5 CRDi-VGT Team,221,2009,2012,Dizel,1.5
+hyundai,accent,1.5 GL,3,2001,2003,Bilinmiyor,1.5
+hyundai,accent,1.5 GLS,48,2000,2003,Bilinmiyor,1.5
+hyundai,accent,1.5 GLX,3,2001,2003,Bilinmiyor,1.5
+hyundai,accent,1.5 GT,1,2000,2000,Bilinmiyor,1.5
+hyundai,accent,1.5 LS,1,2000,2000,Bilinmiyor,1.5
+hyundai,accent,1.6 Admire,96,2003,2009,Bilinmiyor,1.6
+hyundai,accent,1.6 CRDI Biz,129,2012,2014,Dizel,1.6
+hyundai,accent,1.6 CRDI Mode,112,2011,2014,Dizel,1.6
+hyundai,accent,1.6 CRDI Mode Plus,186,2012,2014,Dizel,1.6
+hyundai,accent,1.6 CRDI Prime,51,2011,2014,Dizel,1.6
+hyundai,accent,1.6 Expo Platinyum,11,2009,2010,Bilinmiyor,1.6
+hyundai,accent,1.6 Select,15,2009,2012,Bilinmiyor,1.6
+hyundai,accent,1.6 Style,1,2010,2010,Bilinmiyor,1.6
+hyundai,accent,1.6 Team,26,2009,2012,Bilinmiyor,1.6
+hyundai,getz,1.3 GLS,298,2003,2006,Bilinmiyor,1.3
+hyundai,getz,1.4 DOHC 1.4 AB AC,162,2006,2011,Bilinmiyor,1.4
+hyundai,getz,1.4 DOHC HY KLM,125,2006,2011,Bilinmiyor,1.4
+hyundai,getz,1.4 DOHC Start,166,2006,2011,Bilinmiyor,1.4
+hyundai,getz,1.5 CRDi Active,17,2006,2011,Dizel,1.5
+hyundai,getz,1.5 CRDi Classic,8,2006,2010,Dizel,1.5
+hyundai,getz,1.5 CRDi GL Active,9,2005,2006,Dizel,1.5
+hyundai,getz,1.5 CRDi GL Cool,11,2004,2006,Dizel,1.5
+hyundai,getz,1.5 CRDi GLS,69,2004,2005,Dizel,1.5
+hyundai,getz,1.5 CRDi HY KLM,9,2004,2005,Dizel,1.5
+hyundai,getz,1.5 CRDi VGT,252,2005,2011,Dizel,1.5
+hyundai,getz,1.5 CRDi VGT Start,121,2008,2011,Dizel,1.5
+hyundai,i10,1.0 D-CVVT Jump,32,2016,2019,Benzin,1.0
+hyundai,i10,1.0 D-CVVT Style,120,2013,2019,Benzin,1.0
+hyundai,i10,1.0 MPI Jump,7,2020,2023,Benzin,1.0
+hyundai,i10,1.1 Select,29,2008,2011,Bilinmiyor,1.1
+hyundai,i10,1.1 Team,33,2008,2011,Bilinmiyor,1.1
+hyundai,i10,1.2 D-CVVT Elite,53,2013,2018,Benzin,1.2
+hyundai,i10,1.2 MPI Elite,43,2020,2025,Benzin,1.2
+hyundai,i10,1.2 MPI Style,26,2020,2025,Benzin,1.2
+hyundai,i20,1.0 T-GDI Elite,54,2018,2025,Benzin,1.0
+hyundai,i20,1.0 T-GDI Jump,105,2024,2025,Benzin,1.0
+hyundai,i20,1.0 T-GDI Style,127,2018,2025,Benzin,1.0
+hyundai,i20,1.0 T-GDI Style Plus,25,2020,2021,Benzin,1.0
+hyundai,i20,1.2 D-CVVT Elite,5,2013,2014,Benzin,1.2
+hyundai,i20,1.2 D-CVVT Jump,164,2011,2014,Benzin,1.2
+hyundai,i20,1.2 D-CVVT Sense,70,2012,2014,Benzin,1.2
+hyundai,i20,1.2 MPI Elite,97,2014,2018,Benzin,1.2
+hyundai,i20,1.2 MPI Elite Smart,9,2014,2018,Benzin,1.2
+hyundai,i20,1.2 MPI Jump,156,2014,2024,Benzin,1.2
+hyundai,i20,1.2 MPI Style,215,2014,2019,Benzin,1.2
+hyundai,i20,1.2 MPI Team,65,2009,2012,Benzin,1.2
+hyundai,i20,1.4 CRDi Elite,28,2011,2018,Dizel,1.4
+hyundai,i20,1.4 CRDi Jump,418,2011,2019,Dizel,1.4
+hyundai,i20,1.4 CRDi Sense,29,2011,2014,Dizel,1.4
+hyundai,i20,1.4 CRDi Style,164,2014,2019,Dizel,1.4
+hyundai,i20,1.4 CRDi Team,81,2009,2012,Dizel,1.4
+hyundai,i20,1.4 CVVT Elite,12,2010,2014,Benzin,1.4
+hyundai,i20,1.4 CVVT Jump,83,2011,2014,Benzin,1.4
+hyundai,i20,1.4 CVVT Select,11,2009,2011,Benzin,1.4
+hyundai,i20,1.4 CVVT Sense,71,2012,2014,Benzin,1.4
+hyundai,i20,1.4 CVVT Style,12,2009,2011,Benzin,1.4
+hyundai,i20,1.4 CVVT Team,57,2009,2012,Benzin,1.4
+hyundai,i20,1.4 MPI Elite,254,2014,2024,Benzin,1.4
+hyundai,i20,1.4 MPI Elite Smart,104,2014,2020,Benzin,1.4
+hyundai,i20,1.4 MPI Jump,593,2014,2024,Benzin,1.4
+hyundai,i20,1.4 MPI Style,760,2014,2024,Benzin,1.4
+hyundai,i20,1.4 MPI Style Design,14,2019,2021,Benzin,1.4
+hyundai,i20,1.4 MPI Style Plus,93,2020,2023,Benzin,1.4
+hyundai,i30,1.4 CVVT Team,24,2009,2012,Benzin,1.4
+hyundai,i30,1.4 MPI Style,12,2017,2018,Benzin,1.4
+hyundai,i30,1.6 CRDi Elite,357,2012,2018,Dizel,1.6
+hyundai,i30,1.6 CRDi Elite Plus,32,2017,2018,Dizel,1.6
+hyundai,i30,1.6 CRDi Mode,28,2010,2012,Dizel,1.6
+hyundai,i30,1.6 CRDi Prime,16,2009,2012,Dizel,1.6
+hyundai,i30,1.6 CRDi Select,8,2008,2009,Dizel,1.6
+hyundai,i30,1.6 CRDi Style,108,2008,2016,Dizel,1.6
+hyundai,i30,1.6 CRDi Style Design Pack,24,2015,2016,Dizel,1.6
+hyundai,i30,1.6 CRDi Style Plus,5,2008,2015,Dizel,1.6
+hyundai,i30,1.6 CRDi Team,64,2009,2012,Dizel,1.6
+hyundai,i30,1.6 CVVT Mode,16,2009,2011,Benzin,1.6
+hyundai,i30,1.6 GDi Elite,68,2012,2016,Benzin,1.6
+hyundai,i30,1.6 GDi Style,58,2012,2016,Benzin,1.6
+hyundai,matrix,1.5 CRDi GL,3,2006,2009,Dizel,1.5
+hyundai,matrix,1.5 CRDi GLS,19,2006,2009,Dizel,1.5
+hyundai,matrix,1.5 CRDi Select,7,2007,2009,Dizel,1.5
+hyundai,matrix,1.5 CRDi Style,9,2008,2011,Dizel,1.5
+hyundai,matrix,1.5 CRDi Team,20,2007,2011,Dizel,1.5
+hyundai,matrix,1.6 GL,1,2007,2007,Bilinmiyor,1.6
+hyundai,matrix,1.6 GLS,13,2002,2010,Bilinmiyor,1.6
+hyundai,matrix,1.6 Select,6,2009,2010,Bilinmiyor,1.6
+hyundai,matrix,1.6 Style,8,2009,2010,Bilinmiyor,1.6
+hyundai,matrix,1.6 Team,7,2008,2011,Bilinmiyor,1.6
+kia,ceed,1.4 Cool,11,2019,2020,Bilinmiyor,1.4
+kia,ceed,1.4 Live,10,2017,2017,Bilinmiyor,1.4
+kia,ceed,1.6 CRDi Comfort,24,2014,2017,Dizel,1.6
+kia,ceed,1.6 CRDi Concept,59,2009,2014,Dizel,1.6
+kia,ceed,1.6 CRDi Concept Plus,126,2011,2017,Dizel,1.6
+kia,ceed,1.6 CRDi Concept Plus SW,22,2012,2017,Dizel,1.6
+kia,ceed,1.6 CRDi Concept SW,10,2010,2013,Dizel,1.6
+kia,ceed,1.6 CRDi Cool,32,2009,2022,Dizel,1.6
+kia,ceed,1.6 CRDi Cool SW,9,2010,2011,Dizel,1.6
+kia,ceed,1.6 CRDi Elegance,16,2019,2020,Dizel,1.6
+kia,ceed,1.6 CRDi Motion,73,2008,2012,Dizel,1.6
+kia,ceed,1.6 CRDi Motion SW,12,2009,2012,Dizel,1.6
+kia,ceed,1.6 CRDi Premium,63,2012,2019,Dizel,1.6
+kia,ceed,1.6 CRDi Premium SW,14,2013,2017,Dizel,1.6
+kia,ceed,1.6 CRDi Prestige,1,2020,2020,Dizel,1.6
+kia,cerato,1.5 CRDi Advance,5,2006,2006,Dizel,1.5
+kia,cerato,1.5 CRDi EX,16,2005,2006,Dizel,1.5
+kia,cerato,1.5 CRDi EX Comfort,4,2005,2006,Dizel,1.5
+kia,cerato,1.5 CRDi LX,8,2006,2006,Dizel,1.5
+kia,cerato,1.6 CRDi Comfort,12,2016,2017,Dizel,1.6
+kia,cerato,1.6 CRDi Concept,7,2017,2017,Dizel,1.6
+kia,cerato,1.6 CRDi Concept Plus,122,2016,2018,Dizel,1.6
+kia,cerato,1.6 CRDi Concept Techno,21,2017,2017,Dizel,1.6
+kia,cerato,1.6 CRDi EX Comfort,10,2007,2009,Dizel,1.6
+kia,cerato,1.6 CRDi LX,16,2007,2009,Dizel,1.6
+kia,cerato,1.6 CRDi Prestige,23,2018,2018,Dizel,1.6
+kia,cerato,1.6 EX Advance,16,2004,2010,Bilinmiyor,1.6
+kia,cerato,1.6 EX Comfort,26,2004,2011,Bilinmiyor,1.6
+kia,cerato,1.6 EX DSL Advance,11,2007,2009,Bilinmiyor,1.6
+kia,cerato,1.6 GSL Comfort,15,2010,2011,Bilinmiyor,1.6
+kia,cerato,1.6 GSL Concept,12,2010,2011,Bilinmiyor,1.6
+kia,cerato,1.6 MPI Comfort,11,2016,2017,Benzin,1.6
+kia,cerato,1.6 MPI Elegance,27,2022,2024,Benzin,1.6
+kia,picanto,1.0 MPI Cool,45,2020,2024,Benzin,1.0
+kia,picanto,1.0 MPI Feel,97,2021,2025,Benzin,1.0
+kia,picanto,1.0 MPI Live,29,2019,2022,Benzin,1.0
+kia,picanto,1.1 EX,18,2005,2008,Bilinmiyor,1.1
+kia,picanto,1.1 EX Comfort,51,2005,2008,Bilinmiyor,1.1
+kia,picanto,1.1 Hiper,15,2008,2011,Bilinmiyor,1.1
+kia,picanto,1.2 Feel,19,2022,2024,Bilinmiyor,1.2
+kia,picanto,1.25 EX,20,2011,2016,Bilinmiyor,1.25
+kia,rio,1.2 MPI Cool,9,2020,2021,Benzin,1.2
+kia,rio,1.25 CVVT Comfort,21,2015,2017,Benzin,1.25
+kia,rio,1.25 CVVT Concept,11,2015,2017,Benzin,1.25
+kia,rio,1.25 CVVT Fancy,32,2012,2014,Benzin,1.25
+kia,rio,1.25 CVVT Natty,17,2012,2014,Benzin,1.25
+kia,rio,1.3 Comfort,3,2003,2005,Bilinmiyor,1.3
+kia,rio,1.3 Trend,11,2004,2005,Bilinmiyor,1.3
+kia,rio,1.4 CRDi Comfort,60,2015,2017,Dizel,1.4
+kia,rio,1.4 CRDi Concept,37,2015,2017,Dizel,1.4
+kia,rio,1.4 CRDi Concept Plus,20,2015,2017,Dizel,1.4
+kia,rio,1.4 CRDi Fancy,48,2012,2014,Dizel,1.4
+kia,rio,1.4 CRDi Natty,25,2012,2014,Dizel,1.4
+kia,rio,1.4 CRDi Sporty,13,2012,2014,Dizel,1.4
+kia,rio,1.4 CVVT Comfort,25,2015,2017,Benzin,1.4
+kia,rio,1.4 CVVT Concept,6,2015,2017,Benzin,1.4
+kia,rio,1.4 CVVT Cool,79,2018,2023,Benzin,1.4
+kia,rio,1.4 CVVT Elegance,7,2018,2019,Benzin,1.4
+kia,rio,1.4 CVVT Elegance Tekno,11,2019,2020,Benzin,1.4
+kia,rio,1.4 CVVT Fancy,20,2011,2014,Benzin,1.4
+kia,rio,1.4 EX Comfort,25,2006,2011,Bilinmiyor,1.4
+kia,rio,1.4 GSL Trend,18,2010,2012,Bilinmiyor,1.4
+kia,rio,1.5 CRDi EX Advance,19,2006,2011,Dizel,1.5
+kia,rio,1.5 CRDi EX Comfort,35,2006,2011,Dizel,1.5
+kia,rio,1.5 CRDi Trend,26,2006,2011,Dizel,1.5
+kia,rio,1.5 Comfort,35,2002,2005,Bilinmiyor,1.5
+kia,rio,1.5 Luxury,5,2003,2005,Bilinmiyor,1.5
+mazda,3,1.5 SkyActive-D Power,11,2016,2018,Bilinmiyor,1.5
+mazda,3,1.5 SkyActive-G Power,19,2014,2018,Bilinmiyor,1.5
+mazda,3,1.5 SkyActive-G Power Sense,8,2014,2018,Bilinmiyor,1.5
+mazda,3,1.5 SkyActive-G Reflex,11,2014,2018,Bilinmiyor,1.5
+mazda,3,1.6 Comfort,5,2004,2006,Bilinmiyor,1.6
+mazda,3,1.6 D Touring,25,2010,2013,Dizel,1.6
+mazda,3,1.6 Dynamic,22,2004,2007,Bilinmiyor,1.6
+mazda,3,1.6 Impressive,48,2009,2013,Bilinmiyor,1.6
+mazda,3,1.6 Sport,1,2008,2008,Bilinmiyor,1.6
+mazda,3,1.6 Sport Dynamic,11,2003,2006,Bilinmiyor,1.6
+mazda,3,1.6 Touring,35,2008,2012,Bilinmiyor,1.6
+mazda,323,1.5 1.5i,22,1997,2000,Bilinmiyor,1.5
+mazda,323,1.5 Familia,12,1998,2000,Bilinmiyor,1.5
+mazda,323,1.5 Practica,3,1997,1998,Bilinmiyor,1.5
+mazda,323,1.6 1.6i,1,2003,2003,Bilinmiyor,1.6
+mazda,323,1.6 Familia,2,1995,2003,Bilinmiyor,1.6
+mazda,323,1.6 GLX,6,1997,1998,Bilinmiyor,1.6
+mazda,323,1.8 Familia,17,1996,1998,Bilinmiyor,1.8
+mazda,626,2.0,10,1995,1999,Bilinmiyor,2.0
+mercedes,a,A 150 Avantgarde,13,2005,2009,Bilinmiyor,
+mercedes,a,A 160 Avantgarde,15,1998,2005,Bilinmiyor,
+mercedes,a,A 160 Elegance,19,1998,2003,Bilinmiyor,
+mercedes,a,A 180 AMG Sport,121,2012,2016,Bilinmiyor,
+mercedes,a,A 180 CDI BlueEfficiency AMG,127,2013,2017,Dizel,
+mercedes,a,A 180 CDI BlueEfficiency Prime,6,2012,2013,Dizel,
+mercedes,a,A 180 CDI BlueEfficiency Style,84,2012,2017,Dizel,
+mercedes,a,A 180 CDI BlueEfficiency Urban,37,2012,2015,Dizel,
+mercedes,a,A 180 Progressive,13,2020,2020,Bilinmiyor,
+mercedes,a,A 180 Style,44,2012,2020,Bilinmiyor,
+mercedes,a,A 180 Urban,64,2012,2016,Bilinmiyor,
+mercedes,a,A 180 d AMG,238,2015,2020,Dizel,
+mercedes,a,A 180 d Style,106,2015,2020,Dizel,
+mercedes,a,A 180 d Urban,24,2016,2017,Dizel,
+mercedes,a,A 200 AMG,109,2014,2025,Bilinmiyor,
+mercedes,a,A 200 AMG+,63,2019,2023,Bilinmiyor,
+mercedes,a,A 200 BlueEfficiency AMG,51,2012,2018,Bilinmiyor,
+mercedes,a,A 45 AMG,12,2013,2016,Bilinmiyor,
+mercedes,b,B 150 150,21,2006,2009,Bilinmiyor,
+mercedes,b,B 150 Boyut,27,2006,2009,Bilinmiyor,
+mercedes,b,B 150 Prestige,29,2006,2010,Bilinmiyor,
+mercedes,b,B 150 Special Edition,8,2006,2008,Bilinmiyor,
+mercedes,b,B 160 Boyut,15,2010,2011,Bilinmiyor,
+mercedes,b,B 160 Sport,40,2009,2011,Bilinmiyor,
+mercedes,b,B 180 BlueEfficiency Elite,24,2012,2016,Bilinmiyor,
+mercedes,b,B 180 BlueEfficiency Prime,16,2012,2013,Bilinmiyor,
+mercedes,b,B 180 BlueEfficiency Sport,39,2012,2014,Bilinmiyor,
+mercedes,b,B 180 BlueEfficiency Style,13,2014,2018,Bilinmiyor,
+mercedes,b,B 180 BlueEfficiency Urban,11,2015,2018,Bilinmiyor,
+mercedes,b,B 180 CDI 180 CDI,7,2006,2009,Dizel,
+mercedes,b,B 180 CDI AMG,13,2015,2017,Dizel,
+mercedes,b,B 180 CDI BlueEfficiency Elite,9,2014,2015,Dizel,
+mercedes,b,B 180 CDI BlueEfficiency Style,28,2014,2017,Dizel,
+mercedes,b,B 180 CDI BlueEfficiency Urban,26,2014,2018,Dizel,
+mercedes,b,B 180 Progressive,17,2019,2021,Bilinmiyor,
+mercedes,c,C 180 AMG,471,2011,2018,Bilinmiyor,
+mercedes,c,C 180 Avantgarde,56,2011,2021,Bilinmiyor,
+mercedes,c,C 180 BlueEfficiency AMG,166,2010,2015,Bilinmiyor,
+mercedes,c,C 180 BlueEfficiency Avantgarde,131,2009,2014,Bilinmiyor,
+mercedes,c,C 180 BlueEfficiency Elegance,12,2011,2013,Bilinmiyor,
+mercedes,c,C 180 BlueEfficiency Fascination,76,2011,2015,Bilinmiyor,
+mercedes,c,C 180 BlueEfficiency Prime,12,2010,2013,Bilinmiyor,
+mercedes,c,C 180 BlueEfficiency Selection Plus,26,2012,2013,Bilinmiyor,
+mercedes,c,C 180 BlueEfficiency Start,12,2011,2012,Bilinmiyor,
+mercedes,c,C 180 Classic,2,1997,2002,Bilinmiyor,
+mercedes,c,C 180 Comfort,19,2016,2018,Bilinmiyor,
+mercedes,c,C 180 Elegance,4,1995,2002,Bilinmiyor,
+mercedes,c,C 180 Exclusive,64,2014,2018,Bilinmiyor,
+mercedes,c,C 180 Fascination,68,2014,2017,Bilinmiyor,
+mercedes,c,C 180 Komp. Avantgarde,31,2004,2012,Benzin,
+mercedes,c,C 180 Komp. BlueEfficiency AMG,178,2009,2012,Benzin,
+mercedes,c,C 180 Komp. BlueEfficiency Avantgarde,58,2011,2012,Benzin,
+mercedes,c,C 180 Komp. BlueEfficiency Fascination,145,2009,2012,Benzin,
+mercedes,c,C 180 Komp. BlueEfficiency Luxury,43,2009,2011,Benzin,
+mercedes,c,C 180 Komp. Classic,12,2004,2010,Benzin,
+mercedes,c,C 180 Komp. Elegance,7,2005,2009,Benzin,
+mercedes,c,C 180 Komp. Sport,7,2007,2009,Benzin,
+mercedes,c,C 180 Komp. Sportcoupe,7,2004,2006,Benzin,
+mercedes,c,C 180 Style,16,2014,2016,Bilinmiyor,
+mercedes,c,C 200 AMG,614,2009,2025,Bilinmiyor,
+mercedes,c,C 200 All-Terrain,26,2022,2025,Bilinmiyor,
+mercedes,c,C 200 Avantgarde,26,2021,2023,Bilinmiyor,
+mercedes,c,C 200 CDI Classic,2,2000,2004,Dizel,
+mercedes,c,C 200 D AMG,1267,2014,2021,Dizel,
+mercedes,c,C 200 D Avantgarde,17,2015,2018,Dizel,
+mercedes,c,C 200 D Comfort,239,2015,2020,Dizel,
+mercedes,c,C 200 D Elegance,1,1995,1995,Dizel,
+mercedes,c,C 200 D Exclusive,211,2015,2021,Dizel,
+mercedes,c,C 200 Edition 1 AMG,108,2021,2023,Bilinmiyor,
+mercedes,c,C 200 Elegance,9,1995,1999,Bilinmiyor,
+mercedes,c,C 200 Exclusive,18,2018,2021,Bilinmiyor,
+mercedes,c,C 200 Komp. Avantgarde,45,2000,2009,Benzin,
+mercedes,c,C 200 Komp. Elegance,24,1996,2009,Benzin,
+mercedes,c,C 200 Sport,2,1995,1998,Bilinmiyor,
+mercedes,c,C 200 d BlueTEC AMG,189,2014,2018,Dizel,
+mercedes,c,C 200 d BlueTEC Avantgarde,85,2014,2018,Dizel,
+mercedes,c,C 200 d BlueTEC Comfort,28,2015,2018,Dizel,
+mercedes,c,C 200 d BlueTEC Exclusive,28,2014,2018,Dizel,
+mercedes,c,C 200 d BlueTEC Fascination,79,2014,2017,Dizel,
+mercedes,c,C 200 d BlueTEC Style,40,2014,2017,Dizel,
+mercedes,c,C 220 CDI AMG,5,2007,2009,Dizel,
+mercedes,c,C 220 CDI Avantgarde,24,2000,2009,Dizel,
+mercedes,c,C 220 CDI Elegance,9,2001,2008,Dizel,
+mercedes,c,C 250 BlueEfficiency AMG,9,2011,2012,Bilinmiyor,
+mercedes,c,C 250 CDI BlueEfficiency Fascination,4,2011,2013,Dizel,
+mercedes,c,C 43 AMG,10,2022,2025,Bilinmiyor,
+mercedes,c,C 63 AMG,6,2008,2023,Bilinmiyor,
+mercedes,cla,180 d AMG,350,2014,2020,Dizel,
+mercedes,cla,180 d Comfort,30,2016,2018,Dizel,
+mercedes,cla,180 d Style,11,2014,2016,Dizel,
+mercedes,cla,180 d Urban,27,2014,2017,Dizel,
+mercedes,cla,200 AMG,459,2013,2025,Bilinmiyor,
+mercedes,cla,200 AMG+,70,2019,2023,Bilinmiyor,
+mercedes,cla,200 AMG+ 4Matic,97,2021,2023,Bilinmiyor,
+mercedes,cla,200 Style,9,2013,2015,Bilinmiyor,
+mercedes,cla,200 Urban,41,2013,2018,Bilinmiyor,
+mercedes,cla,45 S Performance+,15,2020,2025,Bilinmiyor,
+mercedes,clk,CLK 200 Komp. Avantgarde,48,2000,2007,Benzin,
+mercedes,clk,CLK 200 Komp. Elegance,10,2000,2006,Benzin,
+mercedes,clk,CLK 240 Avantgarde,4,2002,2002,Bilinmiyor,
+mercedes,cls,300 D AMG,55,2018,2023,Dizel,
+mercedes,cls,320 320 CDI,9,2006,2010,Dizel,
+mercedes,cls,350,17,2004,2007,Bilinmiyor,
+mercedes,cls,350 CDI,11,2010,2012,Dizel,
+mercedes,cls,350 CDI AMG,24,2010,2014,Dizel,
+mercedes,cls,350 CDI BlueEfficiency,6,2011,2012,Dizel,
+mercedes,cls,350 CDI Innovation Sport,17,2012,2013,Dizel,
+mercedes,cls,350 D AMG,37,2014,2017,Dizel,
+mercedes,cls,400 D,34,2018,2021,Dizel,
+mercedes,e,E 180 AMG,225,2013,2025,Bilinmiyor,
+mercedes,e,E 180 AMG Premium,16,2013,2016,Bilinmiyor,
+mercedes,e,E 180 Avantgarde,22,2017,2018,Bilinmiyor,
+mercedes,e,E 180 Edition 1 AMG,33,2023,2025,Bilinmiyor,
+mercedes,e,E 180 Edition 1 Exclusive,48,2023,2024,Bilinmiyor,
+mercedes,e,E 180 Edition E,150,2015,2016,Bilinmiyor,
+mercedes,e,E 180 Elite,210,2013,2016,Bilinmiyor,
+mercedes,e,E 180 Exclusive,302,2014,2025,Bilinmiyor,
+mercedes,e,E 180 Premium,43,2013,2015,Bilinmiyor,
+mercedes,e,E 180 Style,21,2015,2016,Bilinmiyor,
+mercedes,e,E 200 200,4,1995,1995,Bilinmiyor,
+mercedes,e,E 200 AMG,48,2016,2020,Bilinmiyor,
+mercedes,e,E 200 Avantgarde,14,1995,2016,Bilinmiyor,
+mercedes,e,E 200 CDI Classic,3,2004,2006,Dizel,
+mercedes,e,E 200 CGI AMG,13,2010,2011,Benzin,
+mercedes,e,E 200 CGI BlueEfficiency Avantgarde,22,2010,2012,Benzin,
+mercedes,e,E 200 CGI BlueEfficiency Elegance,19,2010,2012,Benzin,
+mercedes,e,E 200 CGI BlueEfficiency Prime,12,2010,2010,Benzin,
+mercedes,e,E 200 Classic,14,1995,2000,Bilinmiyor,
+mercedes,e,E 200 Elegance,32,1995,2000,Bilinmiyor,
+mercedes,e,E 200 Exclusive,28,2016,2016,Bilinmiyor,
+mercedes,e,E 200 Komp. Avantgarde,100,1998,2009,Benzin,
+mercedes,e,E 200 Komp. Elegance,20,1997,2006,Benzin,
+mercedes,e,E 200 d AMG,179,2019,2023,Dizel,
+mercedes,e,E 200 d Avantgarde,9,2020,2020,Dizel,
+mercedes,e,E 200 d Exclusive,349,2019,2023,Dizel,
+mercedes,e,E 220 CDI Avantgarde,18,1996,2012,Dizel,
+mercedes,e,E 220 CDI BlueEfficiency,26,2010,2013,Dizel,
+mercedes,e,E 220 CDI Classic,5,1998,2005,Dizel,
+mercedes,e,E 220 CDI Elegance,6,1999,2003,Dizel,
+mercedes,e,E 220 CDI Start,8,2010,2012,Dizel,
+mercedes,e,E 220 d AMG,92,2016,2025,Dizel,
+mercedes,e,E 220 d Avantgarde,28,2016,2017,Dizel,
+mercedes,e,E 220 d Edition 1 Exclusive,16,2020,2024,Dizel,
+mercedes,e,E 220 d Exclusive,121,2016,2025,Dizel,
+mercedes,e,E 240 Avantgarde,1,1998,1998,Bilinmiyor,
+mercedes,e,E 240 Elegance,4,1998,2003,Bilinmiyor,
+mercedes,e,E 250 AMG,71,2013,2016,Bilinmiyor,
+mercedes,e,E 250 CDI AMG,38,2010,2015,Dizel,
+mercedes,e,E 250 CDI Avantgarde,9,2010,2012,Dizel,
+mercedes,e,E 250 CDI BlueEfficiency Avantgarde,28,2009,2012,Dizel,
+mercedes,e,E 250 CDI Edition,62,2015,2016,Dizel,
+mercedes,e,E 250 CDI Elite,68,2012,2015,Dizel,
+mercedes,e,E 250 CDI Elite Avantgarde,7,2012,2013,Dizel,
+mercedes,e,E 250 CDI Premium,68,2009,2015,Dizel,
+mercedes,e,E 250 CGI 250 CGI,22,2013,2016,Benzin,
+mercedes,e,E 250 CGI AMG,43,2010,2013,Benzin,
+mercedes,e,E 250 CGI BlueEfficiency Avantgarde,17,2011,2012,Benzin,
+mercedes,e,E 250 CGI BlueEfficiency Dynamic,15,2010,2012,Benzin,
+mercedes,e,E 250 CGI Elite,28,2012,2013,Benzin,
+mercedes,e,E 250 CGI Premium,50,2010,2014,Benzin,
+mercedes,e,E 250 CGI Premium AMG,28,2010,2012,Benzin,
+mercedes,e,E 250 EditionE,9,2014,2016,Bilinmiyor,
+mercedes,e,E 250 Elite,45,2013,2015,Bilinmiyor,
+mercedes,e,E 250 Premium,9,2013,2014,Bilinmiyor,
+mercedes,e,E 270 CDI Avantgarde,8,2001,2005,Dizel,
+mercedes,e,E 270 CDI Elegance,2,2001,2001,Dizel,
+mercedes,e,E 280 CDI Avantgarde,3,2004,2008,Dizel,
+mercedes,e,E 300 AMG,33,2017,2021,Bilinmiyor,
+mercedes,e,E 300 D AMG,30,2021,2023,Dizel,
+mercedes,e,E 300 D Exclusive,40,2021,2023,Dizel,
+mercedes,e,E 320 Avantgarde,11,1996,2005,Bilinmiyor,
+mercedes,e,E 320 CDI Avantgarde,6,2001,2006,Dizel,
+mercedes,e,E 320 Elegance,5,2002,2004,Bilinmiyor,
+mercedes,e,E 350 AMG,20,2016,2023,Bilinmiyor,
+mercedes,e,E 350 CDI AMG Premium,5,2010,2012,Dizel,
+mercedes,e,E 350 CDI BlueEfficiency Elegance,5,2010,2011,Dizel,
+mercedes,e,E 350 CDI BlueTEC Premium,12,2013,2015,Dizel,
+mercedes,e,E 350 CDI Premium,46,2010,2012,Dizel,
+mercedes,s,S 320 320,8,1995,2002,Bilinmiyor,
+mercedes,s,S 320 320 CDI,12,2001,2010,Dizel,
+mercedes,s,S 320 320 CDI L,22,2006,2010,Dizel,
+mercedes,s,S 320 320 L,22,1995,2002,Bilinmiyor,
+mercedes,s,S 350 350,4,2003,2009,Bilinmiyor,
+mercedes,s,S 350 350 CDI,6,2010,2012,Dizel,
+mercedes,s,S 350 350 CDI L,16,2010,2012,Dizel,
+mercedes,s,S 350 350 L,29,2003,2010,Bilinmiyor,
+mercedes,s,S 350 350 L BlueEfficiency,9,2011,2012,Bilinmiyor,
+mercedes,s,S 350 350 L BlueTEC,45,2010,2017,Bilinmiyor,
+mercedes,s,S 350 BlueTEC 4Matic,79,2011,2017,Bilinmiyor,
+mercedes,s,S 400 400 d,42,2017,2021,Dizel,
+mercedes,s,S 500 500,7,1997,2000,Bilinmiyor,
+mercedes,s,S 500 500 L,20,1995,2015,Bilinmiyor,
+mercedes,s,S 600 600 L,4,2000,2012,Bilinmiyor,
+mercedes,s,S 63 AMG,3,2009,2015,Bilinmiyor,
+mini,cooper,1.5 Chili,23,2014,2019,Bilinmiyor,1.5
+mini,cooper,1.5 Classic,24,2019,2023,Bilinmiyor,1.5
+mini,cooper,1.5 D Chili,90,2014,2019,Dizel,1.5
+mini,cooper,1.5 D Pepper,32,2014,2018,Dizel,1.5
+mini,cooper,1.5 D Salt Pepper Chili,12,2015,2019,Dizel,1.5
+mini,cooper,1.5 D Türkiye Paketi,12,2014,2018,Dizel,1.5
+mini,cooper,1.5 Favoured,14,2024,2025,Bilinmiyor,1.5
+mini,cooper,1.5 Iconic,9,2019,2023,Bilinmiyor,1.5
+mini,cooper,1.5 Pepper,9,2014,2017,Bilinmiyor,1.5
+mini,cooper,1.5 Premium,8,2015,2017,Bilinmiyor,1.5
+mini,cooper,1.5 Signature,40,2019,2024,Bilinmiyor,1.5
+mini,cooper,1.5 Türkiye Paketi,9,2014,2019,Bilinmiyor,1.5
+mini,cooper,1.6 Cabrio,5,2005,2012,Bilinmiyor,1.6
+mini,cooper,1.6 Coupe,8,2009,2013,Bilinmiyor,1.6
+mini,cooper,1.6 D Türkiye Paketi,12,2012,2013,Dizel,1.6
+mini,cooper,1.6 Türkiye Paketi,189,2001,2013,Bilinmiyor,1.6
+mitsubishi,carisma,1.6 Avance,8,2000,2002,Bilinmiyor,1.6
+mitsubishi,carisma,1.6 Classic,1,2001,2001,Bilinmiyor,1.6
+mitsubishi,carisma,1.6 Comfort,8,2000,2003,Bilinmiyor,1.6
+mitsubishi,carisma,1.6 GL,5,1999,1999,Bilinmiyor,1.6
+mitsubishi,carisma,1.6 GLX,18,1999,2000,Bilinmiyor,1.6
+mitsubishi,carisma,1.8 GDI Elegance,9,1999,2001,Benzin,1.8
+mitsubishi,colt,1.3 Elegance,15,2011,2012,Bilinmiyor,1.3
+mitsubishi,colt,1.3 Invite,63,2005,2011,Bilinmiyor,1.3
+mitsubishi,colt,1.5 DI-D Inform,13,2006,2008,Bilinmiyor,1.5
+mitsubishi,colt,1.5 Invite,1,2005,2005,Bilinmiyor,1.5
+mitsubishi,lancer,1.3 Comfort,3,2004,2005,Bilinmiyor,1.3
+mitsubishi,lancer,1.5 Inform,6,2008,2011,Bilinmiyor,1.5
+mitsubishi,lancer,1.5 Invite,43,2007,2011,Bilinmiyor,1.5
+mitsubishi,lancer,1.6 Comfort,8,2004,2006,Bilinmiyor,1.6
+mitsubishi,lancer,1.6 Invite,68,2004,2015,Bilinmiyor,1.6
+nissan,almera,1.5 Comfort,4,2001,2002,Bilinmiyor,1.5
+nissan,almera,1.5 Luxury,12,2000,2004,Bilinmiyor,1.5
+nissan,almera,1.5 Tekna,73,2004,2007,Bilinmiyor,1.5
+nissan,almera,1.6 GX,1,2001,2001,Bilinmiyor,1.6
+nissan,almera,1.6 SLX,4,2001,2001,Bilinmiyor,1.6
+nissan,micra,1.0 Tekna,83,2019,2022,Bilinmiyor,1.0
+nissan,micra,1.0 Visia,12,2019,2021,Bilinmiyor,1.0
+nissan,micra,1.2 Match,183,2013,2018,Bilinmiyor,1.2
+nissan,micra,1.2 Mood,35,2005,2010,Bilinmiyor,1.2
+nissan,micra,1.2 Passion,153,2005,2013,Bilinmiyor,1.2
+nissan,micra,1.2 Platinum,13,2012,2013,Bilinmiyor,1.2
+nissan,micra,1.2 Punch,32,2011,2013,Bilinmiyor,1.2
+nissan,micra,1.2 Street,130,2013,2018,Bilinmiyor,1.2
+nissan,micra,1.2 Tekna,127,2003,2012,Bilinmiyor,1.2
+nissan,micra,1.2 Visia,24,2003,2006,Bilinmiyor,1.2
+nissan,micra,1.3 GX,20,1996,1999,Bilinmiyor,1.3
+nissan,micra,1.3 LX,2,1996,1997,Bilinmiyor,1.3
+nissan,micra,1.4 Elegance,2,2001,2001,Bilinmiyor,1.4
+nissan,micra,1.4 Tekna,12,2003,2006,Bilinmiyor,1.4
+nissan,micra,1.5 dCi Mood,8,2006,2009,Dizel,1.5
+nissan,micra,1.5 dCi Passion,5,2006,2007,Dizel,1.5
+nissan,note,1.2 Tekna,6,2013,2014,Bilinmiyor,1.2
+nissan,note,1.2 Visia,4,2013,2014,Bilinmiyor,1.2
+nissan,note,1.4 Tekna,11,2006,2010,Bilinmiyor,1.4
+nissan,note,1.4 Visia,11,2007,2009,Bilinmiyor,1.4
+nissan,note,1.5 dCi Tekna,36,2008,2014,Dizel,1.5
+nissan,note,1.5 dCi Visia,18,2008,2014,Dizel,1.5
+nissan,note,1.6 Tekna,48,2006,2011,Bilinmiyor,1.6
+nissan,note,1.6 Visia,5,2006,2009,Bilinmiyor,1.6
+nissan,primera,1.6,2,2000,2000,Bilinmiyor,1.6
+nissan,primera,1.6 Comfort,29,2000,2001,Bilinmiyor,1.6
+nissan,primera,1.6 GX,22,1997,1999,Bilinmiyor,1.6
+nissan,primera,1.6 SLX,9,1997,1999,Bilinmiyor,1.6
+nissan,primera,1.6 Special,7,1999,1999,Bilinmiyor,1.6
+nissan,primera,1.6 Tekna,34,2003,2007,Bilinmiyor,1.6
+nissan,primera,1.6 Visia,16,2003,2007,Bilinmiyor,1.6
+nissan,primera,2.0 SE,4,1997,1998,Bilinmiyor,2.0
+opel,astra,1.2 T Edition,60,2020,2024,Bilinmiyor,1.2
+opel,astra,1.2 T Elegance,23,2022,2023,Bilinmiyor,1.2
+opel,astra,1.2 T GS,85,2022,2025,Bilinmiyor,1.2
+opel,astra,1.2 T GS Line,9,2020,2022,Bilinmiyor,1.2
+opel,astra,1.2 T Ultimate,15,2024,2024,Bilinmiyor,1.2
+opel,astra,1.3 CDTI Active,8,2013,2013,Dizel,1.3
+opel,astra,1.3 CDTI Business,33,2013,2015,Dizel,1.3
+opel,astra,1.3 CDTI Classic,14,2008,2012,Dizel,1.3
+opel,astra,1.3 CDTI Cosmo,90,2006,2014,Dizel,1.3
+opel,astra,1.3 CDTI EcoFLEX Cosmo,23,2010,2013,Dizel,1.3
+opel,astra,1.3 CDTI EcoFLEX Enjoy,10,2011,2011,Dizel,1.3
+opel,astra,1.3 CDTI EcoFLEX Enjoy Plus,17,2010,2012,Dizel,1.3
+opel,astra,1.3 CDTI EcoFLEX Sport,62,2010,2013,Dizel,1.3
+opel,astra,1.3 CDTI Edition,127,2011,2015,Dizel,1.3
+opel,astra,1.3 CDTI Edition Plus,21,2012,2015,Dizel,1.3
+opel,astra,1.3 CDTI Elegance,11,2005,2008,Dizel,1.3
+opel,astra,1.3 CDTI Enjoy,330,2005,2012,Dizel,1.3
+opel,astra,1.3 CDTI Enjoy 111.Yıl,115,2010,2012,Dizel,1.3
+opel,astra,1.3 CDTI Enjoy Active,28,2013,2015,Dizel,1.3
+opel,astra,1.3 CDTI Enjoy Elegance,32,2008,2011,Dizel,1.3
+opel,astra,1.3 CDTI Enjoy Plus,113,2009,2013,Dizel,1.3
+opel,astra,1.3 CDTI Essentia,134,2005,2012,Dizel,1.3
+opel,astra,1.3 CDTI Essentia Konfor,220,2010,2012,Dizel,1.3
+opel,astra,1.3 CDTI Sport,195,2011,2015,Dizel,1.3
+opel,astra,1.4 Classic,69,1998,2010,Bilinmiyor,1.4
+opel,astra,1.4 Classic Twinport,13,2005,2009,Benzin,1.4
+opel,astra,1.4 Club,57,1999,2009,Bilinmiyor,1.4
+opel,astra,1.4 Enjoy,28,2010,2017,Bilinmiyor,1.4
+opel,astra,1.4 Essentia,73,2004,2011,Bilinmiyor,1.4
+opel,astra,1.4 GL,42,1995,2004,Bilinmiyor,1.4
+opel,astra,1.4 Life,2,1995,1995,Bilinmiyor,1.4
+opel,astra,1.4 Sport,1,2000,2000,Bilinmiyor,1.4
+opel,astra,1.4 T Business,13,2014,2015,Bilinmiyor,1.4
+opel,astra,1.4 T Cosmo,71,2010,2015,Bilinmiyor,1.4
+opel,astra,1.4 T Design,11,2016,2020,Bilinmiyor,1.4
+opel,astra,1.4 T Dynamic,116,2015,2019,Bilinmiyor,1.4
+opel,astra,1.4 T Edition,6,2020,2021,Bilinmiyor,1.4
+opel,astra,1.4 T Edition Plus,353,2011,2020,Bilinmiyor,1.4
+opel,astra,1.4 T Enjoy,53,2010,2020,Bilinmiyor,1.4
+opel,astra,1.4 T Enjoy Active,100,2013,2015,Bilinmiyor,1.4
+opel,astra,1.4 T Enjoy Plus,25,2010,2015,Bilinmiyor,1.4
+opel,astra,1.4 T Excellence,12,2015,2018,Bilinmiyor,1.4
+opel,astra,1.4 T GS Line,9,2020,2021,Bilinmiyor,1.4
+opel,astra,1.4 T Sport,358,2010,2020,Bilinmiyor,1.4
+opel,astra,1.4 T Sport Elegance,11,2015,2020,Bilinmiyor,1.4
+opel,astra,1.4 T Sport Stil,10,2013,2015,Bilinmiyor,1.4
+opel,astra,1.5 D Edition,66,2020,2023,Dizel,1.5
+opel,astra,1.5 D Elegance,15,2020,2021,Dizel,1.5
+opel,astra,1.5 D GS Line,14,2020,2020,Dizel,1.5
+opel,astra,1.6,11,1995,2005,Bilinmiyor,1.6
+opel,astra,1.6 Business,32,2013,2016,Bilinmiyor,1.6
+opel,astra,1.6 CD,153,1998,2004,Bilinmiyor,1.6
+opel,astra,1.6 CDTI Business,67,2014,2016,Dizel,1.6
+opel,astra,1.6 CDTI Cosmo,38,2014,2016,Dizel,1.6
+opel,astra,1.6 CDTI Design,384,2016,2018,Dizel,1.6
+opel,astra,1.6 CDTI Dynamic,173,2015,2021,Dizel,1.6
+opel,astra,1.6 CDTI Edition,34,2013,2016,Dizel,1.6
+opel,astra,1.6 CDTI Edition Plus,40,2016,2017,Dizel,1.6
+opel,astra,1.6 CDTI Elite,96,2016,2018,Dizel,1.6
+opel,astra,1.6 CDTI Enjoy,56,2008,2018,Dizel,1.6
+opel,astra,1.6 CDTI Enjoy Active,16,2014,2015,Dizel,1.6
+opel,astra,1.6 CDTI Excellence,44,2015,2018,Dizel,1.6
+opel,astra,1.6 CDTI Sport,294,1998,2018,Dizel,1.6
+opel,astra,1.6 CDX,2,1999,2000,Bilinmiyor,1.6
+opel,astra,1.6 Classic,34,1999,2012,Bilinmiyor,1.6
+opel,astra,1.6 Classic Twinport,17,2005,2011,Benzin,1.6
+opel,astra,1.6 Comfort,60,1999,2005,Bilinmiyor,1.6
+opel,astra,1.6 Cosmo,63,2004,2012,Bilinmiyor,1.6
+opel,astra,1.6 Coupe,1,2005,2005,Bilinmiyor,1.6
+opel,astra,1.6 Edition,648,2000,2018,Bilinmiyor,1.6
+opel,astra,1.6 Edition Plus,506,2016,2018,Bilinmiyor,1.6
+opel,astra,1.6 Elegance,46,2000,2006,Bilinmiyor,1.6
+opel,astra,1.6 Elegance Twinport,70,2004,2012,Benzin,1.6
+opel,astra,1.6 Enjoy,389,2004,2013,Bilinmiyor,1.6
+opel,astra,1.6 Enjoy 111. Yıl,112,2005,2013,Bilinmiyor,1.6
+opel,astra,1.6 Enjoy Elegance,51,2008,2011,Bilinmiyor,1.6
+opel,astra,1.6 Enjoy Plus,140,2008,2013,Bilinmiyor,1.6
+opel,astra,1.6 Enjoy Twinport,13,2004,2006,Benzin,1.6
+opel,astra,1.6 Essentia,227,2005,2013,Bilinmiyor,1.6
+opel,astra,1.6 Essentia Konfor,218,2010,2014,Bilinmiyor,1.6
+opel,astra,1.6 Expression,1,1996,1996,Bilinmiyor,1.6
+opel,astra,1.6 GL,183,1995,2000,Bilinmiyor,1.6
+opel,astra,1.6 GLS,145,1995,1999,Bilinmiyor,1.6
+opel,astra,1.6 GLX,1,1996,1996,Bilinmiyor,1.6
+opel,astra,1.6 GTC Sport,13,2005,2008,Bilinmiyor,1.6
+opel,astra,1.6 Sport,52,2010,2014,Bilinmiyor,1.6
+opel,astra,1.6 T Cosmo,5,2010,2011,Bilinmiyor,1.6
+opel,astra,1.7 DTI Classic,2,2000,2000,Bilinmiyor,1.7
+opel,astra,2.0 DTI Comfort,1,1999,1999,Bilinmiyor,2.0
+opel,astra,2.0 GSi,13,1995,1998,Bilinmiyor,2.0
+opel,astra,2.0 Sport,5,1996,2000,Bilinmiyor,2.0
+opel,corsa,1.0 ECO Club,41,2002,2004,Bilinmiyor,1.0
+opel,corsa,1.0 Essentia,40,2003,2015,Bilinmiyor,1.0
+opel,corsa,1.2 Club,10,2001,2003,Bilinmiyor,1.2
+opel,corsa,1.2 Comfort,19,2002,2004,Bilinmiyor,1.2
+opel,corsa,1.2 Edition,45,2013,2024,Bilinmiyor,1.2
+opel,corsa,1.2 Elegance,35,2021,2023,Bilinmiyor,1.2
+opel,corsa,1.2 Enjoy,89,2003,2021,Bilinmiyor,1.2
+opel,corsa,1.2 Essentia,146,2003,2021,Bilinmiyor,1.2
+opel,corsa,1.2 Essential,25,2015,2021,Bilinmiyor,1.2
+opel,corsa,1.2 Innovation,13,2020,2020,Bilinmiyor,1.2
+opel,corsa,1.2 Silverline,15,2006,2007,Bilinmiyor,1.2
+opel,corsa,1.2 Swing,86,1995,2000,Bilinmiyor,1.2
+opel,corsa,1.2 T Edition,468,2020,2025,Bilinmiyor,1.2
+opel,corsa,1.2 T Elegance,232,2019,2023,Bilinmiyor,1.2
+opel,corsa,1.2 T GS,135,2023,2025,Bilinmiyor,1.2
+opel,corsa,1.2 T Ultimate,197,2019,2025,Bilinmiyor,1.2
+opel,corsa,1.2 Twinport Active,52,2005,2014,Benzin,1.2
+opel,corsa,1.2 Twinport Enjoy,166,2004,2011,Benzin,1.2
+opel,corsa,1.2 Twinport Enjoy 111,38,2010,2012,Benzin,1.2
+opel,corsa,1.2 Twinport Essentia,584,2004,2014,Benzin,1.2
+opel,corsa,1.3 CDTI Active,43,2013,2014,Dizel,1.3
+opel,corsa,1.3 CDTI Color Edition,23,2011,2016,Dizel,1.3
+opel,corsa,1.3 CDTI Cosmo,43,2004,2010,Dizel,1.3
+opel,corsa,1.3 CDTI Enjoy,504,2004,2017,Dizel,1.3
+opel,corsa,1.3 CDTI Enjoy 111,71,2005,2012,Dizel,1.3
+opel,corsa,1.3 CDTI Essentia,729,2004,2017,Dizel,1.3
+opel,corsa,1.3 CDTI Silverline,24,2006,2006,Dizel,1.3
+opel,corsa,1.3 CDTI Sport,15,2006,2009,Dizel,1.3
+opel,corsa,1.4 100. Yıl,15,2000,2000,Bilinmiyor,1.4
+opel,corsa,1.4 120.Yıl,12,2019,2019,Bilinmiyor,1.4
+opel,corsa,1.4 Color Edition,37,2015,2017,Bilinmiyor,1.4
+opel,corsa,1.4 Comfort,73,2001,2003,Bilinmiyor,1.4
+opel,corsa,1.4 Design,43,2016,2019,Bilinmiyor,1.4
+opel,corsa,1.4 Elegance,13,2000,2004,Bilinmiyor,1.4
+opel,corsa,1.4 Enjoy,242,2003,2019,Bilinmiyor,1.4
+opel,corsa,1.4 Essentia,184,2013,2019,Bilinmiyor,1.4
+opel,corsa,1.4 GLS,223,1997,2001,Bilinmiyor,1.4
+opel,corsa,1.4 Sport,4,1997,1999,Bilinmiyor,1.4
+opel,corsa,1.4 Swing,178,1995,2000,Bilinmiyor,1.4
+opel,corsa,1.4 Twinport Active,115,2013,2014,Benzin,1.4
+opel,corsa,1.4 Twinport Color Edition,25,2011,2013,Benzin,1.4
+opel,corsa,1.4 Twinport Cosmo,22,2004,2011,Benzin,1.4
+opel,corsa,1.4 Twinport Enjoy,393,2001,2014,Benzin,1.4
+opel,corsa,1.4 Twinport Enjoy 111,115,2010,2012,Benzin,1.4
+opel,corsa,1.4 Twinport Essentia,84,2010,2015,Benzin,1.4
+opel,corsa,1.4 Twinport Sport,15,2006,2010,Benzin,1.4
+opel,corsa,1.5 D Edition,24,2020,2021,Dizel,1.5
+opel,corsa,1.5 TD ECO,14,1999,2000,Bilinmiyor,1.5
+opel,corsa,1.6 GSi,16,1996,2009,Bilinmiyor,1.6
+opel,corsa,1.7 DTI Comfort,61,2003,2003,Bilinmiyor,1.7
+opel,insignia,1.4 T Edition,12,2012,2013,Bilinmiyor,1.4
+opel,insignia,1.4 T Edition Elegance,95,2012,2015,Bilinmiyor,1.4
+opel,insignia,1.5 D Edition,31,2020,2021,Dizel,1.5
+opel,insignia,1.5 D Elegance,6,2020,2020,Dizel,1.5
+opel,insignia,1.5 D Exclusive,18,2020,2022,Dizel,1.5
+opel,insignia,1.5 D Grand Sport Edition,14,2020,2021,Dizel,1.5
+opel,insignia,1.5 D Ultimate,11,2020,2021,Dizel,1.5
+opel,insignia,1.6 CDTI Business,14,2015,2015,Dizel,1.6
+opel,insignia,1.6 CDTI Cosmo,196,2015,2017,Dizel,1.6
+opel,insignia,1.6 CDTI Design,43,2016,2017,Dizel,1.6
+opel,insignia,1.6 CDTI Edition Elegance,63,2015,2017,Dizel,1.6
+opel,insignia,1.6 CDTI Elite,20,2016,2017,Dizel,1.6
+opel,insignia,1.6 CDTI Grand Sport T Design,74,2017,2020,Dizel,1.6
+opel,insignia,1.6 CDTI Grand Sport T Enjoy,122,2017,2020,Dizel,1.6
+opel,insignia,1.6 CDTI Grand Sport T Excellence,146,2017,2020,Dizel,1.6
+opel,insignia,1.6 CDTI Grand Sport T Exclusive,21,2017,2020,Dizel,1.6
+opel,insignia,1.6 CDTI Sport,102,2015,2017,Dizel,1.6
+opel,insignia,1.6 Cosmo,11,2009,2011,Bilinmiyor,1.6
+opel,insignia,1.6 D Grand Sport Enjoy,7,2020,2020,Dizel,1.6
+opel,insignia,1.6 Edition,22,2009,2011,Bilinmiyor,1.6
+opel,insignia,1.6 T Cosmo,190,2009,2015,Bilinmiyor,1.6
+opel,insignia,1.6 T Edition,46,2009,2015,Bilinmiyor,1.6
+opel,insignia,1.6 T Edition Elegance,72,2009,2015,Bilinmiyor,1.6
+opel,insignia,1.6 T Sports Tourer Cosmo,14,2009,2012,Bilinmiyor,1.6
+opel,insignia,2.0 CDTI Cosmo,81,2009,2016,Dizel,2.0
+opel,insignia,2.0 CDTI Edition,94,2009,2013,Dizel,2.0
+opel,insignia,2.0 CDTI Edition Elegance,27,2011,2015,Dizel,2.0
+opel,insignia,2.0 CDTI Edition Elegance Active,14,2012,2014,Dizel,2.0
+opel,vectra,1.6,4,1997,2008,Bilinmiyor,1.6
+opel,vectra,1.6 Comfort,345,1997,2008,Bilinmiyor,1.6
+opel,vectra,1.6 Design Edition,13,2005,2006,Bilinmiyor,1.6
+opel,vectra,1.6 Edition,4,2004,2004,Bilinmiyor,1.6
+opel,vectra,1.6 Elegance,65,2001,2008,Bilinmiyor,1.6
+opel,vectra,1.6 Essentia,5,2006,2007,Bilinmiyor,1.6
+opel,vectra,1.6 GL,75,1996,2000,Bilinmiyor,1.6
+opel,vectra,1.8 Elegance,9,2000,2004,Bilinmiyor,1.8
+opel,vectra,1.8 GL,1,1995,1995,Bilinmiyor,1.8
+opel,vectra,1.9 CDTI Comfort,9,2005,2008,Dizel,1.9
+opel,vectra,1.9 CDTI Elegance,4,2005,2006,Dizel,1.9
+opel,vectra,2.0 100. Yıl,2,1999,2000,Bilinmiyor,2.0
+opel,vectra,2.0 CD,117,1996,2000,Bilinmiyor,2.0
+opel,vectra,2.0 CDX,26,1998,2001,Bilinmiyor,2.0
+opel,vectra,2.0 DTI CD,8,2000,2000,Bilinmiyor,2.0
+opel,vectra,2.0 DTI Comfort,16,2000,2004,Bilinmiyor,2.0
+opel,vectra,2.0 GL,1,1996,1996,Bilinmiyor,2.0
+opel,vectra,2.0 GLS,115,1995,2000,Bilinmiyor,2.0
+opel,vectra,2.0 GT,8,1995,1999,Bilinmiyor,2.0
+opel,vectra,2.2 Elegance,6,2003,2005,Bilinmiyor,2.2
+opel,vectra,2.5 CDX,8,1996,1998,Bilinmiyor,2.5
+peugeot,106,GTI,70,1997,2001,Bilinmiyor,
+peugeot,106,Quicksilver,37,1997,2002,Bilinmiyor,
+peugeot,106,XN,7,1998,1999,Bilinmiyor,
+peugeot,106,XR,79,1997,1999,Bilinmiyor,
+peugeot,106,XS,13,1996,1998,Bilinmiyor,
+peugeot,206,1.4 Color Line,33,2001,2002,Bilinmiyor,1.4
+peugeot,206,1.4 Comfort,75,2007,2011,Bilinmiyor,1.4
+peugeot,206,1.4 Desire,11,2004,2005,Bilinmiyor,1.4
+peugeot,206,1.4 Executive,12,2007,2010,Bilinmiyor,1.4
+peugeot,206,1.4 Feline,23,2006,2007,Bilinmiyor,1.4
+peugeot,206,1.4 Fever,35,2006,2008,Bilinmiyor,1.4
+peugeot,206,1.4 HDi Comfort,37,2002,2011,Dizel,1.4
+peugeot,206,1.4 HDi Desire,7,2004,2004,Dizel,1.4
+peugeot,206,1.4 HDi Feline,13,2005,2006,Dizel,1.4
+peugeot,206,1.4 HDi Fever,24,2006,2008,Dizel,1.4
+peugeot,206,1.4 HDi Look,7,2003,2004,Dizel,1.4
+peugeot,206,1.4 HDi Panoramic,6,2005,2005,Dizel,1.4
+peugeot,206,1.4 HDi Premium,3,2005,2006,Dizel,1.4
+peugeot,206,1.4 HDi Trendy,1,2007,2007,Dizel,1.4
+peugeot,206,1.4 HDi X-Design,65,2004,2008,Dizel,1.4
+peugeot,206,1.4 HDi X-Line,96,2002,2007,Dizel,1.4
+peugeot,206,1.4 Look,2,2004,2004,Bilinmiyor,1.4
+peugeot,206,1.4 Trendy,1,2005,2005,Bilinmiyor,1.4
+peugeot,206,1.4 X-Design,110,2003,2007,Bilinmiyor,1.4
+peugeot,206,1.4 X-Line,157,2003,2007,Bilinmiyor,1.4
+peugeot,206,1.4 XR,145,1999,2004,Bilinmiyor,1.4
+peugeot,206,1.4 XT,77,2000,2007,Bilinmiyor,1.4
+peugeot,206,1.6 1.6 CC,18,2001,2005,Bilinmiyor,1.6
+peugeot,206,1.6 Roland Garros,14,2000,2005,Bilinmiyor,1.6
+peugeot,206,1.6 Sport,4,1999,1999,Bilinmiyor,1.6
+peugeot,206,1.6 XS,27,1999,2003,Bilinmiyor,1.6
+peugeot,206,1.6 XT,57,1999,2005,Bilinmiyor,1.6
+peugeot,206,2.0 CC,1,2005,2005,Bilinmiyor,2.0
+peugeot,206,2.0 GTI,17,1999,2001,Bilinmiyor,2.0
+peugeot,207,1.4 Access,10,2011,2012,Bilinmiyor,1.4
+peugeot,207,1.4 Comfort,35,2007,2011,Bilinmiyor,1.4
+peugeot,207,1.4 Envy,16,2010,2011,Bilinmiyor,1.4
+peugeot,207,1.4 HDi Active,29,2011,2012,Dizel,1.4
+peugeot,207,1.4 HDi Comfort,9,2008,2009,Dizel,1.4
+peugeot,207,1.4 HDi Dynamic,15,2008,2011,Dizel,1.4
+peugeot,207,1.4 HDi Envy,20,2010,2011,Dizel,1.4
+peugeot,207,1.4 HDi Millesim,6,2010,2010,Dizel,1.4
+peugeot,207,1.4 HDi Premium,35,2006,2008,Dizel,1.4
+peugeot,207,1.4 HDi Trendy,283,2006,2011,Dizel,1.4
+peugeot,207,1.4 HDi Urban Move,28,2011,2012,Dizel,1.4
+peugeot,207,1.4 Millesim,12,2010,2011,Bilinmiyor,1.4
+peugeot,207,1.4 Trendy,178,2006,2011,Bilinmiyor,1.4
+peugeot,207,1.4 VTi Active,19,2011,2012,Benzin,1.4
+peugeot,207,1.4 VTi Trendy,29,2007,2010,Benzin,1.4
+peugeot,207,1.6 Dynamic,2,2008,2009,Bilinmiyor,1.6
+peugeot,207,1.6 HDi Active,3,2011,2012,Dizel,1.6
+peugeot,207,1.6 HDi Allure,3,2012,2012,Dizel,1.6
+peugeot,207,1.6 HDi Dynamic,19,2008,2011,Dizel,1.6
+peugeot,207,1.6 HDi Feline,15,2009,2009,Dizel,1.6
+peugeot,207,1.6 HDi Outdoor,13,2008,2009,Dizel,1.6
+peugeot,207,1.6 HDi Premium,28,2006,2008,Dizel,1.6
+peugeot,207,1.6 HDi Premium Outdoor,13,2010,2012,Dizel,1.6
+peugeot,207,1.6 HDi Trendy,21,2010,2011,Dizel,1.6
+peugeot,207,1.6 VTi Active,15,2011,2012,Benzin,1.6
+peugeot,207,1.6 VTi Dynamic,14,2007,2009,Benzin,1.6
+peugeot,207,1.6 VTi Outdoor Premium,10,2010,2011,Benzin,1.6
+peugeot,207,1.6 VTi Premium,19,2007,2012,Benzin,1.6
+peugeot,208,1.0 VTi Access,34,2013,2015,Benzin,1.0
+peugeot,208,1.2 PureTech Access,88,2014,2018,Benzin,1.2
+peugeot,208,1.2 PureTech Active,193,2014,2021,Benzin,1.2
+peugeot,208,1.2 PureTech Active Prime,29,2022,2023,Benzin,1.2
+peugeot,208,1.2 PureTech Allure,53,2014,2024,Benzin,1.2
+peugeot,208,1.2 PureTech Allure Selection,82,2021,2024,Benzin,1.2
+peugeot,208,1.2 PureTech GT,58,2021,2024,Benzin,1.2
+peugeot,208,1.2 PureTech GT Line,13,2015,2020,Benzin,1.2
+peugeot,208,1.2 PureTech Prime,40,2020,2022,Benzin,1.2
+peugeot,208,1.2 PureTech Prime Selection,10,2022,2022,Benzin,1.2
+peugeot,208,1.2 PureTech Signature,17,2019,2019,Benzin,1.2
+peugeot,208,1.2 VTi Access,30,2012,2015,Benzin,1.2
+peugeot,208,1.2 VTi Active,30,2012,2015,Benzin,1.2
+peugeot,208,1.4 HDi Access,38,2012,2015,Dizel,1.4
+peugeot,208,1.4 HDi Active,151,2012,2015,Dizel,1.4
+peugeot,208,1.5 BlueHDi Active,19,2021,2021,Dizel,1.5
+peugeot,208,1.5 BlueHDi Active Dynamic,10,2020,2020,Dizel,1.5
+peugeot,208,1.5 BlueHDi Allure,4,2021,2021,Dizel,1.5
+peugeot,208,1.5 BlueHDi Signature,27,2020,2020,Dizel,1.5
+peugeot,208,1.5 BlueHDi Signature Dynamic,10,2020,2020,Dizel,1.5
+peugeot,208,1.6 BlueHDi Active,7,2016,2017,Dizel,1.6
+peugeot,208,1.6 HDi Access,1,2016,2016,Dizel,1.6
+peugeot,208,1.6 HDi Active,33,2015,2018,Dizel,1.6
+peugeot,208,1.6 HDi Allure,8,2012,2014,Dizel,1.6
+peugeot,208,1.6 THP GTI,6,2013,2014,Bilinmiyor,1.6
+peugeot,208,1.6 VTi Active,10,2012,2012,Benzin,1.6
+peugeot,208,1.6 e-HDi Active,10,2016,2017,Dizel,1.6
+peugeot,301,1.2 PureTech Access,9,2014,2019,Benzin,1.2
+peugeot,301,1.2 PureTech Active,82,2014,2019,Benzin,1.2
+peugeot,301,1.2 VTi Access,23,2013,2014,Benzin,1.2
+peugeot,301,1.2 VTi Active,12,2013,2015,Benzin,1.2
+peugeot,301,1.5 BlueHDI Active,199,2019,2020,Dizel,1.5
+peugeot,301,1.5 BlueHDI Allure,42,2019,2020,Dizel,1.5
+peugeot,301,1.6 BlueHDI Access,8,2016,2018,Dizel,1.6
+peugeot,301,1.6 BlueHDI Active,188,2018,2019,Dizel,1.6
+peugeot,301,1.6 BlueHDI Allure,59,2013,2018,Dizel,1.6
+peugeot,301,1.6 HDi Access,73,2012,2018,Dizel,1.6
+peugeot,301,1.6 HDi Active,734,2012,2018,Dizel,1.6
+peugeot,301,1.6 HDi Allure,212,2012,2018,Dizel,1.6
+peugeot,301,1.6 VTi Active,2,2012,2014,Benzin,1.6
+peugeot,306,1.6 Griffe,43,1998,1999,Bilinmiyor,1.6
+peugeot,306,1.6 Platinum,68,2000,2001,Bilinmiyor,1.6
+peugeot,306,1.6 XN,8,1998,1999,Bilinmiyor,1.6
+peugeot,306,1.6 XR,19,1997,2002,Bilinmiyor,1.6
+peugeot,306,1.6 XT,4,1999,2001,Bilinmiyor,1.6
+peugeot,306,1.8 XR,14,1995,2000,Bilinmiyor,1.8
+peugeot,306,2.0 GTI,4,1998,1999,Bilinmiyor,2.0
+peugeot,307,1.4 Comfort,26,2005,2007,Bilinmiyor,1.4
+peugeot,307,1.4 Feline,1,2007,2007,Bilinmiyor,1.4
+peugeot,307,1.4 HDi Envy,9,2004,2006,Dizel,1.4
+peugeot,307,1.4 HDi XR,157,2003,2005,Dizel,1.4
+peugeot,307,1.4 Look,5,2005,2006,Bilinmiyor,1.4
+peugeot,307,1.4 XR,26,2004,2005,Bilinmiyor,1.4
+peugeot,307,1.6 Comfort,42,2005,2007,Bilinmiyor,1.6
+peugeot,307,1.6 Envy,15,2004,2004,Bilinmiyor,1.6
+peugeot,307,1.6 HDi Comfort,79,2005,2008,Dizel,1.6
+peugeot,307,1.6 HDi Feline,2,2008,2008,Dizel,1.6
+peugeot,307,1.6 HDi Look,3,2005,2005,Dizel,1.6
+peugeot,307,1.6 HDi Premium,21,2004,2007,Dizel,1.6
+peugeot,307,1.6 HDi XS,10,2005,2006,Dizel,1.6
+peugeot,307,1.6 HDi XT,17,2005,2006,Dizel,1.6
+peugeot,307,1.6 Pack,22,2003,2005,Bilinmiyor,1.6
+peugeot,307,1.6 Premium,15,2003,2008,Bilinmiyor,1.6
+peugeot,307,1.6 Profil,17,2003,2004,Bilinmiyor,1.6
+peugeot,307,1.6 Technoplus,13,2003,2004,Bilinmiyor,1.6
+peugeot,307,1.6 XR,98,2001,2006,Bilinmiyor,1.6
+peugeot,307,1.6 XS,30,2002,2005,Bilinmiyor,1.6
+peugeot,307,1.6 XT,167,2001,2006,Bilinmiyor,1.6
+peugeot,307,1.6 XT Premium,60,2002,2006,Bilinmiyor,1.6
+peugeot,307,2.0 CC,12,2004,2006,Bilinmiyor,2.0
+peugeot,307,2.0 Sport,2,2004,2005,Bilinmiyor,2.0
+peugeot,308,1.2 Puretech Active,46,2013,2018,Benzin,1.2
+peugeot,308,1.2 Puretech Active Prime,23,2023,2024,Benzin,1.2
+peugeot,308,1.2 Puretech Allure,103,2014,2024,Benzin,1.2
+peugeot,308,1.2 Puretech Allure Dynamic,9,2020,2020,Benzin,1.2
+peugeot,308,1.2 Puretech Allure Sport,16,2020,2021,Benzin,1.2
+peugeot,308,1.2 Puretech GT,117,2022,2024,Benzin,1.2
+peugeot,308,1.2 Puretech Style,21,2019,2021,Benzin,1.2
+peugeot,308,1.2 Puretech Style Tech,58,2020,2021,Benzin,1.2
+peugeot,308,1.2 VTi Access,3,2014,2015,Benzin,1.2
+peugeot,308,1.2 VTi Active,4,2014,2015,Benzin,1.2
+peugeot,308,1.5 BlueHDI Style,23,2019,2020,Dizel,1.5
+peugeot,308,1.5 BlueHDI Style Tech,17,2020,2021,Dizel,1.5
+peugeot,308,1.6 BlueHDi Active,113,2015,2018,Dizel,1.6
+peugeot,308,1.6 BlueHDi Allure,41,2015,2018,Dizel,1.6
+peugeot,308,1.6 BlueHDi Style,22,2015,2016,Dizel,1.6
+peugeot,308,1.6 HDi Access,17,2011,2016,Dizel,1.6
+peugeot,308,1.6 HDi Active,36,2011,2017,Dizel,1.6
+peugeot,308,1.6 HDi Allure,1,2017,2017,Dizel,1.6
+peugeot,308,1.6 HDi Comfort,118,2008,2010,Dizel,1.6
+peugeot,308,1.6 HDi Comfort Pack,56,2008,2012,Dizel,1.6
+peugeot,308,1.6 HDi Envy,8,2011,2011,Dizel,1.6
+peugeot,308,1.6 HDi Millesim,6,2010,2010,Dizel,1.6
+peugeot,308,1.6 HDi Premium,14,2008,2010,Dizel,1.6
+peugeot,308,1.6 HDi Premium Plus,13,2010,2011,Dizel,1.6
+peugeot,308,1.6 THP Feeline,10,2009,2011,Bilinmiyor,1.6
+peugeot,308,1.6 THP GTI,2,2017,2018,Bilinmiyor,1.6
+peugeot,308,1.6 VTi Active,10,2011,2012,Benzin,1.6
+peugeot,308,1.6 VTi Comfort,78,2008,2010,Benzin,1.6
+peugeot,308,1.6 VTi Confort Pack,37,2008,2012,Benzin,1.6
+peugeot,308,1.6 VTi Millesim,9,2010,2011,Benzin,1.6
+peugeot,308,1.6 VTi Premium,7,2008,2009,Benzin,1.6
+peugeot,308,1.6 e-HDi Access,19,2011,2012,Dizel,1.6
+peugeot,308,1.6 e-HDi Active,46,2012,2017,Dizel,1.6
+peugeot,308,1.6 e-HDi Allure,17,2013,2016,Dizel,1.6
+peugeot,308,1.6 e-HDi Classic Edition Plus,17,2016,2016,Dizel,1.6
+peugeot,308,1.6 e-HDi Sportium,17,2012,2013,Dizel,1.6
+peugeot,406,2.0 Coupe,4,1998,2002,Bilinmiyor,2.0
+peugeot,406,2.0 HDi ST,7,2000,2004,Dizel,2.0
+peugeot,406,2.0 ST,9,1999,2002,Bilinmiyor,2.0
+peugeot,406,2.0 SV,31,1996,2004,Bilinmiyor,2.0
+peugeot,407,1.6 HDi Comfort,70,2006,2010,Dizel,1.6
+peugeot,407,1.6 HDi Executive,66,2006,2010,Dizel,1.6
+peugeot,407,1.6 HDi Executive Black,17,2007,2010,Dizel,1.6
+peugeot,407,1.6 HDi Premium,4,2005,2009,Dizel,1.6
+peugeot,407,2.0 Comfort,4,2007,2007,Bilinmiyor,2.0
+peugeot,407,2.0 Executive,5,2005,2005,Bilinmiyor,2.0
+peugeot,407,2.0 Executive Premium,7,2005,2006,Bilinmiyor,2.0
+peugeot,407,2.0 HDi Executive Premium,8,2005,2006,Dizel,2.0
+peugeot,508,1.5 BlueHDi Allure,102,2022,2024,Dizel,1.5
+peugeot,508,1.5 BlueHDi GT,33,2023,2024,Dizel,1.5
+peugeot,508,1.5 BlueHDi GT Selection,59,2022,2023,Dizel,1.5
+peugeot,508,1.5 BlueHDi Prime,15,2022,2022,Dizel,1.5
+porsche,911,Carrera,5,1998,2011,Bilinmiyor,
+porsche,911,Carrera 4,5,1998,2011,Bilinmiyor,
+porsche,911,Carrera 4S,10,2006,2013,Bilinmiyor,
+porsche,911,Carrera S,7,2005,2012,Bilinmiyor,
+porsche,911,Turbo,5,2001,2008,Bilinmiyor,
+porsche,panamera,Panamera 4,25,2010,2012,Bilinmiyor,
+porsche,panamera,Panamera 4 E-Hybrid,2,2018,2021,Hibrit/Elektrik,
+porsche,panamera,Panamera 4S,29,2010,2018,Bilinmiyor,
+porsche,panamera,Panamera Diesel,209,2011,2015,Dizel,
+porsche,taycan,4 Cross Turismo,16,2022,2023,Bilinmiyor,
+porsche,taycan,4S,10,2020,2024,Bilinmiyor,
+porsche,taycan,4S Performance Plus,75,2020,2023,Bilinmiyor,
+porsche,taycan,GTS,3,2021,2022,Bilinmiyor,
+porsche,taycan,Taycan,23,2021,2024,Bilinmiyor,
+porsche,taycan,Turbo,18,2020,2022,Bilinmiyor,
+porsche,taycan,Turbo S,18,2020,2021,Bilinmiyor,
+renault,clio,0.9 TCe Icon,84,2012,2020,Benzin,0.9
+renault,clio,0.9 TCe Joy,263,2019,2020,Benzin,0.9
+renault,clio,0.9 TCe Sport Tourer Icon,16,2013,2014,Benzin,0.9
+renault,clio,0.9 TCe Sport Tourer Joy,58,2019,2022,Benzin,0.9
+renault,clio,0.9 TCe Sport Tourer Touch,27,2019,2020,Benzin,0.9
+renault,clio,0.9 TCe Touch,158,2012,2020,Benzin,0.9
+renault,clio,1.0 SCe Equilibre,35,2023,2024,Benzin,1.0
+renault,clio,1.0 SCe Joy,584,2020,2023,Benzin,1.0
+renault,clio,1.0 TCe Equilibre,131,2023,2024,Benzin,1.0
+renault,clio,1.0 TCe Evolution,843,2023,2025,Benzin,1.0
+renault,clio,1.0 TCe Icon,61,2020,2023,Benzin,1.0
+renault,clio,1.0 TCe Joy,1039,2015,2023,Benzin,1.0
+renault,clio,1.0 TCe Techno Esprit Alpine,124,2023,2025,Benzin,1.0
+renault,clio,1.0 TCe Touch,579,2020,2023,Benzin,1.0
+renault,clio,1.2 Authentique,241,2002,2015,Bilinmiyor,1.2
+renault,clio,1.2 Dynamique,13,2002,2009,Bilinmiyor,1.2
+renault,clio,1.2 Expression,52,2004,2010,Bilinmiyor,1.2
+renault,clio,1.2 Extreme,130,2007,2012,Bilinmiyor,1.2
+renault,clio,1.2 Grandtour Extreme,22,2010,2012,Bilinmiyor,1.2
+renault,clio,1.2 Icon,104,2012,2018,Bilinmiyor,1.2
+renault,clio,1.2 Joy,450,2012,2019,Bilinmiyor,1.2
+renault,clio,1.2 SportTourer Icon,23,2013,2016,Bilinmiyor,1.2
+renault,clio,1.2 SportTourer Joy,49,2013,2019,Bilinmiyor,1.2
+renault,clio,1.2 TCe GT Line,10,2014,2016,Benzin,1.2
+renault,clio,1.2 TCe Icon,108,2013,2018,Benzin,1.2
+renault,clio,1.2 TCe Joy,25,2015,2018,Benzin,1.2
+renault,clio,1.2 TCe Touch,29,2013,2018,Benzin,1.2
+renault,clio,1.2 TCe Touchrome,11,2017,2017,Benzin,1.2
+renault,clio,1.2 Tom Tom Edition,13,2010,2011,Bilinmiyor,1.2
+renault,clio,1.2 Touch,38,2012,2018,Bilinmiyor,1.2
+renault,clio,1.2 Touchrome,10,2017,2017,Bilinmiyor,1.2
+renault,clio,1.3 TCe Icon,8,2020,2020,Benzin,1.3
+renault,clio,1.3 TCe Touch,66,2020,2020,Benzin,1.3
+renault,clio,1.4,82,1998,2006,Bilinmiyor,1.4
+renault,clio,1.4 Alize,139,2004,2008,Bilinmiyor,1.4
+renault,clio,1.4 Authentique,286,2002,2010,Bilinmiyor,1.4
+renault,clio,1.4 Dynamique,57,2002,2010,Bilinmiyor,1.4
+renault,clio,1.4 Expression,60,2002,2010,Bilinmiyor,1.4
+renault,clio,1.4 Extreme,32,2007,2008,Bilinmiyor,1.4
+renault,clio,1.4 Fidji,14,2004,2004,Bilinmiyor,1.4
+renault,clio,1.4 Privilege,22,2001,2006,Bilinmiyor,1.4
+renault,clio,1.4 RN,61,1996,2002,Bilinmiyor,1.4
+renault,clio,1.4 RNA,298,1997,2002,Bilinmiyor,1.4
+renault,clio,1.4 RT,48,1996,2000,Bilinmiyor,1.4
+renault,clio,1.4 RTA,157,1998,2002,Bilinmiyor,1.4
+renault,clio,1.4 RXT,96,2001,2002,Bilinmiyor,1.4
+renault,clio,1.5 BlueDCI Joy,24,2020,2020,Dizel,1.5
+renault,clio,1.5 dCi Alize,211,2004,2008,Dizel,1.5
+renault,clio,1.5 dCi Authentique,290,2002,2012,Dizel,1.5
+renault,clio,1.5 dCi Authentique Edition,27,2011,2012,Dizel,1.5
+renault,clio,1.5 dCi Dynamique,49,2003,2011,Dizel,1.5
+renault,clio,1.5 dCi Executive,13,2010,2011,Dizel,1.5
+renault,clio,1.5 dCi Expression,169,2002,2014,Dizel,1.5
+renault,clio,1.5 dCi Extreme,115,2006,2012,Dizel,1.5
+renault,clio,1.5 dCi Extreme Edition,22,2011,2014,Dizel,1.5
+renault,clio,1.5 dCi Fidji,8,2002,2005,Dizel,1.5
+renault,clio,1.5 dCi GT Line,18,2014,2017,Dizel,1.5
+renault,clio,1.5 dCi Grandtour Authentique Edition,49,2009,2012,Dizel,1.5
+renault,clio,1.5 dCi Grandtour Dynamique,9,2008,2010,Dizel,1.5
+renault,clio,1.5 dCi Grandtour Extreme,48,2009,2012,Dizel,1.5
+renault,clio,1.5 dCi Grandtour Night & Day,13,2011,2015,Dizel,1.5
+renault,clio,1.5 dCi Icon,724,2012,2020,Dizel,1.5
+renault,clio,1.5 dCi Joy,987,2012,2019,Dizel,1.5
+renault,clio,1.5 dCi Night & Day,15,2011,2012,Dizel,1.5
+renault,clio,1.5 dCi SportTourer Icon,125,2013,2019,Dizel,1.5
+renault,clio,1.5 dCi SportTourer Joy,389,2013,2019,Dizel,1.5
+renault,clio,1.5 dCi SportTourer Touch,76,2013,2019,Dizel,1.5
+renault,clio,1.5 dCi Tom Tom Edition,6,2009,2011,Dizel,1.5
+renault,clio,1.5 dCi Touch,754,2005,2019,Dizel,1.5
+renault,clio,1.6 Dynamique,36,2000,2010,Bilinmiyor,1.6
+renault,clio,1.6 Expression,2,2010,2011,Bilinmiyor,1.6
+renault,clio,1.6 Extreme,10,2011,2012,Bilinmiyor,1.6
+renault,clio,1.6 Grandtour Extreme,18,2011,2012,Bilinmiyor,1.6
+renault,clio,1.6 RTE,125,1998,2001,Bilinmiyor,1.6
+renault,clio,1.6 RXT,76,1998,2002,Bilinmiyor,1.6
+renault,fluence,1.5 dCi Authentique,29,2010,2012,Dizel,1.5
+renault,fluence,1.5 dCi Business,293,2010,2015,Dizel,1.5
+renault,fluence,1.5 dCi Dynamique,126,2010,2012,Dizel,1.5
+renault,fluence,1.5 dCi Expression,19,2010,2010,Dizel,1.5
+renault,fluence,1.5 dCi Extreme,217,2010,2016,Dizel,1.5
+renault,fluence,1.5 dCi Extreme Edition,134,2011,2012,Dizel,1.5
+renault,fluence,1.5 dCi Icon,624,2012,2016,Dizel,1.5
+renault,fluence,1.5 dCi Joy,286,2012,2014,Dizel,1.5
+renault,fluence,1.5 dCi Privilege,123,2010,2012,Dizel,1.5
+renault,fluence,1.5 dCi Touch,915,2012,2016,Dizel,1.5
+renault,fluence,1.5 dCi Touch Plus,326,2013,2016,Dizel,1.5
+renault,fluence,1.6 Authentique,3,2010,2012,Bilinmiyor,1.6
+renault,fluence,1.6 Business,13,2010,2012,Bilinmiyor,1.6
+renault,fluence,1.6 Dynamique,21,2010,2012,Bilinmiyor,1.6
+renault,fluence,1.6 Expression,9,2010,2010,Bilinmiyor,1.6
+renault,fluence,1.6 Extreme,70,2010,2013,Bilinmiyor,1.6
+renault,fluence,1.6 Icon,19,2012,2013,Bilinmiyor,1.6
+renault,fluence,1.6 Joy,4,2013,2013,Bilinmiyor,1.6
+renault,fluence,1.6 Privilege,44,2010,2012,Bilinmiyor,1.6
+renault,fluence,1.6 Touch,43,2013,2016,Bilinmiyor,1.6
+renault,fluence,1.6 Touch Plus,20,2013,2016,Bilinmiyor,1.6
+renault,fluence,1.6 dCi Icon,5,2013,2014,Dizel,1.6
+renault,laguna,1.5 dCi Dynamique,8,2008,2010,Dizel,1.5
+renault,laguna,1.5 dCi Executive,13,2010,2011,Dizel,1.5
+renault,laguna,1.5 dCi Expression,8,2008,2010,Dizel,1.5
+renault,laguna,1.5 dCi Privilege,19,2008,2011,Dizel,1.5
+renault,laguna,1.6,2,2001,2001,Bilinmiyor,1.6
+renault,laguna,1.6 Authentique,12,2002,2005,Bilinmiyor,1.6
+renault,laguna,1.6 Dynamique,2,2009,2009,Bilinmiyor,1.6
+renault,laguna,1.6 Expression,79,2002,2010,Bilinmiyor,1.6
+renault,laguna,1.6 Privilege,57,2002,2009,Bilinmiyor,1.6
+renault,laguna,1.6 RXE,10,2000,2002,Bilinmiyor,1.6
+renault,laguna,1.6 RXT,2,2001,2001,Bilinmiyor,1.6
+renault,laguna,1.8,2,2001,2001,Bilinmiyor,1.8
+renault,laguna,1.8 RXE,10,1999,2000,Bilinmiyor,1.8
+renault,laguna,1.9 DTi RXE,5,2000,2001,Bilinmiyor,1.9
+renault,laguna,1.9 dCi Dynamique,2,2002,2002,Dizel,1.9
+renault,laguna,1.9 dCi Expression,8,2005,2008,Dizel,1.9
+renault,laguna,1.9 dCi Privilege,9,2002,2007,Dizel,1.9
+renault,laguna,2.0 Privilege,15,2002,2004,Bilinmiyor,2.0
+renault,laguna,2.0 RTI,19,1996,1997,Bilinmiyor,2.0
+renault,laguna,2.0 RXE,15,1996,2001,Bilinmiyor,2.0
+renault,laguna,2.0 RXT,58,1998,2001,Bilinmiyor,2.0
+renault,laguna,2.0 T Privilege,6,2005,2006,Bilinmiyor,2.0
+renault,laguna,2.0 dCi Executive,2,2010,2010,Dizel,2.0
+renault,laguna,2.0 dCi Privilege,1,2009,2009,Dizel,2.0
+renault,latitude,1.5 dCi Executive,75,2011,2014,Dizel,1.5
+renault,latitude,1.5 dCi Expression,34,2011,2015,Dizel,1.5
+renault,latitude,1.5 dCi Privilege,57,2011,2015,Dizel,1.5
+renault,latitude,2.0 dCi Executive,13,2011,2012,Dizel,2.0
+renault,latitude,2.0 dCi Privilege,14,2011,2012,Dizel,2.0
+renault,megane,1.0 TCe Joy,5,2000,2021,Benzin,1.0
+renault,megane,1.2 TCe Icon,23,2016,2019,Benzin,1.2
+renault,megane,1.2 TCe Touch,59,2016,2018,Benzin,1.2
+renault,megane,1.2 TCe Touchrome,2,2016,2017,Benzin,1.2
+renault,megane,1.3 TCe Icon,571,2020,2025,Benzin,1.3
+renault,megane,1.3 TCe Joy,1059,2019,2024,Benzin,1.3
+renault,megane,1.3 TCe Joy Comfort,453,2019,2024,Benzin,1.3
+renault,megane,1.3 TCe Touch,613,2019,2025,Benzin,1.3
+renault,megane,1.4 Alize,8,2001,2004,Bilinmiyor,1.4
+renault,megane,1.4 Authentique,172,2001,2009,Bilinmiyor,1.4
+renault,megane,1.4 Expression,2,2001,2002,Bilinmiyor,1.4
+renault,megane,1.4 Extreme,2,2007,2007,Bilinmiyor,1.4
+renault,megane,1.4 RTA,27,2001,2004,Bilinmiyor,1.4
+renault,megane,1.5 Blue DCI Icon,171,2019,2025,Dizel,1.5
+renault,megane,1.5 Blue DCI Joy,309,2019,2022,Dizel,1.5
+renault,megane,1.5 Blue DCI Joy Comfort,88,2020,2022,Dizel,1.5
+renault,megane,1.5 Blue DCI Touch,533,2017,2025,Dizel,1.5
+renault,megane,1.5 dCi Authentique,185,2004,2012,Dizel,1.5
+renault,megane,1.5 dCi Business,7,2012,2012,Dizel,1.5
+renault,megane,1.5 dCi Dynamique,253,2003,2012,Dizel,1.5
+renault,megane,1.5 dCi Exception,28,2009,2010,Dizel,1.5
+renault,megane,1.5 dCi Expression,271,2004,2013,Dizel,1.5
+renault,megane,1.5 dCi Expression Plus,21,2007,2009,Dizel,1.5
+renault,megane,1.5 dCi Extreme,132,2007,2013,Dizel,1.5
+renault,megane,1.5 dCi GT-Line,48,2012,2016,Dizel,1.5
+renault,megane,1.5 dCi Grandtour Dynamique,1,2005,2005,Dizel,1.5
+renault,megane,1.5 dCi Icon,507,2012,2019,Dizel,1.5
+renault,megane,1.5 dCi Impressor,18,2010,2012,Dizel,1.5
+renault,megane,1.5 dCi Joy,246,2013,2019,Dizel,1.5
+renault,megane,1.5 dCi Privilege,193,2004,2012,Dizel,1.5
+renault,megane,1.5 dCi Sport Edition,9,2011,2011,Dizel,1.5
+renault,megane,1.5 dCi Sport Tourer Expression,28,2007,2012,Dizel,1.5
+renault,megane,1.5 dCi Sport Tourer GT-Line,17,2012,2015,Dizel,1.5
+renault,megane,1.5 dCi Sport Tourer Privilege,71,2010,2013,Dizel,1.5
+renault,megane,1.5 dCi Sportway,21,2005,2005,Dizel,1.5
+renault,megane,1.5 dCi Touch,1200,2012,2020,Dizel,1.5
+renault,megane,1.5 dCi Touch Plus,242,2014,2021,Dizel,1.5
+renault,megane,1.6 Alize,22,1999,2004,Bilinmiyor,1.6
+renault,megane,1.6 Authentique,139,2000,2010,Bilinmiyor,1.6
+renault,megane,1.6 Business,3,1999,2012,Bilinmiyor,1.6
+renault,megane,1.6 Cabrio Cabrio,9,1998,2002,Bilinmiyor,1.6
+renault,megane,1.6 Coupe Dynamique,9,2001,2001,Bilinmiyor,1.6
+renault,megane,1.6 Coupe Expression,3,2000,2001,Bilinmiyor,1.6
+renault,megane,1.6 Coupe Privilege,6,2000,2000,Bilinmiyor,1.6
+renault,megane,1.6 Coupe RN,19,1998,1999,Bilinmiyor,1.6
+renault,megane,1.6 Dynamique,547,2001,2012,Bilinmiyor,1.6
+renault,megane,1.6 Exception,24,2005,2010,Bilinmiyor,1.6
+renault,megane,1.6 Expression,137,2000,2012,Bilinmiyor,1.6
+renault,megane,1.6 Extreme,51,2007,2012,Bilinmiyor,1.6
+renault,megane,1.6 Icon,16,2012,2013,Bilinmiyor,1.6
+renault,megane,1.6 Joy,356,2012,2019,Bilinmiyor,1.6
+renault,megane,1.6 Privilege,99,2000,2013,Bilinmiyor,1.6
+renault,megane,1.6 RNA,16,1998,2004,Bilinmiyor,1.6
+renault,megane,1.6 RTA,58,1998,2002,Bilinmiyor,1.6
+renault,megane,1.6 RTE,227,1998,2003,Bilinmiyor,1.6
+renault,megane,1.6 RXE,15,1999,2002,Bilinmiyor,1.6
+renault,megane,1.6 RXT,21,2000,2001,Bilinmiyor,1.6
+renault,megane,1.6 RXi,34,2000,2002,Bilinmiyor,1.6
+renault,megane,1.6 Sport,1,2000,2000,Bilinmiyor,1.6
+renault,megane,1.6 Sportway,6,2005,2005,Bilinmiyor,1.6
+renault,megane,1.6 Touch,43,2012,2019,Bilinmiyor,1.6
+renault,megane,1.6 Touch Plus,27,2014,2017,Bilinmiyor,1.6
+renault,megane,1.6 dCi Icon,7,2001,2017,Dizel,1.6
+renault,megane,1.9 DTi Expression,5,2000,2003,Bilinmiyor,1.9
+renault,megane,1.9 DTi RTE,19,1999,2003,Bilinmiyor,1.9
+renault,megane,1.9 DTi RXE,1,2002,2002,Bilinmiyor,1.9
+renault,megane,1.9 dCi Dynamique,3,2003,2004,Dizel,1.9
+renault,megane,1.9 dCi Expression,1,2003,2003,Dizel,1.9
+renault,megane,2.0 Coupe,7,1998,2000,Bilinmiyor,2.0
+renault,megane,2.0 RXE,17,1998,2000,Bilinmiyor,2.0
+renault,megane,2.0 RXT,50,1998,2000,Bilinmiyor,2.0
+renault,scenic,1.5 dCi Authentique,2,2005,2005,Dizel,1.5
+renault,scenic,1.5 dCi Dynamique,9,2005,2007,Dizel,1.5
+renault,scenic,1.5 dCi Exception,1,2007,2007,Dizel,1.5
+renault,scenic,1.5 dCi Expression,4,2006,2011,Dizel,1.5
+renault,scenic,1.5 dCi Extreme,1,2009,2009,Dizel,1.5
+renault,scenic,1.5 dCi Icon,14,2013,2015,Dizel,1.5
+renault,scenic,1.5 dCi Privilege,62,2005,2013,Dizel,1.5
+renault,scenic,1.5 dCi Sportway,4,2007,2007,Dizel,1.5
+renault,scenic,1.5 dCi Touch,3,2013,2014,Dizel,1.5
+renault,scenic,1.6,8,1997,2002,Bilinmiyor,1.6
+renault,scenic,1.6 Authentique,6,2004,2005,Bilinmiyor,1.6
+renault,scenic,1.6 Dynamique,55,2002,2006,Bilinmiyor,1.6
+renault,scenic,1.6 Exception,3,2005,2006,Bilinmiyor,1.6
+renault,scenic,1.6 Expression,3,2004,2008,Bilinmiyor,1.6
+renault,scenic,1.6 Extreme,1,2009,2009,Bilinmiyor,1.6
+renault,scenic,1.6 Privilege,63,2002,2008,Bilinmiyor,1.6
+renault,scenic,1.6 RTE,8,1997,2000,Bilinmiyor,1.6
+renault,scenic,1.6 RXE,8,2000,2001,Bilinmiyor,1.6
+renault,scenic,1.6 RXT,39,1999,2002,Bilinmiyor,1.6
+renault,scenic,1.6 Sportway,2,2003,2007,Bilinmiyor,1.6
+renault,scenic,1.9 dCi Dynamique,3,2003,2003,Dizel,1.9
+renault,scenic,1.9 dCi Privilege,1,2007,2007,Dizel,1.9
+renault,scenic,2.0 Privilege,5,2001,2004,Bilinmiyor,2.0
+renault,scenic,2.0 RXT,4,1998,1999,Bilinmiyor,2.0
+renault,symbol,0.9 TCe Joy,180,2019,2020,Benzin,0.9
+renault,symbol,0.9 TCe Turbo Touch,21,2012,2013,Benzin,0.9
+renault,symbol,1.0 SCe Joy,37,2018,2019,Benzin,1.0
+renault,symbol,1.0 SCe Touch,3,2018,2019,Benzin,1.0
+renault,symbol,1.0 TCe Joy,29,2020,2020,Benzin,1.0
+renault,symbol,1.2 Authentique,119,2009,2012,Bilinmiyor,1.2
+renault,symbol,1.2 Authentique Edition,35,2012,2012,Bilinmiyor,1.2
+renault,symbol,1.2 Expression,117,2009,2012,Bilinmiyor,1.2
+renault,symbol,1.2 Expression Plus,19,2009,2012,Bilinmiyor,1.2
+renault,symbol,1.2 Joy,204,2013,2015,Bilinmiyor,1.2
+renault,symbol,1.2 SL Collection,7,2011,2012,Bilinmiyor,1.2
+renault,symbol,1.2 Touch,29,2013,2015,Bilinmiyor,1.2
+renault,symbol,1.4 Authentique,194,2000,2011,Bilinmiyor,1.4
+renault,symbol,1.4 Expression,151,2001,2011,Bilinmiyor,1.4
+renault,symbol,1.4 Expression Plus,34,2009,2011,Bilinmiyor,1.4
+renault,symbol,1.4 Extreme,4,2007,2008,Bilinmiyor,1.4
+renault,symbol,1.5 BlueDCI Joy,20,2019,2020,Dizel,1.5
+renault,symbol,1.5 DCI Authentique,584,2003,2012,Dizel,1.5
+renault,symbol,1.5 DCI Authentique Edition,16,2012,2015,Dizel,1.5
+renault,symbol,1.5 DCI Dynamique,23,2005,2012,Dizel,1.5
+renault,symbol,1.5 DCI Expression,230,2002,2012,Dizel,1.5
+renault,symbol,1.5 DCI Expression Plus,29,2007,2012,Dizel,1.5
+renault,symbol,1.5 DCI Extreme,46,2008,2010,Dizel,1.5
+renault,symbol,1.5 DCI Joy,640,2013,2020,Dizel,1.5
+renault,symbol,1.5 DCI Touch,105,2013,2019,Dizel,1.5
+renault,symbol,1.5 DCI Touch Plus,5,2013,2015,Dizel,1.5
+renault,taliant,1.0 Sce Joy,33,2021,2022,Benzin,1.0
+renault,taliant,1.0 T Joy,615,2021,2024,Bilinmiyor,1.0
+renault,taliant,1.0 T Touch,63,2021,2023,Bilinmiyor,1.0
+renault,talisman,1.3 Tce Icon,23,2020,2022,Benzin,1.3
+renault,talisman,1.5 dCi Icon,2,2016,2016,Dizel,1.5
+renault,talisman,1.5 dCi Touch,2,2016,2016,Dizel,1.5
+renault,talisman,1.6 dCi Icon,144,2015,2018,Dizel,1.6
+renault,talisman,1.6 dCi Touch,62,2016,2018,Dizel,1.6
+seat,altea,1.4 TSI Style XL,27,2008,2012,Benzin,1.4
+seat,altea,1.6 Reference,7,2004,2006,Bilinmiyor,1.6
+seat,altea,1.6 Stylance,10,2004,2007,Bilinmiyor,1.6
+seat,altea,1.6 Style,1,2004,2004,Bilinmiyor,1.6
+seat,altea,1.6 TDI I-Tech XL,12,2014,2015,Dizel,1.6
+seat,altea,1.6 TDI Style XL,18,2010,2013,Dizel,1.6
+seat,cordoba,1.4 Basic,6,2004,2005,Bilinmiyor,1.4
+seat,cordoba,1.4 Elegance,2,2007,2007,Bilinmiyor,1.4
+seat,cordoba,1.4 Reference,1,2006,2006,Bilinmiyor,1.4
+seat,cordoba,1.4 Signo,19,2003,2004,Bilinmiyor,1.4
+seat,cordoba,1.4 Stella,28,2003,2005,Bilinmiyor,1.4
+seat,cordoba,1.4 Stylance,8,2005,2009,Bilinmiyor,1.4
+seat,cordoba,1.4 TDI Elegance,6,2006,2008,Dizel,1.4
+seat,cordoba,1.4 TDI S-Rider,18,2005,2007,Dizel,1.4
+seat,cordoba,1.4 TDI Signo,10,2003,2004,Dizel,1.4
+seat,cordoba,1.4 TDI Stylance,54,2005,2009,Dizel,1.4
+seat,cordoba,1.6 SE,2,1999,2000,Bilinmiyor,1.6
+seat,cordoba,1.6 SX,1,1999,1999,Bilinmiyor,1.6
+seat,cordoba,1.6 SXE,11,1998,1999,Bilinmiyor,1.6
+seat,cordoba,1.6 Signo,18,1999,2001,Bilinmiyor,1.6
+seat,cordoba,1.6 Sport,1,2000,2000,Bilinmiyor,1.6
+seat,cordoba,1.6 Stella,12,1998,2001,Bilinmiyor,1.6
+seat,cordoba,1.9 TDI Signo,1,2000,2000,Dizel,1.9
+seat,ibiza,1.0 EcoTSI FR,33,2018,2025,Benzin,1.0
+seat,ibiza,1.0 EcoTSI Style,265,2015,2025,Benzin,1.0
+seat,ibiza,1.0 Referance,41,2015,2017,Bilinmiyor,1.0
+seat,ibiza,1.0 Style,118,2017,2023,Bilinmiyor,1.0
+seat,ibiza,1.2 Elegance,3,2009,2010,Bilinmiyor,1.2
+seat,ibiza,1.2 Reference,7,2005,2009,Bilinmiyor,1.2
+seat,ibiza,1.2 TSI Reference,55,2012,2017,Benzin,1.2
+seat,ibiza,1.2 TSI Sport Coupe FR,10,2012,2015,Benzin,1.2
+seat,ibiza,1.2 TSI Sport Tourer Style,18,2011,2016,Benzin,1.2
+seat,ibiza,1.2 TSI Style,156,2011,2017,Benzin,1.2
+seat,ibiza,1.4 Basic,1,1998,1998,Bilinmiyor,1.4
+seat,ibiza,1.4 Copa,17,2011,2012,Bilinmiyor,1.4
+seat,ibiza,1.4 Elegance,19,2005,2010,Bilinmiyor,1.4
+seat,ibiza,1.4 Reference,147,2005,2015,Bilinmiyor,1.4
+seat,ibiza,1.4 SE,2,1999,1999,Bilinmiyor,1.4
+seat,ibiza,1.4 Select,1,1999,1999,Bilinmiyor,1.4
+seat,ibiza,1.4 Signo,33,1999,2006,Bilinmiyor,1.4
+seat,ibiza,1.4 Sport,5,2000,2007,Bilinmiyor,1.4
+seat,ibiza,1.4 Sport Tourer Style,13,2011,2015,Bilinmiyor,1.4
+seat,ibiza,1.4 Stella,12,1999,2005,Bilinmiyor,1.4
+seat,ibiza,1.4 Stylance,4,2005,2006,Bilinmiyor,1.4
+seat,ibiza,1.4 Style,100,2010,2015,Bilinmiyor,1.4
+seat,ibiza,1.4 TDI Elegance,3,2006,2007,Dizel,1.4
+seat,ibiza,1.4 TDI Reference,6,2005,2016,Dizel,1.4
+seat,ibiza,1.4 TDI S-Rider,4,2005,2006,Dizel,1.4
+seat,ibiza,1.4 TDI Signo,7,2003,2006,Dizel,1.4
+seat,ibiza,1.4 TDI Stylance,10,2006,2008,Dizel,1.4
+seat,ibiza,1.4 TDI Style,16,2008,2016,Dizel,1.4
+seat,ibiza,1.4 TSI Sport Coupe Cupra,40,2010,2015,Benzin,1.4
+seat,ibiza,1.5 EcoTSI FR,8,2022,2023,Benzin,1.5
+seat,ibiza,1.6 Elegance,3,2010,2010,Bilinmiyor,1.6
+seat,ibiza,1.6 Reference,12,2010,2011,Bilinmiyor,1.6
+seat,ibiza,1.6 SE,3,1998,2000,Bilinmiyor,1.6
+seat,ibiza,1.6 SXE,1,1998,1998,Bilinmiyor,1.6
+seat,ibiza,1.6 Signo,20,2000,2001,Bilinmiyor,1.6
+seat,ibiza,1.6 Sport,2,2009,2009,Bilinmiyor,1.6
+seat,ibiza,1.6 Stella,11,2000,2001,Bilinmiyor,1.6
+seat,ibiza,1.6 TDI CR Style,9,2014,2015,Dizel,1.6
+seat,ibiza,1.6 TDI Reference,10,2010,2015,Dizel,1.6
+seat,ibiza,1.6 TDI Style,7,2017,2018,Dizel,1.6
+seat,leon,1.0 EcoTSI Ecomotive Style,76,2017,2020,Benzin,1.0
+seat,leon,1.0 EcoTSI Style Visio,8,2020,2020,Benzin,1.0
+seat,leon,1.0 TSI Style,16,2021,2021,Benzin,1.0
+seat,leon,1.0 eTSI Style,32,2021,2024,Benzin,1.0
+seat,leon,1.0 eTSI Style Plus,23,2021,2022,Benzin,1.0
+seat,leon,1.2 TSI Reference,5,2013,2013,Benzin,1.2
+seat,leon,1.2 TSI Style,444,2011,2018,Benzin,1.2
+seat,leon,1.4 EcoTSI FR,214,2015,2018,Benzin,1.4
+seat,leon,1.4 EcoTSI Xcellence,26,2017,2018,Benzin,1.4
+seat,leon,1.4 TSI FR,330,2009,2018,Benzin,1.4
+seat,leon,1.4 TSI Stylance,19,2008,2011,Benzin,1.4
+seat,leon,1.4 TSI Style,66,2009,2013,Benzin,1.4
+seat,leon,1.5 EcoTSI FR,199,2018,2020,Benzin,1.5
+seat,leon,1.5 EcoTSI Style,12,2020,2020,Benzin,1.5
+seat,leon,1.5 EcoTSI Xcellence,53,2018,2020,Benzin,1.5
+seat,leon,1.5 TSI FR,15,2021,2021,Benzin,1.5
+seat,leon,1.5 eHybrid FR,39,2025,2025,Hibrit/Elektrik,1.5
+seat,leon,1.5 eTSI FR,49,2021,2025,Benzin,1.5
+seat,leon,1.6 Reference,18,2006,2009,Bilinmiyor,1.6
+seat,leon,1.6 Signo,13,2001,2004,Bilinmiyor,1.6
+seat,leon,1.6 Sport,18,2000,2009,Bilinmiyor,1.6
+seat,leon,1.6 Stella,7,2001,2004,Bilinmiyor,1.6
+seat,leon,1.6 Stylance,99,2006,2010,Bilinmiyor,1.6
+seat,leon,1.6 Style,11,2006,2010,Bilinmiyor,1.6
+seat,leon,1.6 TDI CR Style,494,2010,2016,Dizel,1.6
+seat,leon,1.6 TDI Copa Plus,25,2012,2012,Dizel,1.6
+seat,leon,1.6 TDI FR,49,2015,2019,Dizel,1.6
+seat,leon,1.6 TDI ST Style,40,2014,2019,Dizel,1.6
+seat,leon,1.6 TDI Style,733,2013,2019,Dizel,1.6
+seat,leon,1.6 TDI Xcellence,105,2017,2019,Dizel,1.6
+seat,leon,1.8 Signo,1,2001,2001,Bilinmiyor,1.8
+seat,toledo,1.2 TSI Reference,4,2013,2013,Benzin,1.2
+seat,toledo,1.2 TSI Style,15,2013,2016,Benzin,1.2
+seat,toledo,1.4 TDI Style,91,2015,2017,Dizel,1.4
+seat,toledo,1.4 TSI Style,7,2013,2017,Benzin,1.4
+seat,toledo,1.6 Comfort,1,2000,2000,Bilinmiyor,1.6
+seat,toledo,1.6 Reference,5,2005,2006,Bilinmiyor,1.6
+seat,toledo,1.6 Signo,30,2000,2003,Bilinmiyor,1.6
+seat,toledo,1.6 Signo Plus,21,2001,2005,Bilinmiyor,1.6
+seat,toledo,1.6 Stella,22,2000,2005,Bilinmiyor,1.6
+seat,toledo,1.6 Style,2,2005,2006,Bilinmiyor,1.6
+seat,toledo,1.6 TDI Reference,4,2013,2013,Dizel,1.6
+seat,toledo,1.6 TDI Style,56,2013,2015,Dizel,1.6
+seat,toledo,1.8 Signo,8,2000,2001,Bilinmiyor,1.8
+seat,toledo,1.9 TDI Signo,6,2000,2001,Dizel,1.9
+skoda,fabia,1.0 GreenTec Ambition,27,2015,2018,Bilinmiyor,1.0
+skoda,fabia,1.0 GreenTec Style,67,2017,2019,Bilinmiyor,1.0
+skoda,fabia,1.0 TSI Elite,21,2022,2024,Benzin,1.0
+skoda,fabia,1.0 TSI Premium,98,2020,2025,Benzin,1.0
+skoda,fabia,1.2 Ambiente,25,2005,2012,Bilinmiyor,1.2
+skoda,fabia,1.2 Ambiente Dynamic,8,2010,2011,Bilinmiyor,1.2
+skoda,fabia,1.2 Ambition,11,2012,2014,Bilinmiyor,1.2
+skoda,fabia,1.2 Classic,92,2004,2010,Bilinmiyor,1.2
+skoda,fabia,1.2 Elegance,3,2013,2013,Bilinmiyor,1.2
+skoda,fabia,1.2 TSI Ambition,19,2015,2016,Benzin,1.2
+skoda,fabia,1.2 TSI Style,76,2015,2017,Benzin,1.2
+skoda,fabia,1.4 Ambiente,28,2005,2012,Bilinmiyor,1.4
+skoda,fabia,1.4 Ambiente Dynamic,9,2011,2011,Bilinmiyor,1.4
+skoda,fabia,1.4 Classic,36,2001,2010,Bilinmiyor,1.4
+skoda,fabia,1.4 Comfort,67,2001,2005,Bilinmiyor,1.4
+skoda,fabia,1.4 Elegance,20,2001,2013,Bilinmiyor,1.4
+skoda,fabia,1.4 Special,30,2003,2005,Bilinmiyor,1.4
+skoda,fabia,1.4 Sport,1,2003,2003,Bilinmiyor,1.4
+skoda,fabia,1.4 TDI Ambiente,45,2005,2009,Dizel,1.4
+skoda,fabia,1.4 TDI Classic,32,2004,2010,Dizel,1.4
+skoda,fabia,1.4 TDI Comfort,2,2004,2004,Dizel,1.4
+skoda,fabia,1.4 TDI Elegance,3,2006,2008,Dizel,1.4
+skoda,fabia,1.4 TDI Special,7,2004,2006,Dizel,1.4
+skoda,fabia,1.4 TDI Style,3,2015,2016,Dizel,1.4
+skoda,fabia,1.5 TSI Monte Carlo,12,2023,2024,Benzin,1.5
+skoda,fabia,1.5 TSI Premium,1,2022,2022,Benzin,1.5
+skoda,fabia,1.6 Elegance,3,2008,2008,Bilinmiyor,1.6
+skoda,fabia,1.6 TDI Ambiente,7,2011,2012,Dizel,1.6
+skoda,fabia,1.6 TDI Ambition,3,2012,2012,Dizel,1.6
+skoda,favorit,1.3 LX,2,1995,1995,Bilinmiyor,1.3
+skoda,felicia,1.3,2,1999,2001,Bilinmiyor,1.3
+skoda,felicia,1.3 GLX,46,1996,2000,Bilinmiyor,1.3
+skoda,felicia,1.3 GLXi,78,1995,2002,Bilinmiyor,1.3
+skoda,felicia,1.3 LX,23,1995,2001,Bilinmiyor,1.3
+skoda,felicia,1.3 LXi,10,1996,2001,Bilinmiyor,1.3
+skoda,felicia,1.6 GLXi,8,1998,2001,Bilinmiyor,1.6
+skoda,octavia,1.0 TSI Ambition,17,2016,2018,Benzin,1.0
+skoda,octavia,1.0 TSI Style,12,2016,2017,Benzin,1.0
+skoda,octavia,1.0 e-Tec Elite,261,2020,2024,Bilinmiyor,1.0
+skoda,octavia,1.0 e-Tec Premium,72,2020,2023,Bilinmiyor,1.0
+skoda,octavia,1.2 TSI Ambition,26,2013,2018,Benzin,1.2
+skoda,octavia,1.2 TSI Elegance,5,2014,2015,Benzin,1.2
+skoda,octavia,1.2 TSI Optimal,12,2014,2016,Benzin,1.2
+skoda,octavia,1.2 TSI Style,11,2015,2016,Benzin,1.2
+skoda,octavia,1.4 TSI Elegance,21,2010,2014,Benzin,1.4
+skoda,octavia,1.4 TSI Sport,19,2017,2018,Benzin,1.4
+skoda,octavia,1.4 TSI Style,6,2015,2017,Benzin,1.4
+skoda,octavia,1.5 Mhev Elite,27,2024,2025,Hibrit/Elektrik,1.5
+skoda,octavia,1.5 Mhev Premium,48,2024,2025,Hibrit/Elektrik,1.5
+skoda,octavia,1.5 e-Tec Elite,63,2021,2024,Bilinmiyor,1.5
+skoda,octavia,1.5 e-Tec Premium,144,2020,2024,Bilinmiyor,1.5
+skoda,octavia,1.6 Ambiente,45,2000,2011,Bilinmiyor,1.6
+skoda,octavia,1.6 Business,1,2003,2003,Bilinmiyor,1.6
+skoda,octavia,1.6 Classic,15,2002,2011,Bilinmiyor,1.6
+skoda,octavia,1.6 Collection Plus,6,2003,2004,Bilinmiyor,1.6
+skoda,octavia,1.6 Elegance,58,2001,2010,Bilinmiyor,1.6
+skoda,octavia,1.6 FSI Elegance,21,2005,2009,Benzin,1.6
+skoda,octavia,1.6 GLX,10,1999,2000,Bilinmiyor,1.6
+skoda,octavia,1.6 SLX,2,1999,2019,Bilinmiyor,1.6
+skoda,octavia,1.6 TDI Ambiente,35,2010,2014,Dizel,1.6
+skoda,octavia,1.6 TDI Ambition,72,2012,2017,Dizel,1.6
+skoda,octavia,1.6 TDI Elegance,59,2010,2014,Dizel,1.6
+skoda,octavia,1.6 TDI Elegance CR,222,2011,2015,Dizel,1.6
+skoda,octavia,1.6 TDI Optimal,531,2014,2019,Dizel,1.6
+skoda,octavia,1.6 TDI Style,364,2015,2019,Dizel,1.6
+skoda,octavia,1.6 TDI Style CR,357,2014,2019,Dizel,1.6
+skoda,octavia,1.6 Tour,20,2006,2009,Bilinmiyor,1.6
+skoda,octavia,1.9 TDI Ambiente,5,2004,2004,Dizel,1.9
+skoda,octavia,1.9 TDI Elegance,5,2002,2007,Dizel,1.9
+skoda,octavia,2.0 TDI Elegance,2,2007,2007,Dizel,2.0
+skoda,rapid,1.0 TSI GreenTec Spaceback Style,17,2017,2018,Benzin,1.0
+skoda,rapid,1.2 Active,4,2013,2013,Bilinmiyor,1.2
+skoda,rapid,1.2 Ambition,9,2013,2015,Bilinmiyor,1.2
+skoda,rapid,1.2 TSI Ambition,7,2013,2015,Benzin,1.2
+skoda,rapid,1.2 TSI Elegance,2,2013,2015,Benzin,1.2
+skoda,rapid,1.2 TSI GreenTec Spaceback Style,34,2015,2017,Benzin,1.2
+skoda,rapid,1.2 TSI GreenTec Style,7,2015,2016,Benzin,1.2
+skoda,rapid,1.4 TDI GreenTec Ambition,15,2015,2017,Dizel,1.4
+skoda,rapid,1.4 TDI GreenTec Spaceback Style,61,2015,2017,Dizel,1.4
+skoda,rapid,1.4 TDI GreenTec Style,89,2015,2018,Dizel,1.4
+skoda,rapid,1.4 TSI Elegance,6,2012,2014,Benzin,1.4
+skoda,rapid,1.4 TSI Style,1,2016,2016,Benzin,1.4
+skoda,rapid,1.6 CR TDI Ambition,12,2013,2015,Dizel,1.6
+skoda,rapid,1.6 CR TDI Elegance,69,2012,2015,Dizel,1.6
+skoda,rapid,1.6 CR TDI Spaceback Elegance,40,2014,2015,Dizel,1.6
+skoda,roomster,1.2,15,2008,2012,Bilinmiyor,1.2
+skoda,roomster,1.2 Active,2,2012,2013,Bilinmiyor,1.2
+skoda,roomster,1.2 Panorama,6,2010,2012,Bilinmiyor,1.2
+skoda,roomster,1.2 TSI Style,1,2010,2010,Benzin,1.2
+skoda,roomster,1.4,2,2008,2010,Bilinmiyor,1.4
+skoda,roomster,1.4 Comfort,1,2009,2009,Bilinmiyor,1.4
+skoda,roomster,1.4 Style,3,2008,2010,Bilinmiyor,1.4
+skoda,roomster,1.4 TDI,4,2008,2008,Dizel,1.4
+skoda,roomster,1.4 TDI Comfort,4,2007,2008,Dizel,1.4
+skoda,roomster,1.4 TDI Style,6,2007,2008,Dizel,1.4
+skoda,roomster,1.6 Comfort,3,2007,2009,Bilinmiyor,1.6
+skoda,scala,1.0 TSI Comfort,18,2021,2023,Benzin,1.0
+skoda,scala,1.0 TSI Elite,147,2020,2025,Benzin,1.0
+skoda,scala,1.0 TSI Premium,112,2020,2024,Benzin,1.0
+skoda,scala,1.5 TSI Monte Carlo,14,2024,2025,Benzin,1.5
+skoda,scala,1.5 TSI Premium,8,2020,2024,Benzin,1.5
+skoda,scala,1.6 TDI Premium,171,2020,2020,Dizel,1.6
+skoda,superb,1.4 TSI Active,55,2012,2018,Benzin,1.4
+skoda,superb,1.4 TSI Ambition,12,2009,2011,Benzin,1.4
+skoda,superb,1.4 TSI Comfort,18,2009,2013,Benzin,1.4
+skoda,superb,1.4 TSI Elegance,16,2010,2013,Benzin,1.4
+skoda,superb,1.4 TSI Prestige,20,2015,2018,Benzin,1.4
+skoda,superb,1.4 TSI Style,13,2015,2018,Benzin,1.4
+skoda,superb,1.5 TSI Comfort Plus,20,2021,2021,Benzin,1.5
+skoda,superb,1.5 TSI Elite,154,2019,2023,Benzin,1.5
+skoda,superb,1.5 TSI Hybrid Crystal,8,2024,2024,Hibrit/Elektrik,1.5
+skoda,superb,1.5 TSI Hybrid Elite,14,2024,2024,Hibrit/Elektrik,1.5
+skoda,superb,1.5 TSI Hybrid Laurin&Klement Crystal,45,2024,2025,Hibrit/Elektrik,1.5
+skoda,superb,1.5 TSI Hybrid Premium,21,2024,2025,Hibrit/Elektrik,1.5
+skoda,superb,1.5 TSI Hybrid Prestige,104,2024,2025,Hibrit/Elektrik,1.5
+skoda,superb,1.5 TSI Laurin&Klement Crystal,18,2020,2023,Benzin,1.5
+skoda,superb,1.5 TSI Premium,169,2019,2023,Benzin,1.5
+skoda,superb,1.5 TSI Prestige,313,2018,2023,Benzin,1.5
+skoda,superb,1.5 TSI Sportline,13,2021,2023,Benzin,1.5
+skoda,superb,1.6 TDI Active,78,2012,2018,Dizel,1.6
+skoda,superb,1.6 TDI Ambition,26,2013,2015,Dizel,1.6
+skoda,superb,1.6 TDI Comfort,131,2011,2018,Dizel,1.6
+skoda,superb,1.6 TDI Elegance,188,2011,2015,Dizel,1.6
+skoda,superb,1.6 TDI Elite,57,2018,2020,Dizel,1.6
+skoda,superb,1.6 TDI Premium,102,2019,2020,Dizel,1.6
+skoda,superb,1.6 TDI Prestige,790,2011,2020,Dizel,1.6
+skoda,superb,1.6 TDI Style,355,2015,2019,Dizel,1.6
+skoda,superb,1.9 TDI Elegance,14,2004,2008,Dizel,1.9
+skoda,superb,2.0 TDI Elegance,11,2009,2015,Dizel,2.0
+skoda,superb,2.0 TDI Laurin & Klement,13,2016,2018,Dizel,2.0
+skoda,superb,2.0 TDI Laurin & Klement Crystal,25,2019,2023,Dizel,2.0
+skoda,superb,2.0 TDI Prestige,28,2014,2018,Dizel,2.0
+skoda,superb,2.0 TSI Laurin & Klement Crystal,6,2022,2025,Benzin,2.0
+tesla,model,Long Range (Legacy),115,2022,2025,Bilinmiyor,
+tesla,model,Performance (Legacy),95,2022,2023,Bilinmiyor,
+tesla,model,Premium (Juniper),84,2025,2025,Bilinmiyor,
+tesla,model,RWD (Legacy),184,2024,2025,Bilinmiyor,
+tesla,model,Standart (Juniper),156,2025,2025,Bilinmiyor,
+toyota,auris,1.33 Comfort,69,2010,2017,Bilinmiyor,1.33
+toyota,auris,1.33 Life,147,2013,2017,Bilinmiyor,1.33
+toyota,auris,1.4 D-4D Active,27,2013,2016,Dizel,1.4
+toyota,auris,1.4 D-4D Active Skypack,35,2013,2016,Dizel,1.4
+toyota,auris,1.4 D-4D Advance,19,2013,2015,Dizel,1.4
+toyota,auris,1.4 D-4D Advance Skypack,72,2013,2017,Dizel,1.4
+toyota,auris,1.4 D-4D Class,5,2007,2008,Dizel,1.4
+toyota,auris,1.4 D-4D Comfort,65,2007,2011,Dizel,1.4
+toyota,auris,1.4 D-4D Comfort Extra,204,2009,2012,Dizel,1.4
+toyota,auris,1.4 D-4D Comfort Plus,48,2010,2012,Dizel,1.4
+toyota,auris,1.4 D-4D Elegant,44,2007,2010,Dizel,1.4
+toyota,auris,1.4 D-4D Life,6,2013,2014,Dizel,1.4
+toyota,auris,1.4 D-4D Premium,22,2013,2014,Dizel,1.4
+toyota,auris,1.4 D-4D Touch,4,2014,2015,Dizel,1.4
+toyota,auris,1.6 Active,25,2013,2017,Bilinmiyor,1.6
+toyota,auris,1.6 Active Skypack,42,2013,2017,Bilinmiyor,1.6
+toyota,auris,1.6 Advance,33,2013,2018,Bilinmiyor,1.6
+toyota,auris,1.6 Advance Skypack,50,2013,2018,Bilinmiyor,1.6
+toyota,auris,1.6 Blue,12,2008,2009,Bilinmiyor,1.6
+toyota,auris,1.6 Class,4,2007,2008,Bilinmiyor,1.6
+toyota,auris,1.6 Comfort,49,2007,2009,Bilinmiyor,1.6
+toyota,auris,1.6 Comfort Extra,110,2008,2012,Bilinmiyor,1.6
+toyota,auris,1.6 Elegant,72,2007,2017,Bilinmiyor,1.6
+toyota,auris,1.6 Premium,22,2013,2016,Bilinmiyor,1.6
+toyota,auris,1.6 Sport,3,2011,2011,Bilinmiyor,1.6
+toyota,auris,1.6 Touch,5,2014,2014,Bilinmiyor,1.6
+toyota,corolla,1.3 ECO,18,1998,2000,Bilinmiyor,1.3
+toyota,corolla,1.3 Terra,51,1999,2000,Bilinmiyor,1.3
+toyota,corolla,1.3 XE,52,1995,1998,Bilinmiyor,1.3
+toyota,corolla,1.3 XL,54,1995,1998,Bilinmiyor,1.3
+toyota,corolla,1.3 XLi,1,1996,1996,Bilinmiyor,1.3
+toyota,corolla,1.33 Comfort,97,2010,2017,Bilinmiyor,1.33
+toyota,corolla,1.33 Life,586,2013,2018,Bilinmiyor,1.33
+toyota,corolla,1.4,1,2012,2012,Bilinmiyor,1.4
+toyota,corolla,1.4 D-4D Active,53,2013,2018,Dizel,1.4
+toyota,corolla,1.4 D-4D Advance,518,2013,2018,Dizel,1.4
+toyota,corolla,1.4 D-4D Class,35,2007,2010,Dizel,1.4
+toyota,corolla,1.4 D-4D Comfort,265,2007,2013,Dizel,1.4
+toyota,corolla,1.4 D-4D Comfort Extra,147,2010,2013,Dizel,1.4
+toyota,corolla,1.4 D-4D Elegant,245,2007,2013,Dizel,1.4
+toyota,corolla,1.4 D-4D Life,16,2013,2016,Dizel,1.4
+toyota,corolla,1.4 D-4D Plusline,13,2007,2015,Dizel,1.4
+toyota,corolla,1.4 D-4D Premium,86,2013,2018,Dizel,1.4
+toyota,corolla,1.4 D-4D Premium 50. Yıl,19,2016,2018,Dizel,1.4
+toyota,corolla,1.4 D-4D Sol,22,2006,2011,Dizel,1.4
+toyota,corolla,1.4 D-4D Terra,85,2006,2007,Dizel,1.4
+toyota,corolla,1.4 D-4D Touch,402,2013,2018,Dizel,1.4
+toyota,corolla,1.4 Linea Terra,3,2000,2001,Bilinmiyor,1.4
+toyota,corolla,1.4 Terra,46,2000,2007,Bilinmiyor,1.4
+toyota,corolla,1.5 Dream,546,2021,2025,Bilinmiyor,1.5
+toyota,corolla,1.5 Dream X-Pack,70,2023,2025,Bilinmiyor,1.5
+toyota,corolla,1.5 Flame,12,2021,2022,Bilinmiyor,1.5
+toyota,corolla,1.5 Flame X-Pack,153,2021,2025,Bilinmiyor,1.5
+toyota,corolla,1.5 Passion X-Pack,24,2022,2025,Bilinmiyor,1.5
+toyota,corolla,1.5 Vision,139,2021,2024,Bilinmiyor,1.5
+toyota,corolla,1.5 Vision Plus,98,2023,2025,Bilinmiyor,1.5
+toyota,corolla,1.6 Active,10,2013,2015,Bilinmiyor,1.6
+toyota,corolla,1.6 Advance,534,2013,2018,Bilinmiyor,1.6
+toyota,corolla,1.6 Class,5,2007,2008,Bilinmiyor,1.6
+toyota,corolla,1.6 Comfort,135,2007,2013,Bilinmiyor,1.6
+toyota,corolla,1.6 Comfort Extra,93,2005,2013,Bilinmiyor,1.6
+toyota,corolla,1.6 Comfort Verso,8,2004,2011,Bilinmiyor,1.6
+toyota,corolla,1.6 Dream,181,2019,2020,Bilinmiyor,1.6
+toyota,corolla,1.6 Elegant,144,2007,2013,Bilinmiyor,1.6
+toyota,corolla,1.6 Elegant Verso,8,2004,2012,Bilinmiyor,1.6
+toyota,corolla,1.6 Flame,4,2019,2020,Bilinmiyor,1.6
+toyota,corolla,1.6 Flame X-Pack,97,2019,2020,Bilinmiyor,1.6
+toyota,corolla,1.6 GL,1,1995,1995,Bilinmiyor,1.6
+toyota,corolla,1.6 GLi,71,1995,1998,Bilinmiyor,1.6
+toyota,corolla,1.6 GLi Special,9,1998,1998,Bilinmiyor,1.6
+toyota,corolla,1.6 Life,122,2018,2018,Bilinmiyor,1.6
+toyota,corolla,1.6 Linea,7,2005,2006,Bilinmiyor,1.6
+toyota,corolla,1.6 Linea Sol,24,2000,2005,Bilinmiyor,1.6
+toyota,corolla,1.6 Linea Terra,32,1998,2006,Bilinmiyor,1.6
+toyota,corolla,1.6 Luna,5,1999,2000,Bilinmiyor,1.6
+toyota,corolla,1.6 Luna Special,3,1999,1999,Bilinmiyor,1.6
+toyota,corolla,1.6 Passion X-Pack,16,2019,2020,Bilinmiyor,1.6
+toyota,corolla,1.6 Premium,60,2013,2018,Bilinmiyor,1.6
+toyota,corolla,1.6 Premium 50. Yıl,13,2017,2017,Bilinmiyor,1.6
+toyota,corolla,1.6 Sol,139,2001,2007,Bilinmiyor,1.6
+toyota,corolla,1.6 Sol Special,13,2000,2006,Bilinmiyor,1.6
+toyota,corolla,1.6 Sport,2,2005,2005,Bilinmiyor,1.6
+toyota,corolla,1.6 Terra,231,1999,2007,Bilinmiyor,1.6
+toyota,corolla,1.6 Terra Special,33,1999,2006,Bilinmiyor,1.6
+toyota,corolla,1.6 Touch,78,2013,2018,Bilinmiyor,1.6
+toyota,corolla,1.6 VVT-i Sol,12,2002,2006,Bilinmiyor,1.6
+toyota,corolla,1.6 VVT-i Sport,7,2004,2006,Bilinmiyor,1.6
+toyota,corolla,1.6 Vision,153,2019,2020,Bilinmiyor,1.6
+toyota,corolla,1.6 XE,28,1995,1998,Bilinmiyor,1.6
+toyota,corolla,1.6 XEi,52,1995,1999,Bilinmiyor,1.6
+toyota,corolla,1.6 XEi Special,7,1995,1998,Bilinmiyor,1.6
+toyota,corolla,1.6 XLi,52,1995,1998,Bilinmiyor,1.6
+toyota,corolla,1.8 Hybrid Dream,776,2019,2025,Hibrit/Elektrik,1.8
+toyota,corolla,1.8 Hybrid Flame,19,2019,2022,Hibrit/Elektrik,1.8
+toyota,corolla,1.8 Hybrid Flame X-Pack,312,2019,2025,Hibrit/Elektrik,1.8
+toyota,corolla,1.8 Hybrid Passion X-Pack,34,2019,2023,Hibrit/Elektrik,1.8
+toyota,yaris,1.0,7,2004,2005,Bilinmiyor,1.0
+toyota,yaris,1.0 Life,60,2012,2022,Bilinmiyor,1.0
+toyota,yaris,1.0 Terra,126,2003,2011,Bilinmiyor,1.0
+toyota,yaris,1.0 Vision,15,2021,2022,Bilinmiyor,1.0
+toyota,yaris,1.3 Luna,5,2000,2001,Bilinmiyor,1.3
+toyota,yaris,1.3 Sol,98,2000,2009,Bilinmiyor,1.3
+toyota,yaris,1.3 Terra,40,2003,2009,Bilinmiyor,1.3
+toyota,yaris,1.33 Cool,65,2011,2014,Bilinmiyor,1.33
+toyota,yaris,1.33 Cool Skypack,25,2012,2015,Bilinmiyor,1.33
+toyota,yaris,1.33 Fun,49,2012,2016,Bilinmiyor,1.33
+toyota,yaris,1.33 Fun Special,34,2014,2017,Bilinmiyor,1.33
+toyota,yaris,1.33 Fun Special Skypack,26,2014,2017,Bilinmiyor,1.33
+toyota,yaris,1.33 Style,36,2012,2017,Bilinmiyor,1.33
+toyota,yaris,1.33 Style Red Skypack,7,2015,2016,Bilinmiyor,1.33
+toyota,yaris,1.33 Style Skypack,10,2014,2017,Bilinmiyor,1.33
+toyota,yaris,1.33 Terra,22,2009,2011,Bilinmiyor,1.33
+toyota,yaris,1.33 Terra Sporty,77,2010,2011,Bilinmiyor,1.33
+toyota,yaris,1.4 D-4D Active,2,2007,2012,Dizel,1.4
+toyota,yaris,1.4 D-4D Fun,9,2012,2014,Dizel,1.4
+toyota,yaris,1.4 D-4D Sol,24,2006,2009,Dizel,1.4
+toyota,yaris,1.4 D-4D Sol Special,8,2006,2008,Dizel,1.4
+toyota,yaris,1.4 D-4D Terra,50,2006,2011,Dizel,1.4
+toyota,yaris,1.5 Dream,15,2020,2023,Bilinmiyor,1.5
+toyota,yaris,1.5 Dream X-Pack,2,2020,2022,Bilinmiyor,1.5
+toyota,yaris,1.5 Flame,2,2020,2022,Bilinmiyor,1.5
+toyota,yaris,1.5 Flame X-Pack,4,2020,2022,Bilinmiyor,1.5
+toyota,yaris,1.5 Fun Special,34,2017,2020,Bilinmiyor,1.5
+toyota,yaris,1.5 Hybrid Cool,11,2015,2020,Hibrit/Elektrik,1.5
+toyota,yaris,1.5 Hybrid Spirit,13,2013,2016,Hibrit/Elektrik,1.5
+volkswagen,arteon,1.5 TSI Elegance,22,2017,2018,Benzin,1.5
+volkswagen,arteon,1.5 TSI R Line,58,2017,2019,Benzin,1.5
+volkswagen,arteon,2.0 TDI Elegance,30,2017,2017,Dizel,2.0
+volkswagen,arteon,2.0 TDI R-Line,20,2017,2019,Dizel,2.0
+volkswagen,beetle,1.2 TSI Allstar,9,2016,2016,Benzin,1.2
+volkswagen,beetle,1.2 TSI Beetle,9,2012,2015,Benzin,1.2
+volkswagen,beetle,1.2 TSI Design,79,2012,2017,Benzin,1.2
+volkswagen,beetle,1.2 TSI Style,10,2015,2017,Benzin,1.2
+volkswagen,beetle,1.4 TSI Design,40,2012,2016,Benzin,1.4
+volkswagen,beetle,1.6 Highline,4,2003,2007,Bilinmiyor,1.6
+volkswagen,beetle,1.6 TDI Design,28,2011,2014,Dizel,1.6
+volkswagen,bora,1.6,2,2004,2004,Bilinmiyor,1.6
+volkswagen,bora,1.6 Basic,3,2004,2005,Bilinmiyor,1.6
+volkswagen,bora,1.6 Comfortline,26,2004,2005,Bilinmiyor,1.6
+volkswagen,bora,1.6 Highline,3,2004,2004,Bilinmiyor,1.6
+volkswagen,bora,1.6 Pacific,174,2004,2005,Bilinmiyor,1.6
+volkswagen,bora,1.6 Primeline,17,2004,2005,Bilinmiyor,1.6
+volkswagen,bora,1.9 TDI Pacific,1,2005,2005,Dizel,1.9
+volkswagen,golf,1.0 TSI Comfortline,125,2017,2019,Benzin,1.0
+volkswagen,golf,1.0 TSI Highline,32,2017,2019,Benzin,1.0
+volkswagen,golf,1.0 TSI Impression,158,2021,2023,Benzin,1.0
+volkswagen,golf,1.0 TSI Midline Plus,55,2017,2020,Benzin,1.0
+volkswagen,golf,1.0 eTSI Life,251,2021,2024,Benzin,1.0
+volkswagen,golf,1.0 eTSI R-Line,52,2021,2024,Benzin,1.0
+volkswagen,golf,1.0 eTSI Style,64,2021,2024,Benzin,1.0
+volkswagen,golf,1.2 TSI Allstar,22,2016,2016,Benzin,1.2
+volkswagen,golf,1.2 TSI Comfortline,572,2012,2016,Benzin,1.2
+volkswagen,golf,1.2 TSI Midline Plus,245,2012,2016,Benzin,1.2
+volkswagen,golf,1.4 TSI Allstar,10,2016,2017,Benzin,1.4
+volkswagen,golf,1.4 TSI Comfortline,622,2007,2018,Benzin,1.4
+volkswagen,golf,1.4 TSI GT,11,2007,2009,Benzin,1.4
+volkswagen,golf,1.4 TSI Highline,512,2009,2018,Benzin,1.4
+volkswagen,golf,1.4 TSI Midline,32,2007,2009,Benzin,1.4
+volkswagen,golf,1.4 TSI Tour,4,2008,2008,Benzin,1.4
+volkswagen,golf,1.4 TSI Trendline,109,2009,2012,Benzin,1.4
+volkswagen,golf,1.5 TSI Comfortline,103,2019,2020,Benzin,1.5
+volkswagen,golf,1.5 TSI Highline,36,2019,2020,Benzin,1.5
+volkswagen,golf,1.5 TSI Impression,38,2024,2024,Benzin,1.5
+volkswagen,golf,1.5 eTSI Life,47,2024,2025,Benzin,1.5
+volkswagen,golf,1.5 eTSI R-Line,72,2021,2025,Benzin,1.5
+volkswagen,golf,1.5 eTSI Style,92,2021,2025,Benzin,1.5
+volkswagen,golf,1.6,2,2005,2006,Bilinmiyor,1.6
+volkswagen,golf,1.6 Basicline,4,1999,2002,Bilinmiyor,1.6
+volkswagen,golf,1.6 CL,4,1995,1997,Bilinmiyor,1.6
+volkswagen,golf,1.6 Comfortline,261,1997,2006,Bilinmiyor,1.6
+volkswagen,golf,1.6 FSI Comfortline,161,2003,2008,Benzin,1.6
+volkswagen,golf,1.6 FSI Goal,23,2006,2007,Benzin,1.6
+volkswagen,golf,1.6 FSI Midline,75,2004,2008,Benzin,1.6
+volkswagen,golf,1.6 FSI Plus Comfortline,15,2006,2007,Benzin,1.6
+volkswagen,golf,1.6 FSI Plus Midline,18,2006,2008,Benzin,1.6
+volkswagen,golf,1.6 FSI Sportline,10,2004,2005,Benzin,1.6
+volkswagen,golf,1.6 Highline,3,1998,2005,Bilinmiyor,1.6
+volkswagen,golf,1.6 Midline,52,2004,2009,Bilinmiyor,1.6
+volkswagen,golf,1.6 Midline Plus,23,2006,2008,Bilinmiyor,1.6
+volkswagen,golf,1.6 Pacific,50,2003,2004,Bilinmiyor,1.6
+volkswagen,golf,1.6 Primeline,67,2003,2009,Bilinmiyor,1.6
+volkswagen,golf,1.6 Primeline Plus,16,2006,2008,Bilinmiyor,1.6
+volkswagen,golf,1.6 Sport,9,1997,1998,Bilinmiyor,1.6
+volkswagen,golf,1.6 TDI BlueMotion,13,2011,2014,Dizel,1.6
+volkswagen,golf,1.6 TDI BlueMotion Allstar,10,2016,2016,Dizel,1.6
+volkswagen,golf,1.6 TDI BlueMotion Comfortline,1224,2012,2019,Dizel,1.6
+volkswagen,golf,1.6 TDI BlueMotion Highline,716,2012,2019,Dizel,1.6
+volkswagen,golf,1.6 TDI BlueMotion Midline Plus,235,2013,2018,Dizel,1.6
+volkswagen,golf,1.6 TDI Comfortline,271,2009,2019,Dizel,1.6
+volkswagen,golf,1.6 TDI Highline,158,2010,2019,Dizel,1.6
+volkswagen,golf,1.6 TDI Trendline,163,2009,2016,Dizel,1.6
+volkswagen,golf,1.6 Tour,8,2008,2008,Bilinmiyor,1.6
+volkswagen,golf,1.6 Trendline,131,2000,2012,Bilinmiyor,1.6
+volkswagen,golf,1.8 CL,8,1995,1997,Bilinmiyor,1.8
+volkswagen,golf,1.8 GL,6,1996,1997,Bilinmiyor,1.8
+volkswagen,golf,1.8 Highline,5,1998,1999,Bilinmiyor,1.8
+volkswagen,golf,1.9 D CL,2,1996,1998,Dizel,1.9
+volkswagen,golf,1.9 TDI 1.9 TDi,10,1997,2004,Dizel,1.9
+volkswagen,golf,1.9 TDI Comfortline,11,1999,2001,Dizel,1.9
+volkswagen,golf,1.9 TDI Midline,3,2006,2008,Dizel,1.9
+volkswagen,golf,1.9 TDI Pacific,2,2004,2004,Dizel,1.9
+volkswagen,golf,2.0 GTi,16,1995,2008,Bilinmiyor,2.0
+volkswagen,golf,2.0 TDI Comfortline,4,2004,2008,Dizel,2.0
+volkswagen,golf,2.0 TSI R 4Motion,35,2010,2025,Benzin,2.0
+volkswagen,jetta,1.2 TSI BlueMotion Comfortline,228,2015,2017,Benzin,1.2
+volkswagen,jetta,1.2 TSI BlueMotion Highline,12,2015,2017,Benzin,1.2
+volkswagen,jetta,1.2 TSI BlueMotion Trendline,125,2015,2017,Benzin,1.2
+volkswagen,jetta,1.2 TSI Comfortline,210,2011,2017,Benzin,1.2
+volkswagen,jetta,1.2 TSI Highline,34,2011,2017,Benzin,1.2
+volkswagen,jetta,1.2 TSI Trendline,182,2011,2015,Benzin,1.2
+volkswagen,jetta,1.4 TSI BlueMotion Comfortline,338,2014,2017,Benzin,1.4
+volkswagen,jetta,1.4 TSI BlueMotion Highline,105,2014,2017,Benzin,1.4
+volkswagen,jetta,1.4 TSI BlueMotion Trendline,39,2015,2017,Benzin,1.4
+volkswagen,jetta,1.4 TSI Comfortline,327,2007,2017,Benzin,1.4
+volkswagen,jetta,1.4 TSI Exclusive,20,2010,2011,Benzin,1.4
+volkswagen,jetta,1.4 TSI Highline,89,2011,2017,Benzin,1.4
+volkswagen,jetta,1.4 TSI Midline,20,2008,2010,Benzin,1.4
+volkswagen,jetta,1.4 TSI Tour,7,2008,2009,Benzin,1.4
+volkswagen,jetta,1.4 TSI Trendline,70,2012,2015,Benzin,1.4
+volkswagen,jetta,1.6,1,2011,2011,Bilinmiyor,1.6
+volkswagen,jetta,1.6 Comfortline,82,2006,2011,Bilinmiyor,1.6
+volkswagen,jetta,1.6 Exclusive,3,2010,2011,Bilinmiyor,1.6
+volkswagen,jetta,1.6 FSI Comfortline,48,2006,2008,Benzin,1.6
+volkswagen,jetta,1.6 FSI Midline,22,2006,2008,Benzin,1.6
+volkswagen,jetta,1.6 Midline,80,2006,2011,Bilinmiyor,1.6
+volkswagen,jetta,1.6 Primeline,116,2006,2011,Bilinmiyor,1.6
+volkswagen,jetta,1.6 TDI Comfortline,1049,2006,2015,Dizel,1.6
+volkswagen,jetta,1.6 TDI Exclusive,22,2010,2011,Dizel,1.6
+volkswagen,jetta,1.6 TDI Highline,310,2010,2015,Dizel,1.6
+volkswagen,jetta,1.6 TDI Primeline,55,2010,2012,Dizel,1.6
+volkswagen,jetta,1.6 TDI Trendline,409,2010,2015,Dizel,1.6
+volkswagen,jetta,1.6 Tour,10,2008,2009,Bilinmiyor,1.6
+volkswagen,jetta,1.9 TDI Midline,18,2007,2009,Dizel,1.9
+volkswagen,jetta,1.9 TDI Primeline,7,2006,2009,Dizel,1.9
+volkswagen,jetta,2.0 FSI Comfortline,2,2006,2006,Benzin,2.0
+volkswagen,jetta,2.0 TDI Comfortline,10,2006,2008,Dizel,2.0
+volkswagen,passat,1.4 TSI BlueMotion Comfortline,690,2010,2018,Benzin,1.4
+volkswagen,passat,1.4 TSI BlueMotion Exclusive,19,2013,2014,Benzin,1.4
+volkswagen,passat,1.4 TSI BlueMotion Highline,130,2011,2018,Benzin,1.4
+volkswagen,passat,1.4 TSI BlueMotion Trendline,385,2011,2018,Benzin,1.4
+volkswagen,passat,1.4 TSI Comfortline,195,2008,2016,Benzin,1.4
+volkswagen,passat,1.4 TSI Exclusive,15,2008,2011,Benzin,1.4
+volkswagen,passat,1.4 TSI Highline,7,2009,2011,Benzin,1.4
+volkswagen,passat,1.4 TSI Trendline,29,2008,2011,Benzin,1.4
+volkswagen,passat,1.5 TSI Business,862,2019,2024,Benzin,1.5
+volkswagen,passat,1.5 TSI Elegance,277,2019,2023,Benzin,1.5
+volkswagen,passat,1.5 TSI Impression,312,2019,2022,Benzin,1.5
+volkswagen,passat,1.5 TSI R Line,14,2019,2022,Benzin,1.5
+volkswagen,passat,1.5 e-TSI Business,12,2024,2024,Benzin,1.5
+volkswagen,passat,1.5 e-TSI Elegance,17,2024,2024,Benzin,1.5
+volkswagen,passat,1.5 e-TSI Impression,16,2024,2025,Benzin,1.5
+volkswagen,passat,1.5 e-TSI R Line,22,2024,2024,Benzin,1.5
+volkswagen,passat,1.5 eHybrid Impression,3,2025,2025,Hibrit/Elektrik,1.5
+volkswagen,passat,1.6,3,2000,2004,Bilinmiyor,1.6
+volkswagen,passat,1.6 Comfortline,24,2000,2013,Bilinmiyor,1.6
+volkswagen,passat,1.6 Exclusive,29,2004,2005,Bilinmiyor,1.6
+volkswagen,passat,1.6 FSI Comfortline,183,2005,2008,Benzin,1.6
+volkswagen,passat,1.6 FSI Exclusive,7,2007,2008,Benzin,1.6
+volkswagen,passat,1.6 FSI Trendline,16,2005,2008,Benzin,1.6
+volkswagen,passat,1.6 TDI BlueMotion,35,2012,2014,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion Business,502,2019,2020,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion Comfortline,2381,2010,2019,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion Elegance,80,2019,2020,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion Exclusive,42,2013,2014,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion Highline,365,2011,2019,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion Impression,550,2017,2020,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion R Line,22,2015,2019,Dizel,1.6
+volkswagen,passat,1.6 TDI BlueMotion Trendline,495,2011,2018,Dizel,1.6
+volkswagen,passat,1.6 TDi Highline,20,2015,2018,Dizel,1.6
+volkswagen,passat,1.6 Trendline,80,2000,2018,Bilinmiyor,1.6
+volkswagen,passat,1.8 Basic,22,1997,2000,Bilinmiyor,1.8
+volkswagen,passat,1.8 Comfortline,26,1997,2001,Bilinmiyor,1.8
+volkswagen,passat,1.8 Highline,1,2000,2000,Bilinmiyor,1.8
+volkswagen,passat,1.8 T Comfortline,34,1997,2004,Bilinmiyor,1.8
+volkswagen,passat,1.8 T Highline,25,1997,2005,Bilinmiyor,1.8
+volkswagen,passat,1.8 T Trendline,3,1997,2000,Bilinmiyor,1.8
+volkswagen,passat,1.8 TSI Comfortline,17,2008,2011,Benzin,1.8
+volkswagen,passat,1.8 TSI Highline,9,2008,2010,Benzin,1.8
+volkswagen,passat,1.8 Trendline,5,2000,2000,Bilinmiyor,1.8
+volkswagen,passat,1.9 TDI,13,1998,2005,Dizel,1.9
+volkswagen,passat,1.9 TDI Comfortline,25,1999,2008,Dizel,1.9
+volkswagen,passat,1.9 TDI Exclusive,8,2004,2005,Dizel,1.9
+volkswagen,passat,1.9 TDI Highline,5,2002,2004,Dizel,1.9
+volkswagen,passat,1.9 TDI Trendline,3,1998,2001,Dizel,1.9
+volkswagen,passat,2.0 Comfortline,7,2001,2004,Bilinmiyor,2.0
+volkswagen,passat,2.0 FSI Comfortline,22,2005,2007,Benzin,2.0
+volkswagen,passat,2.0 FSI Highline,14,2005,2008,Benzin,2.0
+volkswagen,passat,2.0 TDI BlueMotion Business,19,2019,2021,Dizel,2.0
+volkswagen,passat,2.0 TDI BlueMotion Comfortline,178,2007,2019,Dizel,2.0
+volkswagen,passat,2.0 TDI BlueMotion Elegance,13,2019,2021,Dizel,2.0
+volkswagen,passat,2.0 TDI BlueMotion Highline,114,2006,2019,Dizel,2.0
+volkswagen,passat,2.0 TDI Comfortline,72,2005,2014,Dizel,2.0
+volkswagen,passat,2.0 TDI Elegance,7,2022,2022,Dizel,2.0
+volkswagen,passat,2.0 TDI Exclusive,3,2009,2010,Dizel,2.0
+volkswagen,passat,2.0 TDI Highline,20,2005,2017,Dizel,2.0
+volkswagen,polo,1.0 Impression,146,2022,2024,Bilinmiyor,1.0
+volkswagen,polo,1.0 TSI Comfortline,500,2017,2021,Benzin,1.0
+volkswagen,polo,1.0 TSI Highline,193,2017,2021,Benzin,1.0
+volkswagen,polo,1.0 TSI Life,304,2021,2024,Benzin,1.0
+volkswagen,polo,1.0 TSI Style,11,2021,2022,Benzin,1.0
+volkswagen,polo,1.0 Trendline,168,2014,2021,Bilinmiyor,1.0
+volkswagen,polo,1.2 TDI BlueMotion,101,2011,2014,Dizel,1.2
+volkswagen,polo,1.2 TDI Trendline,446,2011,2014,Dizel,1.2
+volkswagen,polo,1.2 TSI Allstar,68,2016,2017,Benzin,1.2
+volkswagen,polo,1.2 TSI Comfortline,567,2014,2017,Benzin,1.2
+volkswagen,polo,1.2 TSI Lounge,134,2015,2016,Benzin,1.2
+volkswagen,polo,1.2 Trendline,165,2011,2014,Bilinmiyor,1.2
+volkswagen,polo,1.4,31,1995,2002,Bilinmiyor,1.4
+volkswagen,polo,1.4 Basicline,146,2004,2005,Bilinmiyor,1.4
+volkswagen,polo,1.4 Chrome Edition,65,2013,2014,Bilinmiyor,1.4
+volkswagen,polo,1.4 Comfortline,792,2000,2014,Bilinmiyor,1.4
+volkswagen,polo,1.4 Goal,26,2006,2008,Bilinmiyor,1.4
+volkswagen,polo,1.4 Highline,19,2000,2004,Bilinmiyor,1.4
+volkswagen,polo,1.4 Sportline,24,1997,1998,Bilinmiyor,1.4
+volkswagen,polo,1.4 TDI Basicline,13,2004,2005,Dizel,1.4
+volkswagen,polo,1.4 TDI BlueMotion,22,2014,2017,Dizel,1.4
+volkswagen,polo,1.4 TDI Comfortline,930,2001,2017,Dizel,1.4
+volkswagen,polo,1.4 TDI Goal,10,2006,2007,Dizel,1.4
+volkswagen,polo,1.4 TDI Trendline,277,2001,2017,Dizel,1.4
+volkswagen,polo,1.4 TSI ACT BlueGT,18,2014,2016,Benzin,1.4
+volkswagen,polo,1.4 TSI GTI,39,2011,2014,Benzin,1.4
+volkswagen,polo,1.4 Tour,8,2008,2009,Bilinmiyor,1.4
+volkswagen,polo,1.4 Trendline,340,2000,2010,Bilinmiyor,1.4
+volkswagen,polo,1.6,437,1995,2000,Bilinmiyor,1.6
+volkswagen,polo,1.6 Classic,257,1996,2001,Bilinmiyor,1.6
+volkswagen,polo,1.6 Comfortline,11,1995,2007,Bilinmiyor,1.6
+volkswagen,polo,1.6 Comfortline Classic,62,1997,2001,Bilinmiyor,1.6
+volkswagen,polo,1.6 Highline,1,2000,2000,Bilinmiyor,1.6
+volkswagen,polo,1.6 TDI Comfortline,763,2010,2020,Dizel,1.6
+volkswagen,polo,1.6 TDI Highline,17,2018,2019,Dizel,1.6
+volkswagen,polo,1.6 TDI Trendline,32,2017,2018,Dizel,1.6
+volkswagen,polo,1.6 Trendline,2,2000,2001,Bilinmiyor,1.6
+volkswagen,polo,1.9 TDI,5,1999,2000,Dizel,1.9
+volkswagen,scirocco,1.4 TSI Allstar,16,2016,2016,Benzin,1.4
+volkswagen,scirocco,1.4 TSI GTS,10,2013,2013,Benzin,1.4
+volkswagen,scirocco,1.4 TSI Sportline,419,2009,2016,Benzin,1.4
+volkswagen,scirocco,1.4 TSI White Edition,12,2012,2012,Benzin,1.4
+volkswagen,vw,1.4 TSI 1.4,76,2012,2015,Benzin,1.4
+volkswagen,vw,1.4 TSI Exclusive,317,2012,2016,Benzin,1.4
+volkswagen,vw,1.4 TSI R-Line,58,2013,2016,Benzin,1.4
+volkswagen,vw,1.4 TSI Sportline,152,2012,2016,Benzin,1.4
+volkswagen,vw,1.8 TFSI,14,2010,2011,Benzin,1.8
+volkswagen,vw,1.8 TSI,15,2009,2012,Benzin,1.8
+volkswagen,vw,2.0 TDI,71,2009,2016,Dizel,2.0
+volkswagen,vw,2.0 TDI Exclusive,15,2012,2016,Dizel,2.0
+volvo,s40,1.6,54,2000,2011,Bilinmiyor,1.6
+volvo,s40,1.6 D,65,2004,2012,Dizel,1.6
+volvo,s40,1.6 D Drive,30,2009,2012,Dizel,1.6
+volvo,s40,1.6 D Dynamic,32,2008,2012,Dizel,1.6
+volvo,s40,1.6 D Premium,19,2007,2010,Dizel,1.6
+volvo,s40,1.6 Dynamic,4,2007,2010,Bilinmiyor,1.6
+volvo,s40,1.6 Premium,2,2009,2009,Bilinmiyor,1.6
+volvo,s40,1.8,25,1997,2005,Bilinmiyor,1.8
+volvo,s40,1.9 T4,1,1998,1998,Bilinmiyor,1.9
+volvo,s40,2.0,17,1997,2010,Bilinmiyor,2.0
+volvo,s40,2.0 D Premium,1,2010,2010,Dizel,2.0
+volvo,s40,2.0 T,10,1998,2004,Bilinmiyor,2.0
+volvo,s60,1.5 T3 Advance,71,2015,2018,Bilinmiyor,1.5
+volvo,s60,1.5 T3 Premium,31,2015,2018,Bilinmiyor,1.5
+volvo,s60,1.6,3,2011,2012,Bilinmiyor,1.6
+volvo,s60,1.6 Advance,28,2011,2014,Bilinmiyor,1.6
+volvo,s60,1.6 D,27,2011,2015,Dizel,1.6
+volvo,s60,1.6 D Advance,172,2011,2015,Dizel,1.6
+volvo,s60,1.6 D Premium,159,2011,2015,Dizel,1.6
+volvo,s60,1.6 D R-Design,10,2012,2015,Dizel,1.6
+volvo,s60,1.6 Premium,16,2011,2012,Bilinmiyor,1.6
+volvo,s60,2.0 D Advance,38,2011,2018,Dizel,2.0
+volvo,s60,2.0 D Premium,10,2011,2015,Dizel,2.0
+volvo,s60,2.0 T,16,2003,2011,Bilinmiyor,2.0
+volvo,s60,2.0 T Premium,14,2007,2011,Bilinmiyor,2.0
+volvo,s60,2.4 D,3,2005,2010,Dizel,2.4
+volvo,s80,1.6 D,5,2010,2012,Dizel,1.6
+volvo,s80,1.6 D Advance,17,2012,2015,Dizel,1.6
+volvo,s80,1.6 D Premium,17,2012,2016,Dizel,1.6
+volvo,s80,1.6 T4 Premium,9,2011,2012,Bilinmiyor,1.6
+volvo,s80,2.0 D Advance,7,2011,2016,Dizel,2.0
+volvo,s80,2.0 D Premium,6,2011,2014,Dizel,2.0
+volvo,s80,2.0 T,9,2000,2011,Bilinmiyor,2.0
+volvo,s80,2.4 D5,2,2008,2008,Bilinmiyor,2.4
+volvo,s80,2.4 D5 Premium,7,2005,2011,Bilinmiyor,2.4
+volvo,s90,2.0 D B5 Inscription,73,2020,2022,Dizel,2.0
+volvo,s90,2.0 D B5 Plus Bright,94,2021,2024,Dizel,2.0
+volvo,s90,2.0 D B5 Plus Dark,28,2022,2023,Dizel,2.0
+volvo,s90,2.0 D D4 Inscription,13,2017,2017,Dizel,2.0
+volvo,s90,2.0 D D5 Inscription,138,2016,2020,Dizel,2.0
+volvo,s90,2.0 T8 Recharge Plus Dark,17,2023,2024,Bilinmiyor,2.0
+volvo,v40,1.5 Inscription,53,2016,2019,Bilinmiyor,1.5
+volvo,v40,1.5 Momentum,13,2017,2018,Bilinmiyor,1.5
+volvo,v40,1.5 Premium,3,2015,2016,Bilinmiyor,1.5
+volvo,v40,1.5 R-Design,15,2015,2016,Bilinmiyor,1.5
+volvo,v40,1.6,6,2001,2004,Bilinmiyor,1.6
+volvo,v40,1.6 D,9,2013,2014,Dizel,1.6
+volvo,v40,1.6 D Advance,28,2012,2015,Dizel,1.6
+volvo,v40,1.6 D Premium,57,2012,2015,Dizel,1.6
+volvo,v40,1.6 D R-Design,27,2013,2015,Dizel,1.6
+volvo,v40,1.6 T4 Premium,6,2013,2013,Bilinmiyor,1.6
+volvo,v40,1.8,4,1998,2003,Bilinmiyor,1.8
+volvo,v40,2.0,2,1997,1998,Bilinmiyor,2.0
+volvo,v40,2.0 T,1,2000,2000,Bilinmiyor,2.0

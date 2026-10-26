@@ -1,11 +1,13 @@
-# Veri dosyaları (ham ve işlenmiş) — git dışı
+# Ham ve arşiv veri — git dışı
 data/raw/
-data/processed/
 data/archive/
 
-# Model dosyaları (büyük binary)
-models/lgbm_model.txt
-models/katalog.csv
+# İşlenmiş veri repoda (Streamlit Cloud için gerekli, 22.8 MB)
+# data/processed/  ← repoda
+
+# Model dosyaları — küçük olduğu için repoda tutulur (11.5 MB)
+# models/lgbm_model.txt  ← repoda
+# models/katalog.csv     ← repoda
 
 # Sanal ortamlar
 .venv/
