@@ -1,0 +1,6 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+# Yalnızca bu bilgisayardan erişilir (yerel kullanım, plan A)
+address = "localhost"

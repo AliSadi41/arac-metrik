@@ -12,11 +12,13 @@ Her çalıştırmada ham veriden baştan başlar; aynı girdi her zaman aynı ç
 Karar gerekçeleri reports/temizleme_kararlari.md içinde belgelenmiştir.
 """
 
-import re
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+
+# Özellik türetme kuralları (yakıt, motor hacmi, km bayrağı) uygulama ile ortak: src/ozellikler.py
+from ozellikler import KM_CAP, temel_ozellikler, varyant_duzelt
 
 # ----------------------------------------------------------------------
 # YOLLAR — script hangi klasörden çalıştırılırsa çalıştırılsın proje köküne göre çalışır
@@ -30,7 +32,6 @@ FLOW = ROOT / "reports" / "satir_akisi.csv"
 # AYARLAR — reports/temizleme_kararlari.md ile aynı olmalı
 # ----------------------------------------------------------------------
 MIN_YEAR = 1995            # bundan eski araçlar kapsam dışı
-KM_CAP = 300_000           # km bu değerde kırpılmış (censoring); satırlar tutulur, bayrak eklenir
 PRICE_FLOOR = 50_000       # fiyat tabanı kontrolü (ham veride min 100.000 olduğu için 0 satır etkiler)
 PRICE_CAP = 10_000_000     # fiyat tavanı; bu değer ve üstü ilanlar güvenilir fiyat içermiyor
 ZERO_KM_BEFORE_YEAR = 2023 # km=0 olup model yılı bundan eski olan ilanlar şüpheli sayılır
@@ -39,58 +40,12 @@ INVALID_CITIES = ["Diğer", "Kardzhali"]   # Türkiye'de il olmayan kayıtlar
 
 
 # ----------------------------------------------------------------------
-# Yakıt tipi türetme (variant metninden, kural tabanlı)
-# Kuralların ayrıntıları ve bilinen sınırlılıkları: reports/temizleme_kararlari.md
-# ----------------------------------------------------------------------
-BENZIN = ["TSI", "TFSI", "VTI", "CGI", "PURETECH", "ECOBOOST", "MPI", "IG-T",
-          "T-GDI", "TCE", "FSI", "GDI", "KOMPRESSOR", "KOMP.", "VTEC", "FIRE", "SCE", "CVVT",
-          "TI-VCT", "TWINPORT"]
-DIZEL = ["TDI", "DCI", "HDI", "CDTI", "CRDI", "BLUEHDI", "MULTIJET", "MJET", "D-4D",
-         "TDCI", "ECOBLUE", "SKYACTIV-D", "CDI", "DIESEL"]
-
-
-def yakit_turet(brand, model, variant):
-    v = str(variant).upper()
-
-    if "LPG" in v or "ECOG" in v:
-        return "LPG"
-    # Honda Civic "Eco" varyantları Türkiye'de fabrika çıkışlı LPG'li satılır (1.6 i-VTEC Eco, 1.5 VTEC Turbo Eco).
-    # VTEC kuralından (Benzin) önce gelmeli.
-    if str(brand).lower() == "honda" and str(model).lower() == "civic" and re.search(r"\bECO\b", v):
-        return "LPG"
-    # \bEV\b: yalnızca tam kelime (LEVEL, EVOLUTION gibi kelimeleri yakalamaz)
-    if re.search(r"HYBRID|HIBRIT|ELECTRIC|E-TRON|PHEV|MHEV|E-TECH|\bEV\b", v):
-        return "Hibrit/Elektrik"
-    if str(brand).lower() == "bmw":
-        m = str(model).lower()
-        if m == "i":                                    # BMW i serisi elektriklidir
-            return "Hibrit/Elektrik"
-        # Model kodunun son eki yakıtı verir: 330e/225xe plug-in hibrit, 320d/530xd/525tds dizel,
-        # 520i/318Ci/520Li/316ti/318is benzin. Eksiz kodlar (550 xDrive, 220) Bilinmiyor kalır.
-        if re.search(r"\d{3}X?E\b", v):
-            return "Hibrit/Elektrik"
-        if re.search(r"\d{3}(X?D|TDS)\b", v):
-            return "Dizel"
-        if re.search(r"\d{3}(I|CI|LI|TI|IS)\b", v):
-            return "Benzin"
-        # M ve Z modellerinin hepsi benzinli (veride en yeni M 2021 model; 2024 sonrası M5 hibrittir)
-        if m in ("m", "z"):
-            return "Benzin"
-    # \bIE\b: Fiat "1.4 ie" (injection elettronica); alt dizgi olarak aranamaz
-    if any(k in v for k in BENZIN) or re.search(r"\bIE\b", v):
-        return "Benzin"
-    if any(k in v for k in DIZEL) or re.search(r"\sD\b|\bD$", v):
-        return "Dizel"
-    return "Bilinmiyor"   # emin değilsek "Benzin" demiyoruz
-
-
-# ----------------------------------------------------------------------
 # Boru hattı
 # ----------------------------------------------------------------------
 def main():
     df = pd.read_csv(RAW)
     # "525d xDrive  Premium" gibi çift boşluklar aynı varyantı iki kategori yapmasın (mükerrer sayısını değiştirmez)
-    df["variant"] = df["variant"].astype(str).str.split().str.join(" ")
+    df["variant"] = varyant_duzelt(df["variant"])
     akis = [("Ham veri", len(df))]
 
     def adim(ad, yeni):
@@ -113,14 +68,9 @@ def main():
     if DROP_PRICE_CAP:
         df = adim(f"Fiyatı {PRICE_CAP:,} TL ve üstü olan ilanlar çıkarıldı", df[df["price"] < PRICE_CAP])
 
-    # 4) Türetilen özellikler
-    df = df.copy()
-    df["km_kirpildi"] = (df["km"] == KM_CAP).astype(int)
-    df["log_price"] = np.log(df["price"])
-    df["yakit_tipi"] = [yakit_turet(b, m, v) for b, m, v in zip(df["brand"], df["model"], df["variant"])]
-    # Motor hacmi (litre) variant metnindeki "1.6", "1.33" gibi ifadeden; BMW "320i", Mercedes "C 200" gibi
-    # kodlarda hacim yazmadığı için boş (NaN) kalır
-    df["motor_hacmi"] = df["variant"].str.extract(r"(?<![\d.])(\d\.\d{1,2})(?![\d.])")[0].astype(float)
+    # 4) Türetilen özellikler (km_kirpildi, yakit_tipi, motor_hacmi) ve hedef
+    df = temel_ozellikler(df)
+    df.insert(df.columns.get_loc("km_kirpildi") + 1, "log_price", np.log(df["price"]))
 
     # --- Güvenlik kontrolleri: biri bozulursa script durur ---
     assert df.duplicated().sum() == 0, "Mükerrer satır kaldı"

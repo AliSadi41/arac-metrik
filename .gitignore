@@ -1,7 +1,27 @@
+# Veri dosyaları (ham ve işlenmiş) — git dışı
+data/raw/
+data/processed/
+data/archive/
+
+# Model dosyaları (büyük binary)
+models/lgbm_model.txt
+models/katalog.csv
+
+# Sanal ortamlar
 .venv/
+.venv_win/
+
+# Python
 __pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter checkpoint'leri
 .ipynb_checkpoints/
+
+# OS
 .DS_Store
-data/
-_yedek/
-models/
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
