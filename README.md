@@ -4,7 +4,7 @@
   <a href="https://arac-metrik-pnvt2xmpxif4wsjwewvsvt.streamlit.app/" target="_blank">
     <img src="https://img.shields.io/badge/Canlı_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit App">
   </a>
-  <a href="https://AliSadi41.github.io/arac-metrik/" target="_blank">
+  <a href="https://alisadi41.github.io/arac-metrik/" target="_blank">
     <img src="https://img.shields.io/badge/Teknik_Rehber-GitHub_Pages-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="Teknik Rehber">
   </a>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
