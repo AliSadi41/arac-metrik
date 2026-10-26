@@ -125,9 +125,16 @@ st.html("""<style>
   }
   .araçmetrik-footer {
     margin-top: 2.5rem; padding-top: 1rem;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid rgba(255,255,255,.12);
     font-size: .78rem; color: #94a3b8;
     text-align: center; line-height: 1.7;
+  }
+  .firsat-etiket {
+    text-align: center; padding: 14px 0 6px;
+    font-size: 1.9rem; font-weight: 700;
+    border-radius: 10px;
+    background: rgba(255,255,255,.04);
+    margin-bottom: .5rem;
   }
 </style>""")
 
@@ -180,6 +187,10 @@ with tab1:
                                  index=varyantlar.index(k_model.loc[k_model["ilan"].idxmax(), "variant"]),
                                  key="t1_varyant")
         v_bilgi   = k_model[k_model["variant"] == varyant].iloc[0]
+        renkler  = sorted(meta["kategoriler"]["color"], key=lambda r: RENK_AD.get(r, r))
+        renk     = st.selectbox("Renk", renkler, format_func=lambda r: RENK_AD.get(r, r),
+                                index=renkler.index("White") if "White" in renkler else 0,
+                                key="t1_renk")
 
     with sag:
         yil     = st.number_input("Model yılı", min_value=1995, max_value=REFERANS_YILI,
@@ -190,10 +201,6 @@ with tab1:
         sehir    = st.selectbox("Şehir", sehirler,
                                 index=sehirler.index("İstanbul") if "İstanbul" in sehirler else 0,
                                 key="t1_sehir")
-        renkler  = sorted(meta["kategoriler"]["color"], key=lambda r: RENK_AD.get(r, r))
-        renk     = st.selectbox("Renk", renkler, format_func=lambda r: RENK_AD.get(r, r),
-                                index=renkler.index("White") if "White" in renkler else 0,
-                                key="t1_renk")
 
     satir      = ham_girdiden(marka, model_sec, varyant, yil, km, renk, sehir)
     log_tahmin, katki, taban = tahmin_et(lgbm_model, meta, satir)
@@ -231,7 +238,29 @@ with tab1:
         f"Modelin tüm ilanlar için başlangıç noktası {tl(np.exp(taban))}. "
         "Her satır, o özelliğin tahmini yüzde kaç yukarı (+) ya da aşağı (−) çektiğini gösterir."
     )
-    st.bar_chart(pd.DataFrame({"Etki (%)": etki.round(1)}), horizontal=True, sort=False)
+    etki_df = pd.DataFrame({"Özellik": etki.index, "Etki": etki.values})
+    etki_df["yon"] = etki_df["Etki"].apply(lambda x: "Artırır ↑" if x >= 0 else "Düşürür ↓")
+    katki_bar = (
+        alt.Chart(etki_df)
+        .mark_bar(cornerRadiusTopRight=4, cornerRadiusBottomRight=4,
+                  cornerRadiusTopLeft=4, cornerRadiusBottomLeft=4)
+        .encode(
+            x=alt.X("Etki:Q", title="Fiyata etkisi (%)", axis=alt.Axis(format="+.0f")),
+            y=alt.Y("Özellik:N", sort="-x", title=""),
+            color=alt.Color(
+                "yon:N",
+                scale=alt.Scale(domain=["Artırır ↑", "Düşürür ↓"],
+                                range=["#22c55e", "#ef4444"]),
+                legend=alt.Legend(title=""),
+            ),
+            tooltip=[
+                alt.Tooltip("Özellik:N", title="Özellik"),
+                alt.Tooltip("Etki:Q",    title="Etki (%)", format="+.1f"),
+            ],
+        )
+        .properties(height=240)
+    )
+    st.altair_chart(katki_bar, use_container_width=True)
 
     st.divider()
     st.caption(
@@ -412,8 +441,7 @@ with tab3:
 
         # Büyük etiket
         st.markdown(
-            f"<div style='text-align:center; padding:18px 0 8px; font-size:2rem; "
-            f"font-weight:700; color:{renk_etiket}'>{etiket}</div>",
+            f"<div class='firsat-etiket' style='color:{renk_etiket}'>{etiket}</div>",
             unsafe_allow_html=True,
         )
 
