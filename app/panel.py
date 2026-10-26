@@ -58,6 +58,17 @@ def yukle_model():
     return lgbm, meta, katalog, []
 
 
+@st.cache_data(show_spinner="Fırsatlar hesaplanıyor…")
+def hesapla_firsatlar(df):
+    grup = df.groupby(["brand", "model", "year"])["price"].agg(
+        grup_median="median", grup_ilan="count"
+    ).reset_index()
+    merged = df.merge(grup, on=["brand", "model", "year"])
+    merged = merged[merged["grup_ilan"] >= 15]
+    merged["indirim_pct"] = (merged["grup_median"] - merged["price"]) / merged["grup_median"] * 100
+    return merged[merged["indirim_pct"] >= 15].copy()
+
+
 @st.cache_data(show_spinner="Veri yükleniyor…")
 def yukle_veri():
     if not DATA.exists():
@@ -138,7 +149,10 @@ st.markdown("""
 lgbm_model, meta, katalog, eksik_dosyalar = yukle_model()
 veri = yukle_veri()
 
-tab1, tab2, tab3 = st.tabs(["🔍 Fiyat Tahmini", "📉 Değer Kaybı", "💡 Fırsat Dedektörü"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    "🔍 Fiyat Tahmini", "📉 Değer Kaybı", "💡 Fırsat Dedektörü",
+    "📊 Genel Bakış", "🏆 En İyi Fırsatlar", "🔄 Karşılaştırma",
+])
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -475,6 +489,222 @@ with tab3:
                 ]
             })
             st.dataframe(ozet_df, use_container_width=True, hide_index=True)
+
+
+# ════════════════════════════════════════════════════════════════════════════
+#  TAB 4 — Piyasa Genel Bakış
+# ════════════════════════════════════════════════════════════════════════════
+with tab4:
+    st.subheader("Piyasa Genel Bakış")
+    if veri is None:
+        st.warning("İşlenmiş veri bulunamadı.")
+    else:
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Toplam ilan",  f"{len(veri):,}")
+        c2.metric("Marka",        veri["brand"].nunique())
+        c3.metric("Model",        veri["model"].nunique())
+        c4.metric("Şehir",        veri["city"].nunique())
+
+        col_l, col_r = st.columns(2)
+
+        with col_l:
+            st.write("**En çok ilan veren 15 marka**")
+            marka_df = veri["brand"].value_counts().head(15).reset_index()
+            marka_df.columns = ["brand", "ilan"]
+            marka_df["Marka"] = marka_df["brand"].apply(marka_ad)
+            marka_chart = (
+                alt.Chart(marka_df)
+                .mark_bar(color="#3b82f6")
+                .encode(
+                    x=alt.X("ilan:Q", title="İlan Sayısı"),
+                    y=alt.Y("Marka:N", sort="-x", title=""),
+                    tooltip=[alt.Tooltip("Marka:N"), alt.Tooltip("ilan:Q", title="İlan")],
+                )
+                .properties(height=380)
+            )
+            st.altair_chart(marka_chart, use_container_width=True)
+
+        with col_r:
+            st.write("**Yakıt tipi dağılımı**")
+            yakit_df = veri["yakit_tipi"].value_counts().reset_index()
+            yakit_df.columns = ["yakit", "ilan"]
+            pie = (
+                alt.Chart(yakit_df)
+                .mark_arc(innerRadius=55)
+                .encode(
+                    theta="ilan:Q",
+                    color=alt.Color("yakit:N", legend=alt.Legend(title="")),
+                    tooltip=[
+                        alt.Tooltip("yakit:N", title="Yakıt"),
+                        alt.Tooltip("ilan:Q", title="İlan"),
+                    ],
+                )
+                .properties(height=240)
+            )
+            st.altair_chart(pie, use_container_width=True)
+
+            st.write("**Yıl bazında ilan sayısı**")
+            yil_df = veri[veri["year"] >= 2005]["year"].value_counts().sort_index().reset_index()
+            yil_df.columns = ["yil", "ilan"]
+            yil_chart = (
+                alt.Chart(yil_df)
+                .mark_bar(color="#6366f1")
+                .encode(
+                    x=alt.X("yil:O", title="Model Yılı", axis=alt.Axis(labelAngle=-45)),
+                    y=alt.Y("ilan:Q", title="İlan"),
+                    tooltip=[alt.Tooltip("yil:O", title="Yıl"), alt.Tooltip("ilan:Q", title="İlan")],
+                )
+                .properties(height=220)
+            )
+            st.altair_chart(yil_chart, use_container_width=True)
+
+        st.write("**Şehir bazında ilan sayısı (Top 15)**")
+        sehir_df = veri["city"].value_counts().head(15).reset_index()
+        sehir_df.columns = ["sehir", "ilan"]
+        sehir_chart = (
+            alt.Chart(sehir_df)
+            .mark_bar(color="#10b981")
+            .encode(
+                x=alt.X("sehir:N", sort="-y", title="", axis=alt.Axis(labelAngle=-35)),
+                y=alt.Y("ilan:Q", title="İlan Sayısı"),
+                tooltip=[alt.Tooltip("sehir:N", title="Şehir"), alt.Tooltip("ilan:Q", title="İlan")],
+            )
+            .properties(height=260)
+        )
+        st.altair_chart(sehir_chart, use_container_width=True)
+
+
+# ════════════════════════════════════════════════════════════════════════════
+#  TAB 5 — En İyi Fırsatlar
+# ════════════════════════════════════════════════════════════════════════════
+with tab5:
+    st.subheader("En İyi Fırsatlar")
+    st.write(
+        "Aynı marka/model/yıl grubunun piyasa medyanına göre en az %15 indirimli "
+        "araçlar — en az 15 benzer ilandan oluşan gruplarda."
+    )
+
+    if veri is None:
+        st.warning("İşlenmiş veri bulunamadı.")
+    else:
+        firsat_df = hesapla_firsatlar(veri)
+
+        cf1, cf2, cf3 = st.columns(3)
+        with cf1:
+            f_markalar = ["Tümü"] + sorted(firsat_df["brand"].unique(), key=marka_ad)
+            f_marka = st.selectbox(
+                "Marka filtrele", f_markalar,
+                format_func=lambda x: "Tümü" if x == "Tümü" else marka_ad(x),
+                key="f5_marka",
+            )
+        with cf2:
+            min_indirim = st.slider("Min. indirim %", 15, 50, 20, key="f5_indirim")
+        with cf3:
+            goster_sayi = st.selectbox("Göster", [20, 50, 100], key="f5_sayi")
+
+        goster_df = firsat_df.copy()
+        if f_marka != "Tümü":
+            goster_df = goster_df[goster_df["brand"] == f_marka]
+        goster_df = goster_df[goster_df["indirim_pct"] >= min_indirim]
+        goster_df = goster_df.sort_values("indirim_pct", ascending=False).head(goster_sayi)
+
+        st.metric("Bulunan fırsat", f"{len(goster_df):,}")
+
+        if len(goster_df) == 0:
+            st.info("Bu kriterlerde fırsat bulunamadı — filtreleri gevşet.")
+        else:
+            tablo = goster_df.copy()
+            tablo["Marka"]      = tablo["brand"].apply(marka_ad)
+            tablo["Model"]      = tablo.apply(lambda r: model_ad(r["brand"], r["model"]), axis=1)
+            tablo["Yıl"]        = tablo["year"].astype(int)
+            tablo["KM"]         = tablo["km"].apply(lambda x: f"{x:,.0f}")
+            tablo["Şehir"]      = tablo["city"]
+            tablo["Yakıt"]      = tablo["yakit_tipi"]
+            tablo["Fiyat"]      = tablo["price"].apply(tl)
+            tablo["Piyasa Med."]= tablo["grup_median"].apply(tl)
+            tablo["İndirim"]    = tablo["indirim_pct"].apply(lambda x: f"%{x:.0f}")
+            st.dataframe(
+                tablo[["Marka","Model","Yıl","KM","Şehir","Yakıt","Fiyat","Piyasa Med.","İndirim"]]
+                .reset_index(drop=True),
+                use_container_width=True, hide_index=True,
+            )
+            st.caption(
+                "Aralık 2025 verisi. Fiyatlar ilan fiyatıdır; gerçek satış farklı olabilir. "
+                "İndirim = (piyasa medyanı − ilan fiyatı) / piyasa medyanı."
+            )
+
+
+# ════════════════════════════════════════════════════════════════════════════
+#  TAB 6 — Marka Karşılaştırma
+# ════════════════════════════════════════════════════════════════════════════
+with tab6:
+    st.subheader("Marka Karşılaştırma")
+    st.write("2–4 markayı aynı grafikte karşılaştır — hangi marka daha az değer kaybediyor?")
+
+    if veri is None:
+        st.warning("İşlenmiş veri bulunamadı.")
+    else:
+        markalar_k = sorted(veri["brand"].unique(), key=marka_ad)
+        default_k  = [m for m in ["volkswagen", "toyota", "renault"] if m in markalar_k][:2]
+        secili     = st.multiselect(
+            "Karşılaştırılacak markalar (2–4)",
+            markalar_k,
+            default=default_k,
+            format_func=marka_ad,
+            max_selections=4,
+            key="k6_markalar",
+        )
+
+        if len(secili) < 2:
+            st.info("En az 2 marka seç.")
+        else:
+            karsi_veri  = veri[veri["brand"].isin(secili)]
+            karsi_istat = (
+                karsi_veri.groupby(["brand", "year"])["price"]
+                .agg(medyan="median", ilan="count")
+                .reset_index()
+            )
+            karsi_istat = karsi_istat[karsi_istat["ilan"] >= 5]
+            karsi_istat["Marka"] = karsi_istat["brand"].apply(marka_ad)
+
+            cizgi = (
+                alt.Chart(karsi_istat)
+                .mark_line(point=True, strokeWidth=2.5)
+                .encode(
+                    x=alt.X("year:O", title="Model Yılı", axis=alt.Axis(labelAngle=0)),
+                    y=alt.Y("medyan:Q", title="Ortanca Fiyat (TL)", axis=alt.Axis(format="~s")),
+                    color=alt.Color("Marka:N", legend=alt.Legend(title="Marka")),
+                    tooltip=[
+                        alt.Tooltip("Marka:N",  title="Marka"),
+                        alt.Tooltip("year:O",   title="Yıl"),
+                        alt.Tooltip("medyan:Q", title="Ortanca Fiyat", format=",.0f"),
+                        alt.Tooltip("ilan:Q",   title="İlan Sayısı"),
+                    ],
+                )
+                .properties(height=400)
+            )
+            st.altair_chart(cizgi, use_container_width=True)
+            st.caption(
+                "Tek zaman kesiti (Aralık 2025). Farklı model yıllarındaki araçların ilan fiyatları "
+                "karşılaştırılıyor — zaman serisi değil."
+            )
+
+            with st.expander("Özet tablo"):
+                ozet = (
+                    karsi_veri.groupby("brand")["price"]
+                    .agg(ilan="count", med_fiyat="median", min_fiyat="min", max_fiyat="max")
+                    .reset_index()
+                )
+                ozet["Marka"]          = ozet["brand"].apply(marka_ad)
+                ozet["Ortanca Fiyat"]  = ozet["med_fiyat"].apply(tl)
+                ozet["En Ucuz"]        = ozet["min_fiyat"].apply(tl)
+                ozet["En Pahalı"]      = ozet["max_fiyat"].apply(tl)
+                st.dataframe(
+                    ozet[["Marka","ilan","Ortanca Fiyat","En Ucuz","En Pahalı"]]
+                    .rename(columns={"ilan": "İlan"})
+                    .reset_index(drop=True),
+                    use_container_width=True, hide_index=True,
+                )
 
 
 # ── Footer ────────────────────────────────────────────────────────────────────
