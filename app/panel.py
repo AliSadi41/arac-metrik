@@ -46,6 +46,31 @@ def model_ad(brand, m):
 def tl(x): return f"{round(x / 5_000) * 5_000:,.0f} TL".replace(",", ".")
 
 
+def metric_row(cards):
+    parts = []
+    for c in cards:
+        dc   = c.get("delta_color", "normal")
+        dval = str(c.get("delta", ""))
+        delta_html = ""
+        if c.get("delta"):
+            if dc == "off":
+                col = "#94a3b8"
+            elif dc == "inverse":
+                col = "#ef4444" if not dval.startswith("-") else "#22c55e"
+            else:
+                col = "#22c55e" if not dval.startswith("-") else "#ef4444"
+            delta_html = f'<div class="mc-delta" style="color:{col}">{dval}</div>'
+        tip_html = (f'<div class="mc-tip">{c["tooltip"]}</div>'
+                    if c.get("tooltip") else "")
+        parts.append(
+            f'<div class="mc-card">'
+            f'<div class="mc-label">{c["label"]}</div>'
+            f'<div class="mc-val">{c["value"]}</div>'
+            f'{delta_html}{tip_html}</div>'
+        )
+    st.markdown(f'<div class="mc-row">{"".join(parts)}</div>', unsafe_allow_html=True)
+
+
 # ── model yükleme ────────────────────────────────────────────────────────────
 @st.cache_resource
 def yukle_model():
@@ -149,6 +174,29 @@ st.html("""<style>
     background: rgba(255,255,255,.04);
     margin-bottom: .5rem;
   }
+  .mc-row { display: flex; gap: .75rem; flex-wrap: wrap; margin: .4rem 0 1rem; }
+  .mc-card {
+    position: relative; flex: 1; min-width: 110px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 10px; padding: .85rem 1rem;
+    cursor: default; transition: border-color .2s, background .15s;
+  }
+  .mc-card:hover { border-color: rgba(56,189,248,.5); background: rgba(56,189,248,.07); }
+  .mc-label { font-size: .78rem; color: #94a3b8; margin-bottom: .3rem; }
+  .mc-val   { font-size: 1.55rem; font-weight: 700; color: #f1f5f9; line-height: 1.1; }
+  .mc-delta { font-size: .8rem; margin-top: .28rem; line-height: 1.3; }
+  .mc-tip {
+    display: none; position: absolute;
+    bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+    background: #162032; border: 1px solid rgba(56,189,248,.3);
+    border-radius: 8px; padding: .55rem .9rem;
+    font-size: .78rem; color: #cbd5e1; line-height: 1.55;
+    white-space: normal; min-width: 200px; max-width: 300px;
+    z-index: 999; box-shadow: 0 6px 24px rgba(0,0,0,.55);
+    pointer-events: none; text-align: left;
+  }
+  .mc-card:hover .mc-tip { display: block; }
 </style>""")
 
 # ── Hero banner ───────────────────────────────────────────────────────────────
@@ -232,7 +280,12 @@ with tab1:
     q10, q90   = meta["aralik_log"]
 
     st.divider()
-    st.metric("Tahmini ilan fiyatı", tl(np.exp(log_tahmin)))
+    metric_row([{
+        "label":   "Tahmini ilan fiyatı",
+        "value":   tl(np.exp(log_tahmin)),
+        "tooltip": (f"LightGBM modeli · R²=0.97 · Ortanca hata %{meta['test_mdape']:.1f}<br>"
+                    f"Eğitim: 200.764 ilan · Test: 50.191 ilan"),
+    }])
     st.write(
         f"Olası aralık: **{tl(np.exp(log_tahmin + q10))} – {tl(np.exp(log_tahmin + q90))}**  \n"
         f"<small>Benzer test ilanlarının %80'inin gerçek fiyatı bu aralıkta kaldı. "
@@ -339,11 +392,22 @@ with tab2:
         yillik_kayip   = toplam_kayip / max(en_yeni_yil - en_eski_yil, 1)
         toplam_ilan    = istatistik["ilan"].sum()
 
-        c1, c2, c3, c4 = st.columns(4)
-        c1.metric("En yeni yıl",    str(en_yeni_yil),         f"{tl(en_yeni_fiyat)}")
-        c2.metric("En eski yıl",    str(en_eski_yil),         f"{tl(en_eski_fiyat)}")
-        c3.metric("Toplam değer kaybı", f"%{toplam_kayip:.0f}")
-        c4.metric("Yıllık ortalama kayıp",                    f"%{yillik_kayip:.1f}")
+        en_yeni_ilan = int(istatistik.loc[istatistik["year"] == en_yeni_yil, "ilan"].iloc[0])
+        en_eski_ilan = int(istatistik.loc[istatistik["year"] == en_eski_yil, "ilan"].iloc[0])
+        metric_row([
+            {"label": "En yeni yıl",          "value": str(en_yeni_yil),
+             "delta": tl(en_yeni_fiyat),       "delta_color": "off",
+             "tooltip": f"{en_yeni_yil} model yılı ortanca fiyatı<br>{en_yeni_ilan} ilan üzerinden"},
+            {"label": "En eski yıl",           "value": str(en_eski_yil),
+             "delta": tl(en_eski_fiyat),       "delta_color": "off",
+             "tooltip": f"{en_eski_yil} model yılı ortanca fiyatı<br>{en_eski_ilan} ilan üzerinden"},
+            {"label": "Toplam değer kaybı",    "value": f"%{toplam_kayip:.0f}",
+             "tooltip": (f"{tl(en_yeni_fiyat)} → {tl(en_eski_fiyat)}<br>"
+                         f"{en_yeni_yil}–{en_eski_yil} arası · {toplam_ilan} ilan")},
+            {"label": "Yıllık ortalama kayıp", "value": f"%{yillik_kayip:.1f}",
+             "tooltip": (f"{toplam_kayip:.1f}% ÷ {en_yeni_yil - en_eski_yil} yıl<br>"
+                         f"Yılda ortalama bu kadar değer kaybeder")},
+        ])
 
         # Grafik — bant (q25–q75) + medyan çizgisi
         bant = (
@@ -470,14 +534,25 @@ with tab3:
             unsafe_allow_html=True,
         )
 
-        c1, c2, c3 = st.columns(3)
-        c1.metric("İlan fiyatı",      tl(ilan_fiyati))
-        c2.metric("Benzer araç ortancası", tl(ortanca),
-                  delta=f"{fark_pct:+.1f}%  ({tl(abs(fark_tl))} {'fazla' if fark_tl > 0 else 'az'})",
-                  delta_color="inverse")
-        c3.metric("Benzer ilanlar",   f"{len(benzer):,}",
-                  delta="(kriter genişletildi)" if genisletildi else None,
-                  delta_color="off")
+        yil_pm = 3 if genisletildi else 2
+        km_pm  = 80_000 if genisletildi else 50_000
+        metric_row([
+            {"label":   "İlan fiyatı",
+             "value":   tl(ilan_fiyati),
+             "tooltip": "Sorguladığınız ilanın fiyatı<br>Piyasa karşılaştırması bu değer üzerinden yapılır"},
+            {"label":   "Benzer araç ortancası",
+             "value":   tl(ortanca),
+             "delta":   f"{fark_pct:+.1f}%  ({tl(abs(fark_tl))} {'fazla' if fark_tl > 0 else 'az'})",
+             "delta_color": "inverse",
+             "tooltip": (f"{len(benzer)} benzer ilanın ortanca fiyatı<br>"
+                         f"Ortanca, aykırı değerlerden etkilenmez")},
+            {"label":   "Benzer ilanlar",
+             "value":   f"{len(benzer):,}",
+             "delta":   "(kriter genişletildi)" if genisletildi else None,
+             "delta_color": "off",
+             "tooltip": (f"±{yil_pm} yıl model yılı · ±{km_pm:,} km filtresi"
+                         + ("<br>Yeterli ilan için otomatik genişletildi" if genisletildi else ""))},
+        ])
 
         st.caption(
             f"Benzer ilan: {marka_ad(marka3)} {model_ad(marka3, model3)}, "
@@ -553,11 +628,24 @@ with tab4:
     if veri is None:
         st.warning("İşlenmiş veri bulunamadı.")
     else:
-        c1, c2, c3, c4 = st.columns(4)
-        c1.metric("Toplam ilan",  f"{len(veri):,}")
-        c2.metric("Marka",        f"{veri['brand'].nunique()}")
-        c3.metric("Model",        f"{veri['model'].nunique()}")
-        c4.metric("Şehir",        f"{veri['city'].nunique()}")
+        top3_marka = veri["brand"].value_counts().head(3)
+        top3_sehir = veri["city"].value_counts().head(3)
+        metric_row([
+            {"label":   "Toplam ilan",
+             "value":   f"{len(veri):,}",
+             "tooltip": "Aralık 2025 kesiti · Ham: 253.344<br>Temizleme: eksik/aykırı değerler çıkarıldı"},
+            {"label":   "Marka",
+             "value":   f"{veri['brand'].nunique()}",
+             "tooltip": (f"En çok: {marka_ad(top3_marka.index[0])} ({top3_marka.iloc[0]:,})<br>"
+                         f"{marka_ad(top3_marka.index[1])} · {marka_ad(top3_marka.index[2])}")},
+            {"label":   "Model",
+             "value":   f"{veri['model'].nunique()}",
+             "tooltip": "Tüm markalar dahil benzersiz model sayısı"},
+            {"label":   "Şehir",
+             "value":   f"{veri['city'].nunique()}",
+             "tooltip": (f"En çok: {top3_sehir.index[0]} ({top3_sehir.iloc[0]:,})<br>"
+                         f"{top3_sehir.index[1]} · {top3_sehir.index[2]}")},
+        ])
 
         col_l, col_r = st.columns(2)
 
@@ -664,12 +752,15 @@ with tab5:
         toplam_firsat = len(goster_df)
         goster_df = goster_df.head(goster_sayi)
 
-        st.metric(
-            "Bulunan fırsat",
-            f"{toplam_firsat:,}",
-            delta=f"İlk {len(goster_df)} gösteriliyor" if toplam_firsat > goster_sayi else None,
-            delta_color="off",
-        )
+        metric_row([{
+            "label":   "Bulunan fırsat",
+            "value":   f"{toplam_firsat:,}",
+            "delta":   f"İlk {len(goster_df)} gösteriliyor" if toplam_firsat > goster_sayi else None,
+            "delta_color": "off",
+            "tooltip": (f"Min. %{min_indirim} indirim eşiği uygulandı<br>"
+                        f"Maks. %60 üstü filtrelendi (hata/dolandırıcılık filtresi)<br>"
+                        f"Her grup için min. 15 benzer ilan şartı"),
+        }])
 
         if len(goster_df) == 0:
             st.info("Bu kriterlerde fırsat bulunamadı — filtreleri gevşet.")
