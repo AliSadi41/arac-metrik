@@ -66,7 +66,8 @@ def hesapla_firsatlar(df):
     merged = df.merge(grup, on=["brand", "model", "year"])
     merged = merged[merged["grup_ilan"] >= 15]
     merged["indirim_pct"] = (merged["grup_median"] - merged["price"]) / merged["grup_median"] * 100
-    return merged[merged["indirim_pct"] >= 15].copy()
+    # Cap at 60% — higher discounts are almost always scam/data-entry errors
+    return merged[(merged["indirim_pct"] >= 15) & (merged["indirim_pct"] <= 60)].copy()
 
 
 @st.cache_data(show_spinner="Veri yükleniyor…")
@@ -119,7 +120,7 @@ st.html("""<style>
     font-size: .78rem; color: #cbd5e1;
   }
   div[data-testid="metric-container"] {
-    background: #f8fafc; border: 1px solid #e2e8f0;
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12);
     border-radius: 10px; padding: .8rem 1rem;
   }
   .araçmetrik-footer {
@@ -135,7 +136,7 @@ st.markdown("""
 <div class="araçmetrik-hero">
   <h1>🚗 AraçMetrik</h1>
   <p>Türkiye ikinci el otomobil piyasasını yapay zeka ile analiz et.<br>
-     Fiyat tahmini · Değer kaybı eğrisi · Fırsat dedektörü</p>
+     Fiyat tahmini · Değer kaybı · Fırsat dedektörü · Piyasa analizi · En iyi fırsatlar · Marka karşılaştırma</p>
   <div class="badges">
     <span class="badge">250.955 ilan</span>
     <span class="badge">R² = 0.97</span>
@@ -287,7 +288,7 @@ with tab2:
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("En yeni yıl",    str(en_yeni_yil),         f"{tl(en_yeni_fiyat)}")
         c2.metric("En eski yıl",    str(en_eski_yil),         f"{tl(en_eski_fiyat)}")
-        c3.metric(f"{en_eski_yil}–{en_yeni_yil} toplam kayıp", f"%{toplam_kayip:.0f}")
+        c3.metric("Toplam değer kaybı", f"%{toplam_kayip:.0f}")
         c4.metric("Yıllık ortalama kayıp",                    f"%{yillik_kayip:.1f}")
 
         # Grafik — bant (q25–q75) + medyan çizgisi
@@ -501,9 +502,9 @@ with tab4:
     else:
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("Toplam ilan",  f"{len(veri):,}")
-        c2.metric("Marka",        veri["brand"].nunique())
-        c3.metric("Model",        veri["model"].nunique())
-        c4.metric("Şehir",        veri["city"].nunique())
+        c2.metric("Marka",        f"{veri['brand'].nunique()}")
+        c3.metric("Model",        f"{veri['model'].nunique()}")
+        c4.metric("Şehir",        f"{veri['city'].nunique()}")
 
         col_l, col_r = st.columns(2)
 
@@ -606,9 +607,16 @@ with tab5:
         if f_marka != "Tümü":
             goster_df = goster_df[goster_df["brand"] == f_marka]
         goster_df = goster_df[goster_df["indirim_pct"] >= min_indirim]
-        goster_df = goster_df.sort_values("indirim_pct", ascending=False).head(goster_sayi)
+        goster_df = goster_df.sort_values("indirim_pct", ascending=False)
+        toplam_firsat = len(goster_df)
+        goster_df = goster_df.head(goster_sayi)
 
-        st.metric("Bulunan fırsat", f"{len(goster_df):,}")
+        st.metric(
+            "Bulunan fırsat",
+            f"{toplam_firsat:,}",
+            delta=f"İlk {len(goster_df)} gösteriliyor" if toplam_firsat > goster_sayi else None,
+            delta_color="off",
+        )
 
         if len(goster_df) == 0:
             st.info("Bu kriterlerde fırsat bulunamadı — filtreleri gevşet.")
@@ -673,7 +681,11 @@ with tab6:
                 .encode(
                     x=alt.X("year:O", title="Model Yılı", axis=alt.Axis(labelAngle=0)),
                     y=alt.Y("medyan:Q", title="Ortanca Fiyat (TL)", axis=alt.Axis(format="~s")),
-                    color=alt.Color("Marka:N", legend=alt.Legend(title="Marka")),
+                    color=alt.Color(
+                        "Marka:N",
+                        legend=alt.Legend(title="Marka"),
+                        scale=alt.Scale(scheme="tableau10"),
+                    ),
                     tooltip=[
                         alt.Tooltip("Marka:N",  title="Marka"),
                         alt.Tooltip("year:O",   title="Yıl"),
